@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem{Jijon2017}
+\underline{Jij{\'{o}}n S.}, Supervie V., and Breban R. (2017).
+\newblock {Prevention of treatable infectious diseases: A game-theoretic
+  approach}.
+\newblock \emph{Vaccine}, 35(40):5339--5345.
+\newblock \doi{10.1016/j.vaccine.2017.08.040}.
+\bibAnnoteFile{Jijon2017}
+
+\bibitem{Jijon2019}
+\underline{Jij{\'o}n S.}, Molina J.M., Costagliola D., Supervie V., and Breban R. (2019).
+\newblock {Can HIV epidemics among men who have sex with men in high-income countries be eliminated through voluntary participation to PrEP rollouts?}
+\newblock \emph{[Submitted for publication]}.
+\bibAnnoteFile{Jijon2019}
+
+\end{thebibliography}

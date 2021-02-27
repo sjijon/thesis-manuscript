@@ -1,0 +1,91 @@
+%% !TEX TS-program = pdflatexmk
+%%
+%% This document was written by Sofi­a JIJON 
+%% iPLESP (Sorbonne Université-INSERM)
+%%
+%% Paris, 2020
+%%_______________________________________________
+\documentclass[12pt,twoside,openright]{book}			% Chapters start at right
+%%\documentclass[11pt,twoside,openright,draft]{book} 	% No figures%\documentclass[11pt]{report}
+%%
+%%	PACKAGES
+%%
+\usepackage[a4paper, vmargin=3cm, hmargin=2.5cm]{geometry}
+\input{PackagesAndCommands}
+%%_______________________________________________
+%%
+%%	MANUSCRIPT
+%%_______________________________________________
+\begin{document}
+%%
+%%	COVER
+%%
+\include{Cover/Cover}
+%%
+%%	ABSTRACT & PREFACE
+%%
+\pagestyle{others}
+%%	EN
+\pagenumbering{roman}
+\include{Parts/Acknowledgments}
+\linespread{1.5}
+\include{Parts/Preface_EN}
+\include{Parts/Abstract_EN}
+%%	FR
+%\linespread{1.5}
+\include{Parts/Preface_FR}
+\include{Parts/Resume_FR}
+%%
+%%	MY SCIENTIFIC PRODUCTION
+%%
+%\linespread{1.5}
+\include{References/MyPublications} 
+%%
+%%	TABLE OF CONTENTS
+%%
+\clearpage
+%\linespread{1}
+%\setcounter{page}{+3}
+\addcontentsline{toc}{chapter}{Table of contents}
+\tableofcontents
+% \linespread{1.5}
+\include{Parts/Abbreviations}
+%%
+%%	LAYOUT
+%%
+\raggedbottom
+%\linespread{1.5}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{2em}
+\linenumbers 	\modulolinenumbers[5] 		% Line numbers
+\pagenumbering{arabic} 
+%%
+%%	MANUSCRIPT
+%% 
+\pagestyle{chapters}
+\include{Parts/Introduction}	
+\include{Parts/Vaccination_InfectiousDiseases}
+\include{Parts/PrEP_HIV}
+\include{Parts/Discussion}
+%%
+%%	BIBLIOGRAPHY
+%%
+\pagestyle{biblio}
+\include{References/Bibliography}
+%%
+%%	APPENDICES
+%%
+\pagestyle{appendices}
+{\appendix 	
+\begin{subappendices}
+\counterwithin{figure}{chapter}
+\include{Parts/Appendix_NID} 
+\include{Parts/ResumeLong_FR}
+\end{subappendices}
+}
+%%
+%%	LISTS
+%%
+\input{Parts/Lists}
+%%
+\end{document}

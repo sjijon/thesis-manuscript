@@ -1,0 +1,98 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ThesisManuscript_SJ.aux
+A level-1 auxiliary file: Cover/Cover.aux
+A level-1 auxiliary file: Parts/Acknowledgments.aux
+A level-1 auxiliary file: Parts/Preface_EN.aux
+A level-1 auxiliary file: Parts/Abstract_EN.aux
+A level-1 auxiliary file: Parts/Preface_FR.aux
+A level-1 auxiliary file: Parts/Resume_FR.aux
+A level-1 auxiliary file: References/MyPublications.aux
+A level-1 auxiliary file: Parts/Abbreviations.aux
+A level-1 auxiliary file: Parts/Introduction.aux
+A level-1 auxiliary file: Parts/Vaccination_InfectiousDiseases.aux
+A level-1 auxiliary file: Parts/PrEP_HIV.aux
+A level-1 auxiliary file: Parts/Discussion.aux
+A level-1 auxiliary file: References/Bibliography.aux
+The style file: abbrvnat.bst
+A level-1 auxiliary file: Parts/Appendix_NID.aux
+A level-1 auxiliary file: Parts/ResumeLong_FR.aux
+Reallocated field_info (elt_size=4) to 11244 items from 5000.
+Database file #1: References/Bib_These.bib
+Warning--entry type for "OWID_CovidVaccination" isn't style-file defined
+--line 164 of file References/Bib_These.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Jijon2020"
+Warning--I didn't find a database entry for "Wuoters2021"
+Warning--I didn't find a database entry for "Jijon2019"
+Name 2 in "Lim, {Vanessa W} and Lim, {Rachel L}, and Tan, {Yi Roe} and Soh, {Alexius SE} and Tan, {Mei Xuan} and Othman, {Norhudah Bte} and Dickens, {Sue Borame} and Thein, Tun-Linn and Lwin, {May O} and Ong, {Rick Twee-Hee} and Leo, Yee-Sin and Lee, {Vernon J} and Chen, {Mark IC}" has a comma at the end for entry Lim2020
+while executing---line 1347 of file abbrvnat.bst
+Warning--empty publisher in Bauch2013
+Warning--can't use both author and editor fields in CastilloChavez1989
+Warning--empty year in CDC_HIV
+Warning--there's a number but no series in CDC_Epidemiology
+Warning--empty publisher in CDC_Measles2015
+Warning--can't use both author and editor fields in CDC_PinkBook
+Warning--empty title in Mansilla2020
+Warning--there's a number but no series in CDC_10achievements
+Warning--empty year in HAS_PrEP2019
+Warning--empty publisher in Larson2018
+Name 2 in "Lim, {Vanessa W} and Lim, {Rachel L}, and Tan, {Yi Roe} and Soh, {Alexius SE} and Tan, {Mei Xuan} and Othman, {Norhudah Bte} and Dickens, {Sue Borame} and Thein, Tun-Linn and Lwin, {May O} and Ong, {Rick Twee-Hee} and Leo, Yee-Sin and Lee, {Vernon J} and Chen, {Mark IC}" has a comma at the end for entry Lim2020
+while executing---line 1429 of file abbrvnat.bst
+Name 2 in "Lim, {Vanessa W} and Lim, {Rachel L}, and Tan, {Yi Roe} and Soh, {Alexius SE} and Tan, {Mei Xuan} and Othman, {Norhudah Bte} and Dickens, {Sue Borame} and Thein, Tun-Linn and Lwin, {May O} and Ong, {Rick Twee-Hee} and Leo, Yee-Sin and Lee, {Vernon J} and Chen, {Mark IC}" has a comma at the end for entry Lim2020
+while executing---line 1429 of file abbrvnat.bst
+Warning--empty publisher in CalendrierVaccinal2019
+Warning--empty journal in Molina2018
+Warning--can't use both author and editor fields in Nishiura2016
+Warning--there's a number but no volume in Rozhnova2019
+Warning--there's a number but no volume in Salzberger2020
+Warning--empty year in FigHIV
+Warning--empty journal in UNAIDS_Data2018
+Warning--empty journal in UNAIDS_Data2019
+Warning--empty publisher in WHO_MR2012
+Warning--empty publisher in WHO_VaccineHesitancy2014
+Warning--empty publisher in WHO_HealthStats2018
+Warning--empty publisher in WHO_MRPlan2012
+Warning--empty journal in ZeroCovid_EU
+You've used 219 entries,
+            2773 wiz_defined-function locations,
+            2099 strings with 58165 characters,
+and the built_in function-call counts, 113207 in all, are:
+= -- 9957
+> -- 7755
+< -- 119
++ -- 2652
+- -- 2421
+* -- 10034
+:= -- 17804
+add.period$ -- 809
+call.type$ -- 219
+change.case$ -- 1430
+chr.to.int$ -- 207
+cite$ -- 461
+duplicate$ -- 4486
+empty$ -- 8311
+format.name$ -- 2684
+if$ -- 23234
+int.to.chr$ -- 13
+int.to.str$ -- 1
+missing$ -- 192
+newline$ -- 1248
+num.names$ -- 882
+pop$ -- 2703
+preamble$ -- 1
+purify$ -- 1222
+quote$ -- 0
+skip$ -- 3638
+stack$ -- 0
+substring$ -- 3878
+swap$ -- 429
+text.length$ -- 22
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2339
+warning$ -- 23
+while$ -- 942
+width$ -- 0
+write$ -- 3091
+(There were 3 error messages)

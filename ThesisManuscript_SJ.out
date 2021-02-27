@@ -1,0 +1,89 @@
+\BOOKMARK [0][-]{chapter*.1}{Acknowledgements / Remerciements}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Preface}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{Pr\351face}{}% 4
+\BOOKMARK [0][-]{chapter*.6}{R\351sum\351}{}% 5
+\BOOKMARK [0][-]{chapter*.8}{Scientific production}{}% 6
+\BOOKMARK [0][-]{section*.13}{Table of contents}{}% 7
+\BOOKMARK [0][-]{chapter*.15}{Acronyms and abbreviations}{}% 8
+\BOOKMARK [0][-]{chapter*.18}{Glossary}{}% 9
+\BOOKMARK [0][-]{chapter.1}{General introduction}{}% 10
+\BOOKMARK [1][-]{section.1.1}{The prevention of infectious diseases}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.1}{Declaring epidemic elimination}{section.1.1}% 12
+\BOOKMARK [1][-]{section.1.2}{The prevention versus treatment dilemma}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.3}{Mathematical and behavioral epidemiology of infectious diseases}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.3.1}{Modeling disease transmission using deterministic compartmental models}{section.1.3}% 15
+\BOOKMARK [2][-]{subsection.1.3.2}{The basic and the effective reproduction numbers}{section.1.3}% 16
+\BOOKMARK [2][-]{subsection.1.3.3}{Modeling the decision-making about prevention adoption}{section.1.3}% 17
+\BOOKMARK [1][-]{section.1.4}{General objectives of my doctoral research}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.5}{General description of our methods}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.5.1}{The mathematical model}{section.1.5}% 20
+\BOOKMARK [0][-]{chapter.2}{Voluntary vaccination against treatable childhood infectious diseases}{}% 21
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.1.1}{Vaccines against childhood infectious diseases}{section.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.1.2}{Vaccine hesitancy}{section.2.1}% 24
+\BOOKMARK [2][-]{subsection.2.1.3}{The measles epidemic}{section.2.1}% 25
+\BOOKMARK [1][-]{section.2.2}{Objectives}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.3}{Published article}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.3.1}{Description of the article}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.2}{Results statement}{section.2.3}% 29
+\BOOKMARK [1][-]{section.2.4}{Additional material}{chapter.2}% 30
+\BOOKMARK [2][-]{subsection.2.4.1}{Additional figures}{section.2.4}% 31
+\BOOKMARK [1][-]{section.2.5}{Further discussion}{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.5.1}{A note on mandatory vaccination}{section.2.5}% 33
+\BOOKMARK [0][-]{chapter.3}{Voluntary use of pre-exposure prophylaxis to prevent HIV infection among men who have sex with men}{}% 34
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.1.1}{The HIV epidemic}{section.3.1}% 36
+\BOOKMARK [2][-]{subsection.3.1.2}{Pre-exposure prophylaxis}{section.3.1}% 37
+\BOOKMARK [2][-]{subsection.3.1.3}{The HIV epidemiology and PrEP rollout in France}{section.3.1}% 38
+\BOOKMARK [2][-]{subsection.3.1.4}{Worldwide efforts to end AIDS and the path towards ending the HIV epidemic}{section.3.1}% 39
+\BOOKMARK [2][-]{subsection.3.1.5}{Mathematical modeling of the HIV epidemic and PrEP uptake among MSM}{section.3.1}% 40
+\BOOKMARK [1][-]{section.3.2}{Objectives}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.3}{Article submitted for publication}{chapter.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.1}{Description of the article}{section.3.3}% 43
+\BOOKMARK [2][-]{subsection.3.3.2}{Results statement}{section.3.3}% 44
+\BOOKMARK [1][-]{section.3.4}{Additional material}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.4.1}{Computations and proofs of our analytical results}{section.3.4}% 46
+\BOOKMARK [3][-]{section*.47}{The effectiveness of PrEP}{subsection.3.4.1}% 47
+\BOOKMARK [3][-]{section*.48}{The disease-free equilibrium}{subsection.3.4.1}% 48
+\BOOKMARK [3][-]{section*.49}{Computing the effective reproduction number}{subsection.3.4.1}% 49
+\BOOKMARK [3][-]{section*.50}{The PrEP effectiveness threshold for epidemic control}{subsection.3.4.1}% 50
+\BOOKMARK [3][-]{section*.51}{The PrEP effectiveness threshold for epidemic elimination}{subsection.3.4.1}% 51
+\BOOKMARK [3][-]{section*.52}{The rescaled perceived costs for the PrEP-adoption strategies}{subsection.3.4.1}% 52
+\BOOKMARK [3][-]{section*.53}{Numerical approximation of the voluntary PrEP coverage}{subsection.3.4.1}% 53
+\BOOKMARK [3][-]{section*.54}{Identifying the thresholds in relative cost for epidemic control and elimination}{subsection.3.4.1}% 54
+\BOOKMARK [2][-]{subsection.3.4.2}{Additional results and figures}{section.3.4}% 55
+\BOOKMARK [3][-]{section*.56}{The effective reproduction number in the absence of PrEP}{subsection.3.4.2}% 56
+\BOOKMARK [3][-]{section*.58}{The number of new HIV infections despite PrEP uptake}{subsection.3.4.2}% 57
+\BOOKMARK [3][-]{section*.60}{The scenario where on-PrEP MSM do not change their HIV testing behavior}{subsection.3.4.2}% 58
+\BOOKMARK [1][-]{section.3.5}{Further discussion}{chapter.3}% 59
+\BOOKMARK [2][-]{subsection.3.5.1}{Implementing HIV prevention programs aiming at epidemic elimination}{section.3.5}% 60
+\BOOKMARK [3][-]{section*.66}{Targeted versus universal PrEP}{subsection.3.5.1}% 61
+\BOOKMARK [3][-]{section*.67}{Decreasing the perceived cost of PrEP in the French context}{subsection.3.5.1}% 62
+\BOOKMARK [2][-]{subsection.3.5.2}{Modeling limitations and perspectives}{section.3.5}% 63
+\BOOKMARK [3][-]{section*.68}{Assuming perfect PrEP adherence}{subsection.3.5.2}% 64
+\BOOKMARK [3][-]{section*.69}{Obtaining data on sexual behavior}{subsection.3.5.2}% 65
+\BOOKMARK [3][-]{section*.70}{Targeting other subpopulations}{subsection.3.5.2}% 66
+\BOOKMARK [3][-]{section*.71}{Considering the heterogeneity in the risk and cost perception}{subsection.3.5.2}% 67
+\BOOKMARK [0][-]{chapter.4}{General discussion}{}% 68
+\BOOKMARK [1][-]{section.4.1}{Summary}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.1.1}{Reaching epidemic elimination through the voluntary adoption of prevention}{section.4.1}% 70
+\BOOKMARK [2][-]{subsection.4.1.2}{Establishing public health policies aiming at the end of communicable diseases}{section.4.1}% 71
+\BOOKMARK [1][-]{section.4.2}{Limitations}{chapter.4}% 72
+\BOOKMARK [2][-]{subsection.4.2.1}{The complexity of modeling human behavior}{section.4.2}% 73
+\BOOKMARK [2][-]{subsection.4.2.2}{Determining and interpreting the relative cost of prevention versus treatment}{section.4.2}% 74
+\BOOKMARK [1][-]{section.4.3}{Perspectives}{chapter.4}% 75
+\BOOKMARK [2][-]{subsection.4.3.1}{Fighting infectious diseases in other socio-economical settings}{section.4.3}% 76
+\BOOKMARK [2][-]{subsection.4.3.2}{Including the heterogeneity in the perception of infection risk and cost}{section.4.3}% 77
+\BOOKMARK [2][-]{subsection.4.3.3}{Considering other behavioral models}{section.4.3}% 78
+\BOOKMARK [2][-]{subsection.4.3.4}{Applying behavioral epidemiology to other epidemics}{section.4.3}% 79
+\BOOKMARK [3][-]{section*.72}{Applications to the COVID-19 pandemic}{subsection.4.3.4}% 80
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 81
+\BOOKMARK [0][-]{section*.73}{Bibliography}{}% 82
+\BOOKMARK [1][-]{section*.75}{Open-source acknowledgements}{section*.73}% 83
+\BOOKMARK [0][-]{Appendix*.78}{Appendices}{}% 84
+\BOOKMARK [1][-]{section.1.A}{Interdisciplinary note}{Appendix*.78}% 85
+\BOOKMARK [1][-]{section.1.B}{R\351sum\351 d\351taill\351}{Appendix*.78}% 86
+\BOOKMARK [0][-]{appendix*.93}{List of figures}{}% 87
+\BOOKMARK [0][-]{appendix*.94}{List of tables}{}% 88
+\BOOKMARK [0][-]{appendix*.95}{List of algorithms}{}% 89

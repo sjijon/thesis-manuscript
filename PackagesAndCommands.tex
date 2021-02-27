@@ -1,0 +1,166 @@
+%% !TEX root = ThesisManuscript_SJ.tex
+%%
+%%
+%%	PACKAGES
+%%_______________________________________________
+%%
+%% 	Basic setup
+%%
+\usepackage[latin9]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais,english]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+%%
+%% 	Format
+%%
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage[colorlinks=true,linkcolor=MyBlue,citecolor=MyBlue, urlcolor=MyBlue]{hyperref}
+%\usepackage[colorlinks=true,linkcolor=black,citecolor=black, urlcolor=black]{hyperref}
+\usepackage{mathrsfs}								% RSFS font
+\usepackage{nicefrac}								% Nice fractions
+\usepackage{setspace} 								%Interlinear space
+\usepackage{footnote} 								% To format footnotes
+%\counterwithout{footnote}{chapter}
+\usepackage[width=0.9\textwidth,labelfont=bf,textfont=small]{caption}
+	\captionsetup[table]{font={stretch=1.2}}
+	\captionsetup[figure]{font={stretch=1.2}}
+\usepackage{setspace}  \linespread{1.5}					% Interlinear space
+\usepackage{lineno} 									% Line numbers
+
+%%
+%% Biblio layout
+%%
+%\usepackage[sort&compress,numbers,square]{natbib}		% 
+\usepackage{natbib}
+\setcitestyle{authoryear,open={(},close={)}}
+%%
+%% 	Elements
+%%
+\usepackage{graphicx} 								% To insert figures
+\usepackage{float}
+\usepackage{array} 									% Arrays
+\usepackage{booktabs} 								% Nice tables
+\usepackage{multirow}
+\usepackage[final]{pdfpages} 							% To insert pdfs
+\usepackage{appendix}
+\usepackage{enumitem}
+\usepackage{eurosym}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+%%
+%%
+%%
+%\usepackage{glossaries}
+%%\usepackage[nonumberlist]{glossaries}
+%\setacronymstyle{long-short}
+%\loadglsentries{Abbreviations2}
+%\makenoidxglossaries
+%%
+%% Pages layout
+%%
+\usepackage{fancyhdr} 
+\setlength{\headheight}{26pt}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.05pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhf{}
+\fancypagestyle{others}{
+	\fancyfoot[LE,RO]{\textcolor{black}{\thepage}}
+	\fancyhead[RE,RO]{\textcolor{black}{\small \leftmark}}
+}
+\fancypagestyle{none}{
+	\fancyfoot[LE,RO]{}
+	\fancyhead[RE,RO]{}
+}
+\fancypagestyle{chapters}{
+	\fancyhead[LE,LO]{\small CHAPTER \thechapter}
+	\fancyhead[RE,RO]{\textcolor{black}{\small \leftmark}}
+}
+\fancypagestyle{appendices}{
+	\fancyhead[LE,LO]{\small APPENDIX \thesection}
+	\fancyhead[RE,RO]{\textcolor{black}{\small \leftmark}}
+}
+\fancypagestyle{biblio}{
+	\fancyhead[LE,LO]{}
+	\fancyhead[RE,RO]{\textcolor{black}{\small \leftmark}}
+}
+
+
+\usepackage{afterpage}
+\usepackage{lscape} 
+%%
+%% LOF layout
+%%
+\usepackage{chngcntr} 								% To number figures within sections
+	\counterwithin{figure}{chapter}			
+	\counterwithin{table}{chapter}
+
+% VER LUEGO SI PUEDO ARREGLAR
+%\usepackage{tocloft} %% It changes all the layout (notably the openright option). 
+%\setlength{\cftfignumwidth}{32pt}
+
+%%_______________________________________________
+%%
+%%	COMMANDS
+%%_______________________________________________
+%% 	Theorems
+\newtheorem{prop}{Proposition}
+\newtheorem{defi}{Definition}
+\newtheorem{propi}{Property}
+%%
+%% 	Hyperrefs
+%%
+\renewcommand\thealgorithm{\thechapter.\arabic{algorithm}} 
+\renewcommand\tablename{\textsc{Table}}
+\newcommand{\algoref}[1]{\hyperref[#1]{pseudo-algorithm~\ref{#1}}}
+\renewcommand{\eqref}[1]{\hyperref[#1]{eq.~(\ref{#1})}}
+%\newcommand{\figref}[1]{\hyperref[#1]{Figure~\ref{#1}}}
+\newcommand{\figref}[1]{\hyperref[#1]{fig.~\ref{#1}}}
+\newcommand{\tablesref}[1]{\hyperref[#1]{tables~\ref{#1}}}
+\newcommand{\chapref}[1]{\hyperref[#1]{chapter~\ref{#1}}}
+\newcommand{\secref}[1]{\hyperref[#1]{section~\ref{#1}}}
+\newcommand{\sectionsref}[1]{\hyperref[#1]{sections~\ref{#1}}}
+\newcommand{\propref}[1]{\hyperref[#1]{proposition~\ref{#1}}}
+\newcommand{\apxref}[1]{\hyperref[#1]{Appendix~\ref{#1}}}
+\newcommand{\figuresref}[1]{\hyperref[#1]{figs.~\ref{#1}}}
+\newcommand{\eqsref}[2]{\hyperref[#1]{eqs.~(\ref{#1})--(\ref{#2})}}
+
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
+
+\newcommand*{\nolink}[1]{\begin{NoHyper}#1\end{NoHyper}}
+%%
+%% ToC
+%%
+\setcounter{secnumdepth}{3} 	% To number subsubsections
+\setcounter{tocdepth}{3} 		% To show the subsubsections in the ToC
+%\renewcommand\thesubsubsection{\alph{subsubsection}.} 
+%\renewcommand{\thechapter}{\Roman{chapter}} 
+%%
+%%_______________________________________________
+%%
+%%	MY COLORS
+%%_______________________________________________
+\definecolor{MyBlue}{RGB}{0,100,170}
+\definecolor{MyDarkBlue}{rgb}{0, 0.25, 0.45}
+\definecolor{MyBrown}{rgb}{0.28, 0.20, 0.20}
+\definecolor{MyOrange}{RGB}{255,80,30}
+\definecolor{MyOldOrange}{rgb}{0.75, 0.25, 0.0}
+\definecolor{MyRed}{RGB}{200,0,0}
+\definecolor{MyGray}{RGB}{200,200,200}
+\definecolor{MyDarkGray}{rgb}{0.5,0.5,0.5}
+\definecolor{MyGreen}{rgb}{0.33, 0.5, 0.18}
+\definecolor{MyDarkGreen}{rgb}{0.15, 0.25, 0.18}
+\definecolor{MyTurquoise}{rgb}{0, 0.4, 0.4}
+\definecolor{MyViolet}{rgb}{0.44, 0.16, 0.39}
+\definecolor{MyYellow}{rgb}{1, 0.65, 0}
+%%_______________________________________________
+%%
+%% !!!! DELETE WHEN FINISHED
+%%_______________________________________________
+% 	Colored text
+\newcommand{\rev}[1]{\textcolor{MyRed}{#1}}
+\newcommand{\note}[1]{\textcolor{MyGray}{#1}}
+% 	Labels
+%\usepackage[right]{showlabels}	
