@@ -1,4 +1,4 @@
-\begin{thebibliography}{219}
+\begin{thebibliography}{226}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -125,14 +125,6 @@ F.~Barr{\'{e}}-Sinoussi, A.~L. Ross, and J.~F. Delfraissy.
   877--883, 2013.
 \newblock \doi{10.1038/nrmicro3132}.
 
-\bibitem[Basu et~al.(2008)Basu, Chapman, and Galvani]{Basu2008}
-S.~Basu, G.~B. Chapman, and A.~P. Galvani.
-\newblock {Integrating epidemiology, psychology, and economics to achieve HPV
-  vaccination targets}.
-\newblock \emph{Proceedings of the National Academy of Sciences of the United
-  States of America}, 105\penalty0 (48):\penalty0 19018--19023, 2008.
-\newblock \doi{10.1073/pnas.0808114105}.
-
 \bibitem[Bauch and Earn(2004)]{Bauch2004}
 C.~Bauch and D.~Earn.
 \newblock {Vaccination and the theory of games.}
@@ -144,7 +136,7 @@ C.~Bauch and D.~Earn.
 C.~Bauch, A.~D'Onofrio, and P.~Manfredi.
 \newblock {Behavioral epidemiology of infectious diseases: an overview}.
 \newblock In \emph{Modeling the Interplay Between Human Behavior and the Spread
-  of Infectious Diseases}, pages 1--329. 2013.
+  of Infectious Diseases}, pages 1--329. Springer New York, NY, 2013.
 \newblock ISBN 9781461454748.
 \newblock \doi{10.1007/978-1-4614-5474-8}.
 
@@ -253,6 +245,13 @@ K.~F. Brown, J.~S. Kroll, M.~J. Hudson, M.~Ramsay, J.~Green, S.~J. Long, et~al.
 \newblock \emph{Vaccine}, 28\penalty0 (26):\penalty0 4235--4248, 2010.
 \newblock \doi{10.1016/j.vaccine.2010.04.052}.
 
+\bibitem[Burton(2019)]{Burton2018}
+D.~R. Burton.
+\newblock {Advancing an HIV vaccine; advancing vaccinology}.
+\newblock \emph{Nature Reviews Immunology}, 19\penalty0 (2):\penalty0 77--78,
+  feb 2019.
+\newblock \doi{10.1038/s41577-018-0103-6}.
+
 \bibitem[Calabrese et~al.(2016)Calabrese, Magnus, Mayer, Krakower, Eldahan,
   {Gaston Hawkins}, et~al.]{Calabrese2016}
 S.~K. Calabrese, M.~Magnus, K.~H. Mayer, D.~S. Krakower, A.~I. Eldahan, L.~A.
@@ -283,9 +282,9 @@ V.~Cambiano, A.~Miners, D.~Dunn, S.~McCormack, K.~J. Ong, O.~N. Gill, et~al.
 
 \bibitem[Castillo-Chavez(1989)]{CastilloChavez1989}
 C.~Castillo-Chavez.
-\newblock \emph{{Mathematical and Statistical Approaches to AIDS
-  Epidemiology}}, volume~83 of \emph{Lecture Notes in Biomathematics}.
-\newblock Springer - Verlag Berlin, 1989.
+\newblock {Mathematical and Statistical Approaches to AIDS Epidemiology}.
+\newblock In C.~Castillo-Chavez, editor, \emph{Lecture Notes in
+  Biomathematics}, volume~83. Springer - Verlag Berlin, 1989.
 \newblock ISBN 9783540521747.
 
 \bibitem[Caumes(2018)]{Caumes2018}
@@ -296,11 +295,6 @@ E.~Caumes.
 \newblock \emph{La Presse M{\'{e}}dicale}, 47\penalty0 (9):\penalty0 719--721,
   sep 2018.
 \newblock \doi{10.1016/j.lpm.2018.09.007}.
-
-\bibitem[{CDC}()]{CDC_HIV}
-{CDC}.
-\newblock {HIV Basics}.
-\newblock URL \url{https://www.cdc.gov/hiv/basics/index.html}.
 
 \bibitem[{CDC}(2001)]{CDC_Smallpox2001}
 {CDC}.
@@ -325,11 +319,10 @@ CDC.
 \newblock In \emph{Epidemiology and Prevention of Vaccine-Preventable Diseases,
   13th Edition}, pages 209--229. 2015{\natexlab{b}}.
 
-\bibitem[{CDC}(2015{\natexlab{c}})]{CDC_PinkBook}
+\bibitem[{CDC}(2020)]{CDC_HIV}
 {CDC}.
-\newblock \emph{Epidemiology and Prevention of Vaccine-Preventable Diseases.}
-\newblock Public Health Foundation, Washington D.C., 13 edition,
-  2015{\natexlab{c}}.
+\newblock {HIV Basics}, 2020.
+\newblock URL \url{https://www.cdc.gov/hiv/basics/index.html}.
 
 \bibitem[{CDC}(August 2019)]{CDC_Measles2019}
 {CDC}.
@@ -445,6 +438,8 @@ D.~Dimitrov, J.~R. Moore, D.~Wood, K.~M. Mitchell, M.~Li, J.~P. Hughes, et~al.
   Otero, P{\'{e}}rez, and Vivas]{Mansilla2020}
 J.~M.~M. Dom{\'{i}}nguez, I.~F. Jim{\'{e}}nez, A.~B. Eraso, D.~P. Otero, D.~D.
   P{\'{e}}rez, and A.~M.~R. Vivas.
+\newblock Risk perception of covid-9 community transmission among the spanish
+  population.
 \newblock \emph{International Journal of Environmental Research and Public
   Health}, 17\penalty0 (23):\penalty0 1--15, 2020.
 \newblock \doi{10.3390/ijerph17238967}.
@@ -606,6 +601,17 @@ G.~B. Gomez, A.~Borquez, C.~F. Caceres, E.~R. Segura, R.~M. Grant, G.~P.
 \newblock \emph{PLoS Medicine}, 9\penalty0 (10), 2012.
 \newblock \doi{10.1371/journal.pmed.1001323}.
 
+\bibitem[Graham et~al.(2019)Graham, Winter, Ferrari, Grenfell, Moss, Azman,
+  Metcalf, and Lessler]{Graham2019}
+M.~Graham, A.~K. Winter, M.~Ferrari, B.~Grenfell, W.~J. Moss, A.~S. Azman,
+  C.~J.~E. Metcalf, and J.~Lessler.
+\newblock {Measles and the canonical path to elimination}.
+\newblock \emph{Science}, 364\penalty0 (6440):\penalty0 584--587, may 2019.
+\newblock ISSN 0036-8075.
+\newblock \doi{10.1126/science.aau6299}.
+\newblock URL
+  \url{https://www.sciencemag.org/lookup/doi/10.1126/science.aau6299}.
+
 \bibitem[Granich et~al.(2009)Granich, Gilks, Dye, {De Cock}, and
   Williams]{Granich2009}
 R.~M. Granich, C.~F. Gilks, C.~Dye, K.~M. {De Cock}, and B.~G. Williams.
@@ -667,6 +673,19 @@ S.~Gupta, R.~M. Anderson, and R.~M. May.
 \newblock \emph{AIDS (London, England)}, 3\penalty0 (12):\penalty0 807--817,
   1989.
 \newblock \doi{10.1097/00002030-198912000-00005}.
+
+\bibitem[Gupta et~al.(2020)Gupta, Simon, and Wing]{Gupta2020}
+S.~Gupta, K.~Simon, and C.~Wing.
+\newblock {Mandated and Voluntary Social Distancing During The COVID-19
+  Epidemic: A Review}.
+\newblock Technical report, National Bureau of Economic Research, Cambridge,
+  MA, nov 2020.
+\newblock URL \url{http://www.nber.org/papers/w28139.pdf}.
+
+\bibitem[Hamborsky et~al.(2015)Hamborsky, Kroger, and Wolfe]{CDC_PinkBook}
+J.~Hamborsky, A.~Kroger, and W.~S. Wolfe, editors.
+\newblock \emph{Epidemiology and Prevention of Vaccine-Preventable Diseases.}
+\newblock CDC. Public Health Foundation, Washington D.C., 13 edition, 2015.
 
 \bibitem[Hansson et~al.(2020)Hansson, Stromdahl, Leung, and
   Britton]{Hansson2020}
@@ -850,9 +869,8 @@ S.~B. Kim, M.~Yoon, N.~S. Ku, M.~H. Kim, J.~E. Song, J.~Y. Ahn, et~al.
 \bibitem[Larson et~al.(2018)Larson, de~Figueiredo, Karafillakis, and
   Rawal]{Larson2018}
 H.~Larson, A.~de~Figueiredo, E.~Karafillakis, and M.~Rawal.
-\newblock \emph{{State of vaccine confidence un the EU 2018. A report for the
-  European Commission}}.
-\newblock 2018.
+\newblock {State of vaccine confidence un the EU 2018. A report for the
+  European Commission}, 2018.
 \newblock \doi{10.2875/241099}.
 
 \bibitem[Larson et~al.(2014)Larson, Jarrett, Eckersberger, Smith, and
@@ -934,6 +952,16 @@ U.~Marcus, F.~Hickson, P.~Weatherburn, and A.~J. Schmidt.
 \newblock \emph{BMC Public Health}, 13\penalty0 (1):\penalty0 1, 2013.
 \newblock \doi{10.1186/1471-2458-13-919}.
 
+\bibitem[Marshall et~al.(2018)Marshall, Goedel, King, Singleton, Durham, Chan,
+  Townsend, and Galvani]{Marshall2018}
+B.~D. Marshall, W.~C. Goedel, M.~R. King, A.~Singleton, D.~P. Durham, P.~A.
+  Chan, J.~P. Townsend, and A.~P. Galvani.
+\newblock {Potential effectiveness of long-acting injectable pre-exposure
+  prophylaxis for HIV prevention in men who have sex with men: a modelling
+  study}.
+\newblock \emph{The Lancet HIV}, 3018\penalty0 (18):\penalty0 1--8, 2018.
+\newblock \doi{10.1016/S2352-3018(18)30097-3}.
+
 \bibitem[Marty et~al.(2018)Marty, Cazein, Panjo, Pillonel, Costagliola, and
   Supervie]{Marty2018}
 L.~Marty, F.~Cazein, H.~Panjo, J.~Pillonel, D.~Costagliola, and V.~Supervie.
@@ -1001,8 +1029,7 @@ J.-M. Molina, J.~Ghosn, L.~B{\'{e}}niguel, D.~Rojas-Castro, M.~Algarte-Genin,
   and G.~o. Pialoux.
 \newblock {Incidence of HIV-infection in the ANRS Prevenir Study in the Paris
   Region with Daily or On Demand PrEP with TDF/FTC}.
-\newblock 2018.
-\newblock [Presented at the AIDS 2018 Conference].
+\newblock In \emph{AIDS 2018 Conference}, 2018.
 
 \bibitem[Mortimer and Segal(2008)]{Mortimer2008}
 D.~Mortimer and L.~Segal.
@@ -1024,9 +1051,11 @@ B.~E. Nichols, C.~A. Boucher, M.~van~der Valk, B.~J. Rijnders, and D.~A. van~de
 
 \bibitem[Nishiura(2016)]{Nishiura2016}
 H.~Nishiura.
-\newblock \emph{{Methods to Determine the End of an Infectious Disease
-  Epidemic: A Short Review}}, pages 291--301.
-\newblock Springer International Publishing, Cham, 2016.
+\newblock {Methods to Determine the End of an Infectious Disease Epidemic: A
+  Short Review}.
+\newblock In G.~Chowell and J.~M. Hyman, editors, \emph{Mathematical and
+  Statistical Modeling for Emerging and Re-emerging Infectious Diseases}, pages
+  291--301. Springer International Publishing, Cham, 2016.
 \newblock ISBN 978-3-319-40413-4.
 \newblock \doi{10.1007/978-3-319-40413-4_17}.
 
@@ -1295,10 +1324,10 @@ M.~Siguier and J.~M. Molina.
   318--326, 2018.
 \newblock \doi{10.1016/j.medmal.2018.01.009}.
 
-\bibitem[Sigve()]{FigHIV}
+\bibitem[Sigve(2011)]{FigHIV}
 Sigve.
 \newblock {HIV timecourse. URL:
-  \url{https://commons.wikimedia.org/w/index.php?curid=15383502}}.
+  \url{https://commons.wikimedia.org/w/index.php?curid=15383502}}, 2011.
 
 \bibitem[Strebel et~al.(2013)Strebel, Papania, Fiebelkorn, and
   Halsey]{Strebel2013}
@@ -1474,6 +1503,15 @@ A.~Velter, L.~Saboni, C.~Sommen, P.~Bernillon, N.~Bajos, and C.~Semaille.
   Lesbiennes' survey, France, 2011}.
 \newblock \emph{Eurosurveillance}, 20\penalty0 (14), 2015.
 
+\bibitem[Velter et~al.(2020)Velter, Champenois, {Rojas Casto}, and
+  Lydi{\'{e}}]{Velter2020}
+A.~Velter, K.~Champenois, D.~{Rojas Casto}, and N.~Lydi{\'{e}}.
+\newblock {Impact per{\c{c}}u de l'{\'{e}}pid{\'{e}}mie de covid-19 des hommes
+  ayant des rapports sexuels avec des hommes en france. Enqu{\^{e}}te eras
+  covid-19, 30 juin--15 juillet 2020}.
+\newblock \emph{Bulletin Epid{\'{e}}miologique Hebdomanaire}, \penalty0
+  (33--34):\penalty0 666--672, 2020.
+
 \bibitem[Verelst et~al.(2016)Verelst, Willem, and Beutels]{Verelst2016}
 F.~Verelst, L.~Willem, and P.~Beutels.
 \newblock {Behavioural change models for infectious disease transmission: a
@@ -1482,6 +1520,12 @@ F.~Verelst, L.~Willem, and P.~Beutels.
   (125):\penalty0 20160820, dec 2016.
 \newblock \doi{10.1098/rsif.2016.0820}.
 
+\bibitem[Wang et~al.(2015)Wang, Andrews, Wu, Wang, and Bauch]{Wang2015}
+Z.~Wang, M.~A. Andrews, Z.~X. Wu, L.~Wang, and C.~T. Bauch.
+\newblock {Coupled disease-behavior dynamics on complex networks: A review}.
+\newblock \emph{Physics of Life Reviews}, 15:\penalty0 1--29, 2015.
+\newblock \doi{10.1016/j.plrev.2015.07.006}.
+
 \bibitem[Wang et~al.(2016)Wang, Bauch, Bhattacharyya, D'Onofrio, Manfredi,
   Perc, Perra, Salath{\'{e}}, and Zhao]{Wang2016}
 Z.~Wang, C.~T. Bauch, S.~Bhattacharyya, A.~D'Onofrio, P.~Manfredi, M.~Perc,
@@ -1489,6 +1533,13 @@ Z.~Wang, C.~T. Bauch, S.~Bhattacharyya, A.~D'Onofrio, P.~Manfredi, M.~Perc,
 \newblock {Statistical physics of vaccination}.
 \newblock \emph{Physics Reports}, 664:\penalty0 1--113, 2016.
 \newblock \doi{10.1016/j.physrep.2016.10.006}.
+
+\bibitem[{WHO}(14 April 2020)]{WHO_CovidMeasles}
+{WHO}.
+\newblock {More than 117 million children at risk of missing out on measles
+  vaccines, as COVID-19 surges}, 14 April 2020.
+\newblock URL
+  \url{https://www.who.int/immunization/diseases/measles/statement_missing_measles_vaccines_covid-19/en/}.
 
 \bibitem[{WHO}(1980)]{WHO_SmallpoxEradication1980}
 {WHO}.
@@ -1648,6 +1699,18 @@ WHO.
 \newblock {New measles surveillance data from WHO}, August 2019.
 \newblock URL
   \url{https://www.who.int/immunization/newsroom/new-measles-data-august-2019/en/}.
+
+\bibitem[Wouters et~al.(2021)Wouters, Shadlen, Salcher-Konrad, Pollard, Larson,
+  Teerawattananon, and Jit]{Wuoters2021}
+O.~J. Wouters, K.~C. Shadlen, M.~Salcher-Konrad, A.~J. Pollard, H.~J. Larson,
+  Y.~Teerawattananon, and M.~Jit.
+\newblock {Challenges in ensuring global access to COVID-19 vaccines:
+  production, affordability, allocation, and deployment}.
+\newblock \emph{The Lancet}, 6736\penalty0 (21):\penalty0 1--12, feb 2021.
+\newblock ISSN 01406736.
+\newblock \doi{10.1016/S0140-6736(21)00306-8}.
+\newblock URL \url{http://dx.doi.org/10.1016/S0140-6736(21)00306-8
+  https://linkinghub.elsevier.com/retrieve/pii/S0140673621003068}.
 
 \bibitem[Xiang et~al.(2021)Xiang, Jia, Chen, Guo, Shu, and Long]{Xiang2021}
 Y.~Xiang, Y.~Jia, L.~Chen, L.~Guo, B.~Shu, and E.~Long.
