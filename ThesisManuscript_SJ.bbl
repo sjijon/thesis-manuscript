@@ -1,4 +1,4 @@
-\begin{thebibliography}{226}
+\begin{thebibliography}{225}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -302,11 +302,6 @@ E.~Caumes.
   Committee on Immunization Practices (ACIP)}.
 \newblock \emph{MMWR}, 50\penalty0 (RR-10):\penalty0 1--20, 2001.
 
-\bibitem[CDC(2006)]{CDC_Epidemiology}
-CDC.
-\newblock \emph{{Principles of Epidemiology in Public Health Practice}}.
-\newblock Number May. CDC, 3 edition, 2006.
-
 \bibitem[{CDC}(2015{\natexlab{a}})]{CDC_Factsheet_Smallpox}
 {CDC}.
 \newblock {Smallpox Fact Sheet}, 2015{\natexlab{a}}.
@@ -607,10 +602,7 @@ M.~Graham, A.~K. Winter, M.~Ferrari, B.~Grenfell, W.~J. Moss, A.~S. Azman,
   C.~J.~E. Metcalf, and J.~Lessler.
 \newblock {Measles and the canonical path to elimination}.
 \newblock \emph{Science}, 364\penalty0 (6440):\penalty0 584--587, may 2019.
-\newblock ISSN 0036-8075.
 \newblock \doi{10.1126/science.aau6299}.
-\newblock URL
-  \url{https://www.sciencemag.org/lookup/doi/10.1126/science.aau6299}.
 
 \bibitem[Granich et~al.(2009)Granich, Gilks, Dye, {De Cock}, and
   Williams]{Granich2009}
@@ -1707,10 +1699,7 @@ O.~J. Wouters, K.~C. Shadlen, M.~Salcher-Konrad, A.~J. Pollard, H.~J. Larson,
 \newblock {Challenges in ensuring global access to COVID-19 vaccines:
   production, affordability, allocation, and deployment}.
 \newblock \emph{The Lancet}, 6736\penalty0 (21):\penalty0 1--12, feb 2021.
-\newblock ISSN 01406736.
 \newblock \doi{10.1016/S0140-6736(21)00306-8}.
-\newblock URL \url{http://dx.doi.org/10.1016/S0140-6736(21)00306-8
-  https://linkinghub.elsevier.com/retrieve/pii/S0140673621003068}.
 
 \bibitem[Xiang et~al.(2021)Xiang, Jia, Chen, Guo, Shu, and Long]{Xiang2021}
 Y.~Xiang, Y.~Jia, L.~Chen, L.~Guo, B.~Shu, and E.~Long.

@@ -1,0 +1,16 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}B1.\tmspace +\thickmuskip {.2777em} Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}B2.\tmspace +\thickmuskip {.2777em} Description g\'en\'erale des m\'ethodes utilis\'ees}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}B2.1.\tmspace +\thickmuskip {.2777em} La mod\'elisation de la transmission d'une maladie infectieuse au niveau populationnel}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}B2.2.\tmspace +\thickmuskip {.2777em} La mod\'elisation de la prise de d\'ecision concernant l'adoption de la pr\'evention au niveau individuel}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}B3.\tmspace +\thickmuskip {.2777em} Travaux de recherche}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}B3.1.\tmspace +\thickmuskip {.2777em} La vaccination volontaire dans le cadre des maladies infectieuses infantiles}{4}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Mod\`ele}{5}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}R\'esultats}{5}{subsubsection.3.1.2}
+\contentsline {paragraph}{Application \`a la rougeole.}{6}{section*.2}
+\contentsline {subsection}{\numberline {3.2}B3.2.\tmspace +\thickmuskip {.2777em} L'utilisation volontaire de la prophylaxie pr\'e-exposition comme m\'ethode de pr\'evention contre l'infection par le VIH}{7}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Mod\`ele}{8}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Analyses de sensibilit\'e}{8}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}R\'esultats}{9}{subsubsection.3.2.3}
+\contentsline {section}{\numberline {4}B4.\tmspace +\thickmuskip {.2777em} Conclusions}{10}{section.4}
+\contentsline {section}{\numberline {5}References}{11}{section.5}

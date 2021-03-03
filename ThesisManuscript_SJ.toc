@@ -11,9 +11,8 @@
 \contentsline {paragraph}{Mots-cl\'es.}{x}{section*.7}
 \select@language {english}
 \contentsline {chapter}{Scientific production}{xi}{chapter*.8}
-\contentsline {chapter}{Table of contents}{xiii}{section*.13}
-\contentsline {chapter}{Acronyms and abbreviations}{xviii}{chapter*.15}
-\contentsline {chapter}{Glossary}{xxi}{chapter*.18}
+\contentsline {chapter}{Table of contents}{xiii}{section*.12}
+\contentsline {chapter}{Acronyms and abbreviations}{xviii}{chapter*.14}
 \contentsline {chapter}{\numberline {1}General introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Prevention interventions aiming to the elimination of infectious diseases}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Declaring epidemic elimination}{2}{subsection.1.1.1}
@@ -21,45 +20,45 @@
 \contentsline {section}{\numberline {1.3}Mathematical and behavioral epidemiology}{6}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Modeling disease transmission using deterministic compartmental models}{8}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}The basic and the effective reproduction numbers}{9}{subsection.1.3.2}
-\contentsline {subsubsection}{Using the reproduction numbers to determine the herd immunity threshold}{11}{section*.22}
+\contentsline {subsubsection}{Using the reproduction numbers to determine the herd immunity threshold}{11}{section*.20}
 \contentsline {subsection}{\numberline {1.3.3}Modeling the decision-making about prevention adoption using a game-theoretical approach}{12}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}General objectives of my doctoral research}{14}{section.1.4}
 \contentsline {section}{\numberline {1.5}General description of our methods}{14}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Conceptual framework}{14}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}The mathematical model}{15}{subsection.1.5.2}
-\contentsline {subsubsection}{Modeling disease transmission at the population level}{16}{section*.24}
-\contentsline {subsubsection}{Modeling decision-making at the individual level}{17}{section*.25}
-\contentsline {subsubsection}{Model's main outcomes}{18}{section*.26}
+\contentsline {subsubsection}{Modeling disease transmission at the population level}{16}{section*.22}
+\contentsline {subsubsection}{Modeling decision-making at the individual level}{17}{section*.23}
+\contentsline {subsubsection}{Model's main outcomes}{18}{section*.24}
 \contentsline {chapter}{\numberline {2}Voluntary vaccination against treatable childhood infectious diseases}{19}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Vaccines against childhood infectious diseases}{19}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Vaccine hesitancy}{22}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}The measles epidemic: its place on the path towards elimination}{23}{subsection.2.1.3}
-\contentsline {subsubsection}{Measles infection, treatment and prevention}{23}{section*.29}
-\contentsline {subsubsection}{The measles epidemiology}{24}{section*.30}
+\contentsline {subsubsection}{Measles infection, treatment and prevention}{23}{section*.27}
+\contentsline {subsubsection}{The measles epidemiology}{24}{section*.28}
 \contentsline {section}{\numberline {2.2}Published article}{26}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Description of the article}{27}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Results statement}{27}{subsection.2.2.2}
-\contentsline {subsubsection}{Application to measles}{28}{section*.32}
+\contentsline {subsubsection}{Application to measles}{28}{section*.30}
 \contentsline {subsection}{\numberline {2.2.3}\ignorespaces Article}{29}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Additional material}{36}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Additional figures}{36}{subsection.2.3.1}
-\contentsline {subsubsection}{Disease transmission flow diagram}{36}{section*.33}
-\contentsline {subsubsection}{Bifurcation diagram}{37}{section*.35}
+\contentsline {subsubsection}{Disease transmission flow diagram}{36}{section*.31}
+\contentsline {subsubsection}{Bifurcation diagram}{37}{section*.33}
 \contentsline {section}{\numberline {2.4}Further discussion}{37}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}A note on mandatory vaccination}{37}{subsection.2.4.1}
 \contentsline {chapter}{\numberline {3}Voluntary use of pre-exposure prophylaxis to prevent HIV infection among men who have sex with men}{39}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction}{39}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}The HIV epidemic}{39}{subsection.3.1.1}
-\contentsline {subsubsection}{HIV infection, diagnosis and treatment}{39}{section*.37}
-\contentsline {subsubsection}{The HIV epidemiology, worldwide}{41}{section*.39}
-\contentsline {subsubsection}{The prevention of HIV infection}{42}{section*.41}
+\contentsline {subsubsection}{HIV infection, diagnosis and treatment}{39}{section*.35}
+\contentsline {subsubsection}{The HIV epidemiology, worldwide}{41}{section*.37}
+\contentsline {subsubsection}{The prevention of HIV infection}{42}{section*.39}
 \contentsline {subsection}{\numberline {3.1.2}Pre-exposure prophylaxis uptake among MSM}{42}{subsection.3.1.2}
-\contentsline {subsubsection}{Efficacy of PrEP}{43}{section*.42}
-\contentsline {subsubsection}{Price of PrEP and cost-effectiveness analyses}{44}{section*.43}
-\contentsline {subsubsection}{PrEP acceptability among MSM}{44}{section*.44}
+\contentsline {subsubsection}{Efficacy of PrEP}{43}{section*.40}
+\contentsline {subsubsection}{Price of PrEP and cost-effectiveness analyses}{44}{section*.41}
+\contentsline {subsubsection}{PrEP acceptability among MSM}{44}{section*.42}
 \contentsline {subsection}{\numberline {3.1.3}The HIV epidemiology and PrEP rollout among the MSM population in France}{45}{subsection.3.1.3}
-\contentsline {subsubsection}{PrEP rollout in France}{46}{section*.45}
+\contentsline {subsubsection}{PrEP rollout in France}{46}{section*.43}
 \contentsline {subsection}{\numberline {3.1.4}Worldwide efforts to end AIDS and the path towards ending the HIV epidemic}{47}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Mathematical modeling of the HIV epidemic and PrEP uptake among MSM}{48}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}Article submitted for publication}{50}{section.3.2}
@@ -69,27 +68,27 @@
 \contentsline {subsection}{\numberline {3.2.4}\ignorespaces Supplementary material}{85}{subsection.3.2.4}
 \contentsline {section}{\numberline {3.3}Additional material}{110}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Computations and proofs of our analytical results}{110}{subsection.3.3.1}
-\contentsline {subsubsection}{a) The effectiveness of PrEP}{110}{section*.47}
-\contentsline {subsubsection}{b) The disease-free equilibrium}{111}{section*.48}
-\contentsline {subsubsection}{c) Computing the effective reproduction number}{112}{section*.49}
-\contentsline {subsubsection}{d) The PrEP effectiveness threshold for epidemic control}{115}{section*.50}
-\contentsline {subsubsection}{e) The PrEP effectiveness threshold for epidemic elimination}{116}{section*.53}
-\contentsline {subsubsection}{f) The rescaled perceived costs for the PrEP-adoption strategies}{117}{section*.54}
-\contentsline {subsubsection}{g) Numerical approximation of the voluntary PrEP coverage}{117}{section*.55}
-\contentsline {subsubsection}{h) Identifying the thresholds in relative cost for epidemic control and elimination}{119}{section*.56}
+\contentsline {subsubsection}{a) The effectiveness of PrEP}{110}{section*.45}
+\contentsline {subsubsection}{b) The disease-free equilibrium}{111}{section*.46}
+\contentsline {subsubsection}{c) Computing the effective reproduction number}{112}{section*.47}
+\contentsline {subsubsection}{d) The PrEP effectiveness threshold for epidemic control}{115}{section*.48}
+\contentsline {subsubsection}{e) The PrEP effectiveness threshold for epidemic elimination}{116}{section*.51}
+\contentsline {subsubsection}{f) The rescaled perceived costs for the PrEP-adoption strategies}{117}{section*.52}
+\contentsline {subsubsection}{g) Numerical approximation of the voluntary PrEP coverage}{117}{section*.53}
+\contentsline {subsubsection}{h) Identifying the thresholds in relative cost for epidemic control and elimination}{119}{section*.54}
 \contentsline {subsection}{\numberline {3.3.2}Additional results and figures}{120}{subsection.3.3.2}
-\contentsline {subsubsection}{The effective reproduction number in the absence of PrEP}{120}{section*.58}
-\contentsline {subsubsection}{The number of new HIV infections despite PrEP uptake}{121}{section*.60}
-\contentsline {subsubsection}{The scenario where on-PrEP MSM do not change their HIV testing behavior}{122}{section*.62}
+\contentsline {subsubsection}{The effective reproduction number in the absence of PrEP}{120}{section*.56}
+\contentsline {subsubsection}{The number of new HIV infections despite PrEP uptake}{121}{section*.58}
+\contentsline {subsubsection}{The scenario where on-PrEP MSM do not change their HIV testing behavior}{122}{section*.60}
 \contentsline {section}{\numberline {3.4}Further discussion}{127}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Implementing HIV prevention programs aiming at epidemic elimination}{127}{subsection.3.4.1}
-\contentsline {subsubsection}{Targeted versus universal PrEP}{127}{section*.68}
-\contentsline {subsubsection}{Decreasing the perceived cost of PrEP in the French context}{128}{section*.69}
+\contentsline {subsubsection}{Targeted versus universal PrEP}{127}{section*.66}
+\contentsline {subsubsection}{Decreasing the perceived cost of PrEP in the French context}{128}{section*.67}
 \contentsline {subsection}{\numberline {3.4.2}Modeling limitations and perspectives}{129}{subsection.3.4.2}
-\contentsline {subsubsection}{Assuming perfect PrEP adherence}{129}{section*.70}
-\contentsline {subsubsection}{Obtaining data on sexual behavior}{129}{section*.71}
-\contentsline {subsubsection}{Targeting other subpopulations}{130}{section*.72}
-\contentsline {subsubsection}{Considering the heterogeneity in the risk and cost perception}{130}{section*.73}
+\contentsline {subsubsection}{Assuming perfect PrEP adherence}{129}{section*.68}
+\contentsline {subsubsection}{Obtaining data on sexual behavior}{129}{section*.69}
+\contentsline {subsubsection}{Targeting other subpopulations}{130}{section*.70}
+\contentsline {subsubsection}{Considering the heterogeneity in the risk and cost perception}{130}{section*.71}
 \contentsline {chapter}{\numberline {4}General discussion}{131}{chapter.4}
 \contentsline {section}{\numberline {4.1}Summary}{131}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Reaching epidemic elimination through the voluntary adoption of prevention}{131}{subsection.4.1.1}
@@ -103,14 +102,14 @@
 \contentsline {subsection}{\numberline {4.3.3}Applications to the COVID-19 pandemic}{136}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}The impact of the COVID-19 pandemic on prevention interventions against measles and HIV}{139}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Conclusion}{140}{section.4.4}
-\contentsline {chapter}{Bibliography}{141}{section*.74}
-\contentsline {section}{Open-source acknowledgements}{165}{section*.76}
-\contentsline {chapter}{Appendices}{166}{Appendix*.79}
+\contentsline {chapter}{Bibliography}{141}{section*.72}
+\contentsline {section}{Open-source acknowledgements}{165}{section*.74}
+\contentsline {chapter}{Appendices}{166}{Appendix*.77}
 \contentsline {section}{\numberline {A}Interdisciplinary note}{166}{section.1.A}
 \select@language {french}
 \contentsline {section}{\numberline {B}\it R\'esum\'e d\'etaill\'e}{168}{section.1.B}
-\contentsline {paragraph}{Application \`a la rougeole.}{173}{section*.88}
+\contentsline {paragraph}{Application \`a la rougeole.}{173}{section*.86}
 \select@language {english}
-\contentsline {chapter}{List of figures}{180}{appendix*.94}
-\contentsline {chapter}{List of tables}{181}{appendix*.95}
-\contentsline {chapter}{List of algorithms}{183}{appendix*.96}
+\contentsline {chapter}{List of figures}{180}{appendix*.92}
+\contentsline {chapter}{List of tables}{181}{appendix*.93}
+\contentsline {chapter}{List of algorithms}{183}{appendix*.94}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  1 MAR 2021 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  1 MAR 2021 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,11 +563,8 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
 (./ThesisManuscript_SJ.aux (./Cover/Cover.aux) (./Parts/Acknowledgments.aux)
 (./Parts/Preface_EN.aux) (./Parts/Abstract_EN.aux) (./Parts/Preface_FR.aux)
-(./Parts/Resume_FR.aux) (./References/MyPublications.aux
-
-LaTeX Warning: Label `MyArticles' multiply defined.
-
-) (./Parts/Abbreviations.aux) (./Parts/Introduction.aux)
+(./Parts/Resume_FR.aux) (./References/MyPublications.aux)
+(./Parts/Abbreviations.aux) (./Parts/Introduction.aux)
 (./Parts/Vaccination_InfectiousDiseases.aux) (./Parts/PrEP_HIV.aux)
 (./Parts/Discussion.aux) (./References/Bibliography.aux)
 (./Parts/Appendix_NID.aux) (./Parts/ResumeLong_FR.aux))
@@ -688,7 +685,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 
 (./Cover/Cover.tex
-<Cover/Logos/Logo_SorbonneUniv.png, id=297, 1027.84pt x 418.56375pt>
+<Cover/Logos/Logo_SorbonneUniv.png, id=293, 1027.84pt x 418.56375pt>
 File: Cover/Logos/Logo_SorbonneUniv.png Graphic file (type png)
 
 <use Cover/Logos/Logo_SorbonneUniv.png>
@@ -696,7 +693,7 @@ Package pdftex.def Info: Cover/Logos/Logo_SorbonneUniv.png used on input line 1
 4.
 (pdftex.def)             Requested size: 149.80215pt x 61.17325pt.
 
-<Cover/Logos/Logo_Iplesp.jpg, id=300, 130.086pt x 60.225pt>
+<Cover/Logos/Logo_Iplesp.jpg, id=296, 130.086pt x 60.225pt>
 File: Cover/Logos/Logo_Iplesp.jpg Graphic file (type jpg)
 
 <use Cover/Logos/Logo_Iplesp.jpg>
@@ -785,12 +782,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 \openout2 = `References/MyPublications.aux'.
 
  (./References/MyPublications.tex
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
@@ -799,17 +796,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
@@ -835,9 +832,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (10.5059pt too high) has occurred while \output is active []
 
 
-[18] [19] [20
-
-] [21]) [22]
+[18]) [19]
 \openout2 = `Parts/Introduction.aux'.
 
  (./Parts/Introduction.tex
@@ -874,7 +869,7 @@ l.75 \end{landscape}
 ] [5
 
 ] [6] [7]
-<Figures/Intro/TikZ_MSIR/MSIR_FlowDiagram.pdf, id=791, 313.59961pt x 228.2407pt
+<Figures/Intro/TikZ_MSIR/MSIR_FlowDiagram.pdf, id=745, 313.59961pt x 228.2407pt
 >
 File: Figures/Intro/TikZ_MSIR/MSIR_FlowDiagram.pdf Graphic file (type pdf)
  <use Figures/Intro/TikZ_MSIR/MSIR_FlowDiagram.pdf>
@@ -882,7 +877,7 @@ Package pdftex.def Info: Figures/Intro/TikZ_MSIR/MSIR_FlowDiagram.pdf used on i
 nput line 123.
 (pdftex.def)             Requested size: 273.14923pt x 198.80115pt.
  [8] [9 <./Figures/Intro/TikZ_MSIR/MSIR_FlowDiagram.pdf>]
-<Figures/Intro/TikZ_Bifurcation/TranscriticalBifurcation.pdf, id=855, 238.27519
+<Figures/Intro/TikZ_Bifurcation/TranscriticalBifurcation.pdf, id=813, 238.27519
 pt x 193.55411pt>
 File: Figures/Intro/TikZ_Bifurcation/TranscriticalBifurcation.pdf Graphic file 
 (type pdf)
@@ -894,8 +889,9 @@ n.pdf used on input line 148.
  [10] [11 <./Figures/Intro/TikZ_Bifurcation/TranscriticalBifurcation.pdf>] [12]
  [13] [14]
 [15]
-<Figures/Intro/TikZ_Model/ModelDiagram.pdf, id=1008, 353.78975pt x 250.38445pt>
+<Figures/Intro/TikZ_Model/ModelDiagram.pdf, id=966, 353.78975pt x 250.38445pt>
 File: Figures/Intro/TikZ_Model/ModelDiagram.pdf Graphic file (type pdf)
+
 <use Figures/Intro/TikZ_Model/ModelDiagram.pdf>
 Package pdftex.def Info: Figures/Intro/TikZ_Model/ModelDiagram.pdf used on inpu
 t line 245.
@@ -912,7 +908,7 @@ Chapter 2.
 ] [20] [21
 
 ]
-<Figures/Vaccine/Fig_Larson2016.pdf, id=1193, 347.65599pt x 218.77072pt>
+<Figures/Vaccine/Fig_Larson2016.pdf, id=1153, 347.65599pt x 218.77072pt>
 File: Figures/Vaccine/Fig_Larson2016.pdf Graphic file (type pdf)
 
 <use Figures/Vaccine/Fig_Larson2016.pdf>
@@ -922,7 +918,7 @@ Package pdftex.def Info: Figures/Vaccine/Fig_Larson2016.pdf used on input line
  [22
 
  <./Figures/Vaccine/Fig_Larson2016.pdf>] [23] [24]
-<Figures/Vaccine/Measles_FR.pdf, id=1353, 397.485pt x 289.08pt>
+<Figures/Vaccine/Measles_FR.pdf, id=1312, 397.485pt x 289.08pt>
 File: Figures/Vaccine/Measles_FR.pdf Graphic file (type pdf)
 
 <use Figures/Vaccine/Measles_FR.pdf>
@@ -935,7 +931,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1727, 597.50829pt x 796.67737pt>
+<Parts/Documents/Article1_Vaccination.pdf, id=1686, 597.50829pt x 796.67737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article1_Vaccination.pdf>
@@ -963,7 +959,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1730, page=1, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1689, page=1, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 1>
@@ -1001,7 +997,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1780, page=2, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1739, page=2, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 2>
@@ -1026,7 +1022,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1812, page=3, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1771, page=3, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 3>
@@ -1056,7 +1052,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1826, page=4, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1785, page=4, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 4>
@@ -1086,7 +1082,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1836, page=5, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1796, page=5, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 5>
@@ -1111,7 +1107,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1842, page=6, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1802, page=6, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 6>
@@ -1136,7 +1132,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Parts/Documents/Article1_V
 accination.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<Parts/Documents/Article1_Vaccination.pdf, id=1848, page=7, 597.50829pt x 796.6
+<Parts/Documents/Article1_Vaccination.pdf, id=1808, page=7, 597.50829pt x 796.6
 7737pt>
 File: Parts/Documents/Article1_Vaccination.pdf Graphic file (type pdf)
  <use Parts/Documents/Article1_Vaccination.pdf, page 7>
@@ -1156,7 +1152,7 @@ Package pdftex.def Info: Parts/Documents/Article1_Vaccination.pdf, page7 used o
 n input line 197.
 (pdftex.def)             Requested size: 661.13597pt x 881.51425pt.
  [35 <./Parts/Documents/Article1_Vaccination.pdf>]
-<Figures/Vaccine/Tikz_FlowDiagram/FlowDiagram.pdf, id=1856, 384.11205pt x 159.3
+<Figures/Vaccine/Tikz_FlowDiagram/FlowDiagram.pdf, id=1814, 384.11205pt x 159.3
 3528pt>
 File: Figures/Vaccine/Tikz_FlowDiagram/FlowDiagram.pdf Graphic file (type pdf)
  <use Figures/Vaccine/Tikz_FlowDiagram/FlowDiagram.pdf>
@@ -1164,7 +1160,7 @@ Package pdftex.def Info: Figures/Vaccine/Tikz_FlowDiagram/FlowDiagram.pdf used
 on input line 210.
 (pdftex.def)             Requested size: 364.19667pt x 151.08075pt.
  [36 <./Figures/Vaccine/Tikz_FlowDiagram/FlowDiagram.pdf>]
-<Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcation.pdf, id=1883, 238.58
+<Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcation.pdf, id=1841, 238.58
 134pt x 215.08656pt>
 File: Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcation.pdf Graphic fil
 e (type pdf)
@@ -1174,8 +1170,8 @@ Package pdftex.def Info: Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcat
 ion.pdf used on input line 227.
 (pdftex.def)             Requested size: 182.09486pt x 164.16325pt.
 
-<Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcation_WithGame.pdf, id=188
-4, 239.56702pt x 215.08656pt>
+<Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcation_WithGame.pdf, id=184
+2, 239.56702pt x 215.08656pt>
 File: Figures/Vaccine/TikZ_Bifurcation/TranscriticalBifurcation_WithGame.pdf Gr
 aphic file (type pdf)
 
@@ -1195,7 +1191,7 @@ Chapter 3.
 
 
 
-] <Figures/PrEP/HIV/HIVinfection.pdf, id=1973, 532.99126pt x 317.185pt>
+] <Figures/PrEP/HIV/HIVinfection.pdf, id=1933, 532.99126pt x 317.185pt>
 File: Figures/PrEP/HIV/HIVinfection.pdf Graphic file (type pdf)
 
 <use Figures/PrEP/HIV/HIVinfection.pdf>
@@ -1203,7 +1199,7 @@ Package pdftex.def Info: Figures/PrEP/HIV/HIVinfection.pdf used on input line 2
 9.
 (pdftex.def)             Requested size: 341.43306pt x 203.19128pt.
  [40 <./Figures/PrEP/HIV/HIVinfection.pdf>] <Figures/PrEP/HIV/HIV_Data_Global.p
-df, id=2021, 578.16pt x 252.945pt>
+df, id=1981, 578.16pt x 252.945pt>
 File: Figures/PrEP/HIV/HIV_Data_Global.pdf Graphic file (type pdf)
 
 <use Figures/PrEP/HIV/HIV_Data_Global.pdf>
@@ -1219,7 +1215,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 
 [42] [43] [44] [45]
-<Figures/PrEP/HIV/PrEP_Data_IDF.pdf, id=2609, 325.215pt x 252.945pt>
+<Figures/PrEP/HIV/PrEP_Data_IDF.pdf, id=2569, 325.215pt x 252.945pt>
 File: Figures/PrEP/HIV/PrEP_Data_IDF.pdf Graphic file (type pdf)
 
 <use Figures/PrEP/HIV/PrEP_Data_IDF.pdf>
@@ -1233,7 +1229,7 @@ ibe the HIV epi-demic dy-nam-ics ([][]Jacquez
  []
 
 [48] [49] [50] [51]
-<Parts/Documents/Article2_PrEP.pdf, id=3135, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3096, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf>
@@ -1247,7 +1243,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf used on input line 2
 11.
 (pdftex.def)             Requested size: 597.50633pt x 845.0448pt.
 
-<Parts/Documents/Article2_PrEP.pdf, id=3138, page=1, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3099, page=1, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 1>
@@ -1279,7 +1275,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page1 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [52 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3171, page=2, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3131, page=2, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 2>
@@ -1299,7 +1295,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page2 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [53 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3178, page=3, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3137, page=3, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 3>
@@ -1319,7 +1315,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page3 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [54 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3184, page=4, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3143, page=4, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 4>
@@ -1339,7 +1335,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page4 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [55 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3190, page=5, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3149, page=5, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 5>
@@ -1359,7 +1355,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page5 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [56 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3196, page=6, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3157, page=6, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 6>
@@ -1379,7 +1375,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page6 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [57 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3208, page=7, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3169, page=7, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 7>
@@ -1399,7 +1395,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page7 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [58 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3214, page=8, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3175, page=8, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 8>
@@ -1419,7 +1415,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page8 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [59 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3221, page=9, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3181, page=9, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 
 <use Parts/Documents/Article2_PrEP.pdf, page 9>
@@ -1439,7 +1435,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page9 used on input
  line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [60 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3227, page=10, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3187, page=10, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 10>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page10 used on inpu
@@ -1458,7 +1454,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page10 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [61 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3243, page=11, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3203, page=11, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 11>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page11 used on inpu
@@ -1477,7 +1473,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page11 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [62 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3249, page=12, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3210, page=12, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 12>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page12 used on inpu
@@ -1496,7 +1492,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page12 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [63 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3255, page=13, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3216, page=13, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 13>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page13 used on inpu
@@ -1515,7 +1511,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page13 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [64 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3261, page=14, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3222, page=14, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 14>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page14 used on inpu
@@ -1534,7 +1530,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page14 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [65 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3268, page=15, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3228, page=15, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 15>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page15 used on inpu
@@ -1553,7 +1549,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page15 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [66 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3274, page=16, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3234, page=16, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 16>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page16 used on inpu
@@ -1572,7 +1568,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page16 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [67 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3280, page=17, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3240, page=17, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 17>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page17 used on inpu
@@ -1591,7 +1587,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page17 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [68 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3286, page=18, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3247, page=18, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 18>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page18 used on inpu
@@ -1610,7 +1606,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page18 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [69 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3292, page=19, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3253, page=19, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 19>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page19 used on inpu
@@ -1629,7 +1625,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page19 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [70 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3299, page=20, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3259, page=20, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 20>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page20 used on inpu
@@ -1648,7 +1644,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page20 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [71 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3306, page=21, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3265, page=21, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 21>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page21 used on inpu
@@ -1667,7 +1663,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page21 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [72 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3312, page=22, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3271, page=22, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 22>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page22 used on inpu
@@ -1686,7 +1682,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page22 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [73 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3318, page=23, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3277, page=23, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 23>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page23 used on inpu
@@ -1705,7 +1701,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page23 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [74 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3324, page=24, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3284, page=24, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 24>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page24 used on inpu
@@ -1724,7 +1720,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page24 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [75 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3330, page=25, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3290, page=25, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 25>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page25 used on inpu
@@ -1743,7 +1739,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page25 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [76 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3342, page=26, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3302, page=26, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 26>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page26 used on inpu
@@ -1762,7 +1758,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page26 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [77 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3349, page=27, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3309, page=27, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 27>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page27 used on inpu
@@ -1781,7 +1777,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page27 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [78 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3355, page=28, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3315, page=28, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 28>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page28 used on inpu
@@ -1800,7 +1796,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page28 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [79 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3361, page=29, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3321, page=29, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 29>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page29 used on inpu
@@ -1819,7 +1815,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page29 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [80 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3367, page=30, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3328, page=30, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 30>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page30 used on inpu
@@ -1843,7 +1839,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page30 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [81 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3375, page=31, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3336, page=31, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 31>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page31 used on inpu
@@ -1867,7 +1863,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page31 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [82 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3383, page=32, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3344, page=32, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 32>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page32 used on inpu
@@ -1891,7 +1887,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page32 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [83 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP.pdf, id=3392, page=33, 597.5078pt x 845.04686pt>
+<Parts/Documents/Article2_PrEP.pdf, id=3352, page=33, 597.5078pt x 845.04686pt>
 File: Parts/Documents/Article2_PrEP.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP.pdf, page 33>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page33 used on inpu
@@ -1910,7 +1906,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP.pdf, page33 used on inpu
 t line 211.
 (pdftex.def)             Requested size: 660.88927pt x 934.68639pt.
  [84 <./Parts/Documents/Article2_PrEP.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3398, 597.50829pt x 845.0471pt>
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3358, 597.50829pt x 845.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
 <use Parts/Documents/Article2_PrEP_Appendix.pdf>
 Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf used on inp
@@ -1923,7 +1919,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf used on inp
 ut line 236.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3401, page=1, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3361, page=1, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 1>
@@ -1955,7 +1951,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page1 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [85 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3453, page=2, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3413, page=2, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 2>
@@ -1975,7 +1971,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page2 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [86 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3470, page=3, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3430, page=3, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 3>
@@ -1995,7 +1991,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page3 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [87 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3482, page=4, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3442, page=4, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 4>
@@ -2015,7 +2011,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page4 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [88 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3511, page=5, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3472, page=5, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 5>
@@ -2035,7 +2031,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page5 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [89 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3518, page=6, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3478, page=6, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 6>
@@ -2055,7 +2051,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page6 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [90 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3529, page=7, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3489, page=7, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 7>
@@ -2075,7 +2071,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page7 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [91 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3535, page=8, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3495, page=8, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 8>
@@ -2095,7 +2091,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page8 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [92 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3551, page=9, 597.50829pt x 845
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3512, page=9, 597.50829pt x 845
 .0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 9>
@@ -2115,7 +2111,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page9 used
  on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [93 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3557, page=10, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3518, page=10, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 10>
@@ -2135,7 +2131,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page10 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [94 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3563, page=11, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3524, page=11, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 11>
@@ -2155,7 +2151,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page11 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [95 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3570, page=12, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3530, page=12, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 12>
@@ -2175,7 +2171,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page12 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [96 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3576, page=13, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3536, page=13, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 13>
@@ -2195,7 +2191,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page13 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [97 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3582, page=14, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3542, page=14, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 14>
@@ -2215,7 +2211,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page14 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [98 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3588, page=15, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3549, page=15, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 15>
@@ -2240,7 +2236,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page15 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [99 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3599, page=16, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3560, page=16, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 16>
@@ -2265,7 +2261,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page16 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [100 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3629, page=17, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3589, page=17, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 17>
@@ -2295,7 +2291,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page17 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [101 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3644, page=18, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3603, page=18, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 18>
@@ -2320,7 +2316,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page18 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [102 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3676, page=19, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3636, page=19, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 19>
@@ -2345,7 +2341,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page19 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [103 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3705, page=20, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3665, page=20, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 20>
@@ -2370,7 +2366,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page20 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [104 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4030, page=21, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=3991, page=21, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 21>
@@ -2395,7 +2391,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page21 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [105 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4355, page=22, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4316, page=22, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 22>
@@ -2420,7 +2416,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page22 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [106 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4680, page=23, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4641, page=23, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 23>
@@ -2440,7 +2436,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page23 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [107 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4687, page=24, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4647, page=24, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 24>
@@ -2460,7 +2456,7 @@ Package pdftex.def Info: Parts/Documents/Article2_PrEP_Appendix.pdf, page24 use
 d on input line 236.
 (pdftex.def)             Requested size: 657.44348pt x 929.81259pt.
  [108 <./Parts/Documents/Article2_PrEP_Appendix.pdf>]
-<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4693, page=25, 597.50829pt x 84
+<Parts/Documents/Article2_PrEP_Appendix.pdf, id=4653, page=25, 597.50829pt x 84
 5.0471pt>
 File: Parts/Documents/Article2_PrEP_Appendix.pdf Graphic file (type pdf)
  <use Parts/Documents/Article2_PrEP_Appendix.pdf, page 25>
@@ -2505,7 +2501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 662--663
 
  []
 
-<Figures/PrEP/Results_Baseline/rCrE.pdf, id=4876, 213.79875pt x 213.79875pt>
+<Figures/PrEP/Results_Baseline/rCrE.pdf, id=4836, 213.79875pt x 213.79875pt>
 File: Figures/PrEP/Results_Baseline/rCrE.pdf Graphic file (type pdf)
 
 <use Figures/PrEP/Results_Baseline/rCrE.pdf>
@@ -2513,7 +2509,7 @@ Package pdftex.def Info: Figures/PrEP/Results_Baseline/rCrE.pdf used on input l
 ine 691.
 (pdftex.def)             Requested size: 227.62204pt x 227.62059pt.
  [119]
-<Figures/PrEP/Results_Baseline/R0.pdf, id=4894, 213.79875pt x 213.79875pt>
+<Figures/PrEP/Results_Baseline/R0.pdf, id=4853, 213.79875pt x 213.79875pt>
 File: Figures/PrEP/Results_Baseline/R0.pdf Graphic file (type pdf)
 
 <use Figures/PrEP/Results_Baseline/R0.pdf>
@@ -2521,7 +2517,7 @@ Package pdftex.def Info: Figures/PrEP/Results_Baseline/R0.pdf used on input lin
 e 715.
 (pdftex.def)             Requested size: 213.79822pt x 213.79822pt.
  [120 <./Figures/PrEP/Results_Baseline/rCrE.pdf>]
-<Figures/PrEP/Results_Baseline/InfectionsOnPrEP.pdf, id=5224, 433.62pt x 216.81
+<Figures/PrEP/Results_Baseline/InfectionsOnPrEP.pdf, id=5183, 433.62pt x 216.81
 pt>
 File: Figures/PrEP/Results_Baseline/InfectionsOnPrEP.pdf Graphic file (type pdf
 )
@@ -2531,7 +2527,7 @@ d on input line 738.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
  [121 <./Figures/PrEP/Results_Baseline/R0.pdf>] [122 <./Figures/PrEP/Results_Ba
 seline/InfectionsOnPrEP.pdf>]
-<Figures/PrEP/Results_SensitivityAnalysis/phi.pdf, id=5896, 255.95625pt x 227.8
+<Figures/PrEP/Results_SensitivityAnalysis/phi.pdf, id=5856, 255.95625pt x 227.8
 5126pt>
 File: Figures/PrEP/Results_SensitivityAnalysis/phi.pdf Graphic file (type pdf)
  <use Figures/PrEP/Results_SensitivityAnalysis/phi.pdf>
@@ -2539,7 +2535,7 @@ Package pdftex.def Info: Figures/PrEP/Results_SensitivityAnalysis/phi.pdf used
 on input line 777.
 (pdftex.def)             Requested size: 255.95561pt x 227.8507pt.
 
-<Figures/PrEP/Results_SensitivityAnalysis/p_hat.pdf, id=5903, 538.41011pt x 260
+<Figures/PrEP/Results_SensitivityAnalysis/p_hat.pdf, id=5863, 538.41011pt x 260
 .40135pt>
 File: Figures/PrEP/Results_SensitivityAnalysis/p_hat.pdf Graphic file (type pdf
 )
@@ -2548,7 +2544,7 @@ Package pdftex.def Info: Figures/PrEP/Results_SensitivityAnalysis/p_hat.pdf use
 d on input line 791.
 (pdftex.def)             Requested size: 455.24411pt x 220.17796pt.
  [123 <./Figures/PrEP/Results_SensitivityAnalysis/phi.pdf>]
-<Figures/PrEP/Results_SensitivityAnalysis/rCrE.pdf, id=6228, 255.95625pt x 227.
+<Figures/PrEP/Results_SensitivityAnalysis/rCrE.pdf, id=6189, 255.95625pt x 227.
 85126pt>
 File: Figures/PrEP/Results_SensitivityAnalysis/rCrE.pdf Graphic file (type pdf)
 
@@ -2557,7 +2553,7 @@ Package pdftex.def Info: Figures/PrEP/Results_SensitivityAnalysis/rCrE.pdf used
  on input line 805.
 (pdftex.def)             Requested size: 255.95561pt x 227.8507pt.
  [124 <./Figures/PrEP/Results_SensitivityAnalysis/p_hat.pdf>]
-<Figures/PrEP/Results_SensitivityAnalysis/Misperception.pdf, id=6559, 271.17305
+<Figures/PrEP/Results_SensitivityAnalysis/Misperception.pdf, id=6519, 271.17305
 pt x 221.2902pt>
 File: Figures/PrEP/Results_SensitivityAnalysis/Misperception.pdf Graphic file (
 type pdf)
@@ -2567,7 +2563,7 @@ Package pdftex.def Info: Figures/PrEP/Results_SensitivityAnalysis/Misperception
 .pdf used on input line 819.
 (pdftex.def)             Requested size: 271.17238pt x 221.28964pt.
  [125 <./Figures/PrEP/Results_SensitivityAnalysis/rCrE.pdf>]
-<Figures/PrEP/Results_SensitivityAnalysis/ProbElim.pdf, id=6887, 510.93524pt x 
+<Figures/PrEP/Results_SensitivityAnalysis/ProbElim.pdf, id=6846, 510.93524pt x 
 183.03745pt>
 File: Figures/PrEP/Results_SensitivityAnalysis/ProbElim.pdf Graphic file (type 
 pdf)
@@ -2598,117 +2594,117 @@ Chapter 4.
 
 ] [142] [143]
 [144]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 314.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 309.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 1715) in paragraph at lines 311--315
+Underfull \hbox (badness 1715) in paragraph at lines 306--310
 []\T1/cmr/m/n/10.95 CDC.  Small-pox Fact Sheet, 2015a.  URL [][]$\T1/cmtt/m/n/1
 0.95 http : / / www . bt . cdc . gov / agent / smallpox /
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 328--331
+Underfull \hbox (badness 1881) in paragraph at lines 323--326
 []\T1/cmr/m/n/10.95 CDC.  Measles Cases in 2019, Au-gust 2019.  URL [][]$\T1/cm
 tt/m/n/10.95 https : / / www . cdc . gov / measles /
  []
 
 [145] [146]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 518.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 513.
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--525
+Underfull \hbox (badness 10000) in paragraph at lines 512--520
 \T1/cmtt/m/n/10.95 version / 2 / file / Rapport _ Truvada _ PrEP + 2019 _ Epiph
 are . pdf[WebsiteaccessedonJune20 ,[]
  []
 
 [147] [148] [149] [150] [151] [152] [153] [154]
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1061
 []\T1/cmr/m/n/10.95 P. Nuki.  Zero covid strat-egy is im-pos-si-ble... the fu-t
 ure of the virus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1061
 \T1/cmr/m/n/10.95 is more likely to fol-low the flu or measles.  \T1/cmr/m/it/1
 0.95 The Tele-graph\T1/cmr/m/n/10.95 , 2021.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1061
 \T1/cmr/m/n/10.95 URL [][]$\T1/cmtt/m/n/10.95 https : / / www . telegraph . co 
 . uk / global-[]health / science-[]and-[]disease /
  []
 
 [155] [156]
-Underfull \hbox (badness 1412) in paragraph at lines 1207--1211
+Underfull \hbox (badness 1412) in paragraph at lines 1199--1203
 []\T1/cmr/m/n/10.95 M. Roser and H. Ritchie.  Hiv / aids.  \T1/cmr/m/it/10.95 O
 ur World in Data\T1/cmr/m/n/10.95 , 2020.  Avail-able at:
  []
 
 [157]
-Underfull \hbox (badness 4981) in paragraph at lines 1328--1331
+Underfull \hbox (badness 4981) in paragraph at lines 1320--1323
 []\T1/cmr/m/n/10.95 Sigve.  HIV time-course. URL: [][]$\T1/cmtt/m/n/10.95 https
  : / / commons . wikimedia . org / w / index . php ? curid =
  []
 
 [158]
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1377
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1369
 []\T1/cmr/m/n/10.95 Tribune.  Viser l'objectif zéro covid con-stitue un moyen c
 lair de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1377
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1369
 \T1/cmr/m/n/10.95 tra-verser la pandémie en min-imisant les dégâts.  \T1/cmr/m/
 it/10.95 Le Monde\T1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1377
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1369
 \T1/cmr/m/n/10.95 2021.  URL [][]$\T1/cmtt/m/n/10.95 https : / / www . lemonde 
 . fr / idees / article / 2021 / 02 / 15 /
  []
 
 
-Overfull \hbox (147.31523pt too wide) in paragraph at lines 1371--1377
+Overfull \hbox (147.31523pt too wide) in paragraph at lines 1363--1369
 \T1/cmtt/m/n/10.95 viser-[]l-[]objectif-[]zero-[]covid-[]constitue-[]un-[]moyen
 -[]clair-[]de-[]traverser-[]la-[]pandemie-[]en-[]minimisant-[]les-[]degats _
  []
 
 [159] [160] [161]
-Underfull \hbox (badness 3919) in paragraph at lines 1641--1645
+Underfull \hbox (badness 3919) in paragraph at lines 1633--1637
 []\T1/cmr/m/n/10.95 WHO.  Measles in Eu-rope: record num-ber of both sick and i
 m-mu-nized, 2019.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1641--1645
+Underfull \hbox (badness 10000) in paragraph at lines 1633--1637
 \T1/cmr/m/n/10.95 URL [][]$\T1/cmtt/m/n/10.95 http : / / www . euro . who . int
  / en / media-[]centre / sections / press-[]releases / 2019 /
  []
 
 [162]
-Underfull \hbox (badness 8000) in paragraph at lines 1678--1684
+Underfull \hbox (badness 8000) in paragraph at lines 1670--1676
 []\T1/cmr/m/n/10.95 WHO.  Vaccine-preventable dis-eases: mon-i-tor-ing sys-tem.
  2020 global sum-mary,
  []
 
 
-Underfull \hbox (badness 4752) in paragraph at lines 1691--1696
+Underfull \hbox (badness 4752) in paragraph at lines 1683--1688
 []\T1/cmr/m/n/10.95 WHO.  Sta-tus of COVID-19 Vac-cines within WHO EUL/PQ eval-
 u-a-tion pro-cess,
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1691--1696
+Underfull \hbox (badness 1565) in paragraph at lines 1683--1688
 \T1/cmr/m/n/10.95 2021b.  URL [][]$\T1/cmtt/m/n/10.95 https : / / www . who . i
 nt / emergencies / diseases / novel-[]coronavirus-[]2019 /
  []
 
 [163]) [164]
-Overfull \hbox (1.60866pt too wide) in paragraph at lines 38--39
+Overfull \hbox (1.60866pt too wide) in paragraph at lines 39--40
 []\T1/cmtt/m/n/10.95 ColorBrewer \T1/cmr/m/n/10.95 (avail-able at: [][]$\T1/cmt
 t/m/n/10.95 https : / / www . mathworks . com / matlabcentral / fileexchange /
  []
@@ -2721,7 +2717,7 @@ t/m/n/10.95 https : / / www . mathworks . com / matlabcentral / fileexchange /
 
 
 ]
-<DRAFT_FigsAndDocs/NID.pdf, id=8031, 542.025pt x 782.925pt>
+<DRAFT_FigsAndDocs/NID.pdf, id=7986, 542.025pt x 782.925pt>
 File: DRAFT_FigsAndDocs/NID.pdf Graphic file (type pdf)
 
 <use DRAFT_FigsAndDocs/NID.pdf>
@@ -2732,7 +2728,7 @@ File: DRAFT_FigsAndDocs/NID.pdf Graphic file (type pdf)
 Package pdftex.def Info: DRAFT_FigsAndDocs/NID.pdf used on input line 34.
 (pdftex.def)             Requested size: 542.02367pt x 782.9231pt.
 
-<DRAFT_FigsAndDocs/NID.pdf, id=8034, page=1, 542.025pt x 782.925pt>
+<DRAFT_FigsAndDocs/NID.pdf, id=7989, page=1, 542.025pt x 782.925pt>
 File: DRAFT_FigsAndDocs/NID.pdf Graphic file (type pdf)
 
 <use DRAFT_FigsAndDocs/NID.pdf, page 1>
@@ -2795,11 +2791,11 @@ ré-exposition comme
 \openout7 = `ThesisManuscript_SJ.loa'.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
  [183
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./ThesisManuscript_SJ.aux (./Cover/Cover.aux)
 (./Parts/Acknowledgments.aux) (./Parts/Preface_EN.aux) (./Parts/Abstract_EN.aux
 ) (./Parts/Preface_FR.aux) (./Parts/Resume_FR.aux)
@@ -2807,24 +2803,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 (./Parts/Introduction.aux) (./Parts/Vaccination_InfectiousDiseases.aux)
 (./Parts/PrEP_HIV.aux) (./Parts/Discussion.aux) (./References/Bibliography.aux)
 (./Parts/Appendix_NID.aux) (./Parts/ResumeLong_FR.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `ThesisManuscript_SJ.out' has not changed.
-(rerunfilecheck)             Checksum: A71C0E816B772EAB25962BB6E24BE890;5931.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+(rerunfilecheck)             Checksum: 9062D517C26CF0E7FE83EE302437D79B;5885.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
  ) 
 Here is how much of TeX's memory you used:
- 14233 strings out of 493014
- 223125 string characters out of 6133351
- 339221 words of memory out of 5000000
- 16617 multiletter control sequences out of 15000+600000
+ 14220 strings out of 493014
+ 222911 string characters out of 6133351
+ 339144 words of memory out of 5000000
+ 16610 multiletter control sequences out of 15000+600000
  30347 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,18n,52p,1531b,952s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,18n,52p,1531b,950s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{table.3.4} has been referenced but does not exist
 , replaced by a fixed one
 
@@ -3044,10 +3036,10 @@ texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/cm-super/sfti2488.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on ThesisManuscript_SJ.pdf (209 pages, 11094827 bytes).
+Output written on ThesisManuscript_SJ.pdf (206 pages, 11089024 bytes).
 PDF statistics:
- 8582 PDF objects out of 8907 (max. 8388607)
- 6291 compressed objects within 63 object streams
- 744 named destinations out of 1000 (max. 500000)
- 1098 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8536 PDF objects out of 8907 (max. 8388607)
+ 6248 compressed objects within 63 object streams
+ 738 named destinations out of 1000 (max. 500000)
+ 1090 words of extra memory for PDF output out of 10000 (max. 10000000)
 

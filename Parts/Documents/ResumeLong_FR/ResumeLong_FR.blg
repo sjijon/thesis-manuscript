@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ResumeLong_FR.aux
+The style file: abbrvnat.bst
+Database file #1: ../../../References/Bib_These.bib
+Warning--empty journal in UNAIDS_Data2018
+Warning--empty publisher in WHO_HealthStats2018
+You've used 39 entries,
+            2773 wiz_defined-function locations,
+            905 strings with 14997 characters,
+and the built_in function-call counts, 21865 in all, are:
+= -- 1892
+> -- 1646
+< -- 13
++ -- 555
+- -- 516
+* -- 2045
+:= -- 3483
+add.period$ -- 147
+call.type$ -- 39
+change.case$ -- 285
+chr.to.int$ -- 39
+cite$ -- 80
+duplicate$ -- 805
+empty$ -- 1502
+format.name$ -- 561
+if$ -- 4431
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 37
+newline$ -- 233
+num.names$ -- 156
+pop$ -- 504
+preamble$ -- 1
+purify$ -- 247
+quote$ -- 0
+skip$ -- 659
+stack$ -- 0
+substring$ -- 766
+swap$ -- 57
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 424
+warning$ -- 2
+while$ -- 169
+width$ -- 0
+write$ -- 567
+(There were 2 warnings)

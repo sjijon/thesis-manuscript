@@ -5,22 +5,22 @@
 \select@language {english}
 \addvspace {10\p@ }
 \contentsline {chapter}{\numberline {}Chapter 1\@LN@changevadjust \vspace \medskipamount }{}{}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Conceptual compartimental model with prevention}}{9}{figure.caption.20}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Conceptual visualization of the bifurcation diagram for an ODE system}}{11}{figure.caption.21}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagram of our hybrid model}}{16}{figure.caption.23}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Conceptual compartimental model with prevention}}{9}{figure.caption.18}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Conceptual visualization of the bifurcation diagram for an ODE system}}{11}{figure.caption.19}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagram of our hybrid model}}{16}{figure.caption.21}
 \addvspace {10\p@ }
 \contentsline {chapter}{\numberline {}Chapter 2\@LN@changevadjust \vspace \medskipamount }{}{}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Immunization confidence, worlwide}}{22}{figure.caption.28}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces MMR vaccine coverage and measles cases in France}}{26}{figure.caption.31}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Immunization confidence, worlwide}}{22}{figure.caption.26}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces MMR vaccine coverage and measles cases in France}}{26}{figure.caption.29}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The endemic prevalence\relax }}{31}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The probability that individuals get effectively vaccinated\relax }}{32}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Flow diagram for the compartmental model of vaccination against childhood infectious diseases}}{36}{figure.caption.34}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Bifurcation diagram for the endemic prevalence}}{37}{figure.caption.36}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Flow diagram for the compartmental model of vaccination against childhood infectious diseases}}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Bifurcation diagram for the endemic prevalence}}{37}{figure.caption.34}
 \addvspace {10\p@ }
 \contentsline {chapter}{\numberline {}Chapter 3\@LN@changevadjust \vspace \medskipamount }{}{}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The HIV infection progression}}{40}{figure.caption.38}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces HIV/AIDS epidemiological indicators, worldwide}}{41}{figure.caption.40}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces PrEP users in \^Ile-de-France, by semester, by year}}{47}{figure.caption.46}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The HIV infection progression}}{40}{figure.caption.36}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces HIV/AIDS epidemiological indicators, worldwide}}{41}{figure.caption.38}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces PrEP users in \^Ile-de-France, by semester, by year}}{47}{figure.caption.44}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces {The voluntary PrEP coverage and its impact on HIV incidence, assuming fair risk perception}\relax }}{81}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces The probability of HIV elimination and boundary uncertainty for the three-regions structure\relax }}{82}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Sensitivity analyses for the baseline scenario\relax }}{83}{figure.3.6}
@@ -29,14 +29,14 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The effective reproduction number $R$ as a function of the PrEP parameters\relax }}{104}{figure.3.9}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces {Impact of rollout with voluntary PrRP uptake, function of the relative cost of PrEP versus ART, when the PrEP effectiveness is 86\%}\relax }}{105}{figure.3.10}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Impact of risk compensation on the voluntary PrEP coverage\relax }}{106}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces The relative cost thresholds for epidemic control and elimination}}{120}{figure.caption.57}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The effective reproduction number in the absence of PrEP}}{121}{figure.caption.59}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Number of new HIV infections despite PrEP uptake}}{122}{figure.caption.61}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces The combined effectiveness of PrEP and condom use, for the scenario where on-PrEP MSM do not change HIV testing behavior}}{123}{figure.caption.63}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces The voluntary PrEP coverage and its impact on HIV incidence, for the scenario where on-PrEP MSM do not change HIV testing behavior, assuming fair risk perception}}{124}{figure.caption.64}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces The relative cost thresholds for epidemic control and elimination, for the scenario where on-PrEP MSM do not change HIV testing behavior}}{125}{figure.caption.65}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces The voluntary PrEP coverage, for the scenario where on-PrEP MSM do not change HIV testing behavior, assuming misperception of the HIV infection risk}}{126}{figure.caption.66}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces The probability of HIV elimination and boundary uncertainty for the four-regions structure, for the scenario where on-PrEP MSM do not change HIV testing behavior}}{127}{figure.caption.67}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces The relative cost thresholds for epidemic control and elimination}}{120}{figure.caption.55}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The effective reproduction number in the absence of PrEP}}{121}{figure.caption.57}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Number of new HIV infections despite PrEP uptake}}{122}{figure.caption.59}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The combined effectiveness of PrEP and condom use, for the scenario where on-PrEP MSM do not change HIV testing behavior}}{123}{figure.caption.61}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces The voluntary PrEP coverage and its impact on HIV incidence, for the scenario where on-PrEP MSM do not change HIV testing behavior, assuming fair risk perception}}{124}{figure.caption.62}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces The relative cost thresholds for epidemic control and elimination, for the scenario where on-PrEP MSM do not change HIV testing behavior}}{125}{figure.caption.63}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces The voluntary PrEP coverage, for the scenario where on-PrEP MSM do not change HIV testing behavior, assuming misperception of the HIV infection risk}}{126}{figure.caption.64}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces The probability of HIV elimination and boundary uncertainty for the four-regions structure, for the scenario where on-PrEP MSM do not change HIV testing behavior}}{127}{figure.caption.65}
 \addvspace {10\p@ }
 \select@language {french}
 \select@language {english}
