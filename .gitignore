@@ -1,3 +1,11 @@
 .DS_Store
 *.aux
 !spec/*.aux
+*.log
+!spec/*.log
+*.bbl
+!spec/*.bbl
+*.blg
+!spec/*.blg
+*.toc
+!spec/*.toc
