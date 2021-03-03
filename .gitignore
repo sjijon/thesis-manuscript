@@ -9,3 +9,11 @@
 !spec/*.blg
 *.toc
 !spec/*.toc
+*.loa
+!spec/*.loa
+*.lof
+!spec/*.lof
+*.lot
+!spec/*.lot
+*.out
+!spec/*.out
