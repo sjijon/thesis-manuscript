@@ -5,7 +5,7 @@
 %%________________________________________________________________________
 \documentclass[12pt]{article}
 
-\usepackage[a4paper, vmargin=3cm, hmargin=3cm]{geometry}
+\usepackage[a4paper, vmargin=4cm, hmargin=3cm]{geometry}
 \usepackage{setspace} 	\linespread{1.5}							% Interlinear space
 \usepackage[latin9]{inputenc}
 \usepackage[T1]{fontenc}
@@ -16,7 +16,7 @@
 \usepackage[usenames,dvipsnames,table]{xcolor}
 \usepackage{graphicx,float}
 \usepackage[sort&compress,square,numbers]{natbib}				% Biblio
-\usepackage[labelfont=bf,width=0.9\textwidth,footnotesize]{caption} 		% Use centerlast to center last line.
+\usepackage[labelfont=bf,width=14cm,footnotesize]{caption} 		% Use centerlast to center last line.
 
 \newcommand{\figref}[1]{\hyperref[#1]{figure~\ref{#1}}}
 \newcommand{\secref}[1]{\hyperref[#1]{section~\ref{#1}}}
@@ -165,7 +165,7 @@ We propose a mathematical model describing the interaction between voluntary pre
 
 \begin{figure}[H]
 	\centering	
-	\includegraphics[width=0.85\linewidth]{Fig_ModelDiagram}
+	\includegraphics[width=13cm]{Fig_ModelDiagram}
 	\caption[Diagram of the mathematical model]{{\bf Diagram of the mathematical model\\}
 	\small Depiction of the interaction between voluntary prevention and epidemic dynamics. Each individual makes a decision on whether or not to adopt a preventive method to avoid the infection. Then, the sum of all individuals' decisions determines the voluntary prevention coverage, which (along with other factors such as prevention effectiveness and treatment coverage) affects the epidemic dynamics. In turn, the state of the epidemic provides the individuals a perception of the probability of infection, which will be acknowledged in the decision-making on whether or not to adopt the preventive method. The individual-level decision-making is modeled using a non-cooperative single-player game, while the infectious disease transmission at the populational level is modeled using a deterministic compartmental model.
 	}
