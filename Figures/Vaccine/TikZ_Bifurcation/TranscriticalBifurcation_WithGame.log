@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  25 JUN 2020 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.10)  13 MAR 2021 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,10 +690,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./TranscriticalBifurcation_WithGame.aux) ) 
 Here is how much of TeX's memory you used:
- 23184 strings out of 493014
- 597712 string characters out of 6133351
+ 23185 strings out of 493014
+ 597729 string characters out of 6133351
  771583 words of memory out of 5000000
- 26322 multiletter control sequences out of 15000+600000
+ 26323 multiletter control sequences out of 15000+600000
  5647 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,18n,89p,729b,2097s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -702,12 +702,11 @@ fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on TranscriticalBifurcation_WithGame.pdf (1 page, 54178 bytes).
+type1/public/amsfonts/cm/cmr7.pfb>
+Output written on TranscriticalBifurcation_WithGame.pdf (1 page, 46281 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,10 +14,10 @@
 \begin{axis}[
     axis lines = left,
     xlabel = {Vaccine coverage ($p$)},
-    ylabel = {Endemic prevalence ($\Pi$)},
+    ylabel = {Prevalence},
     xtick={0,1},
     xticklabels = {0,$p_c$},
-    ytick={-1,0,1},
+    ytick={0,1},
     xmax=2,
     ymin=-1.0,
     ymax=1.2,
@@ -66,7 +66,7 @@
 %\addlegendentry{\textcolor{MyBlue}{Unstable DFS}}
 %
 \end{axis}
-	\draw (0,6.2) node (A) {\bf A};
+	\draw (-1.2,6.5) node (A) {\bf A};
 	\draw (3.42,2.5) [dashed,line width=0.5pt] -- (3.42,0);
 %	\draw (0,5.2) [dashed,line width=0.5pt] -- (6.6,5.2);
         	\draw (1.5,2.6) node (SDFS)[above, color=MyBlue] {Unstable};

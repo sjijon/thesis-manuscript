@@ -5,13 +5,14 @@
 %%
 %% Paris, 2020
 %%_______________________________________________
-\documentclass[12pt,twoside,openright]{book}			% Chapters start at right
+\documentclass[12pt,twoside,openright]{report}			% Chapters start at right
 %%\documentclass[11pt,twoside,openright,draft]{book} 	% No figures%\documentclass[11pt]{report}
 %%
 %%	PACKAGES
 %%
 \usepackage[a4paper, vmargin=3cm, hmargin=2.5cm]{geometry}
 \input{PackagesAndCommands}
+\input{Packages_MyColors}
 %%_______________________________________________
 %%
 %%	MANUSCRIPT
@@ -25,9 +26,9 @@
 %%	ABSTRACT & PREFACE
 %%
 \pagestyle{others}
+\include{Parts/Acknowledgments}
 %%	EN
 \pagenumbering{roman}
-\include{Parts/Acknowledgments}
 \linespread{1.5}
 \include{Parts/Preface_EN}
 \include{Parts/Abstract_EN}
@@ -43,7 +44,6 @@
 %%
 %%	TABLE OF CONTENTS
 %%
-\clearpage
 %\linespread{1}
 %\setcounter{page}{+3}
 \addcontentsline{toc}{chapter}{Table of contents}
@@ -57,7 +57,7 @@
 %\linespread{1.5}
 \setlength{\parskip}{1em}
 \setlength{\parindent}{2em}
-\linenumbers 	\modulolinenumbers[5] 		% Line numbers
+%\linenumbers 	\modulolinenumbers[5] 		% Line numbers
 \pagenumbering{arabic} 
 %%
 %%	MANUSCRIPT

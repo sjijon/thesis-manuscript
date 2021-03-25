@@ -25,7 +25,7 @@
 	\captionsetup[table]{font={stretch=1.2}}
 	\captionsetup[figure]{font={stretch=1.2}}
 \usepackage{setspace}  \linespread{1.5}					% Interlinear space
-\usepackage{lineno} 									% Line numbers
+%\usepackage{lineno} 									% Line numbers
 
 %%
 %% Biblio layout
@@ -47,6 +47,7 @@
 \usepackage{eurosym}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
+\usepackage{longtable}
 %%
 %%
 %%
@@ -112,9 +113,8 @@
 %%
 \renewcommand\thealgorithm{\thechapter.\arabic{algorithm}} 
 \renewcommand\tablename{\textsc{Table}}
-\newcommand{\algoref}[1]{\hyperref[#1]{pseudo-algorithm~\ref{#1}}}
+\newcommand{\algoref}[1]{\hyperref[#1]{algorithm~\ref{#1}}}
 \renewcommand{\eqref}[1]{\hyperref[#1]{eq.~(\ref{#1})}}
-%\newcommand{\figref}[1]{\hyperref[#1]{Figure~\ref{#1}}}
 \newcommand{\figref}[1]{\hyperref[#1]{fig.~\ref{#1}}}
 \newcommand{\tablesref}[1]{\hyperref[#1]{tables~\ref{#1}}}
 \newcommand{\chapref}[1]{\hyperref[#1]{chapter~\ref{#1}}}
@@ -124,6 +124,8 @@
 \newcommand{\apxref}[1]{\hyperref[#1]{Appendix~\ref{#1}}}
 \newcommand{\figuresref}[1]{\hyperref[#1]{figs.~\ref{#1}}}
 \newcommand{\eqsref}[2]{\hyperref[#1]{eqs.~(\ref{#1})--(\ref{#2})}}
+\newcommand{\subfigref}[2]{\hyperref[#1]{fig.~\ref*{#1}#2}}
+\newcommand{\artref}[2]{#1 of~\secref{#2}}
 
 \def\sectionautorefname{Section}
 \def\subsectionautorefname{Section}
@@ -138,23 +140,6 @@
 %\renewcommand\thesubsubsection{\alph{subsubsection}.} 
 %\renewcommand{\thechapter}{\Roman{chapter}} 
 %%
-%%_______________________________________________
-%%
-%%	MY COLORS
-%%_______________________________________________
-\definecolor{MyBlue}{RGB}{0,100,170}
-\definecolor{MyDarkBlue}{rgb}{0, 0.25, 0.45}
-\definecolor{MyBrown}{rgb}{0.28, 0.20, 0.20}
-\definecolor{MyOrange}{RGB}{255,80,30}
-\definecolor{MyOldOrange}{rgb}{0.75, 0.25, 0.0}
-\definecolor{MyRed}{RGB}{200,0,0}
-\definecolor{MyGray}{RGB}{200,200,200}
-\definecolor{MyDarkGray}{rgb}{0.5,0.5,0.5}
-\definecolor{MyGreen}{rgb}{0.33, 0.5, 0.18}
-\definecolor{MyDarkGreen}{rgb}{0.15, 0.25, 0.18}
-\definecolor{MyTurquoise}{rgb}{0, 0.4, 0.4}
-\definecolor{MyViolet}{rgb}{0.44, 0.16, 0.39}
-\definecolor{MyYellow}{rgb}{1, 0.65, 0}
 %%_______________________________________________
 %%
 %% !!!! DELETE WHEN FINISHED
