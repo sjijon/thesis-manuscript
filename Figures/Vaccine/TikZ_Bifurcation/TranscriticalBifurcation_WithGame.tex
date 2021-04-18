@@ -4,6 +4,7 @@
 %%\usepackage{graphicx} 										% Graphics
 \usepackage{tikz} \usetikzlibrary{calc,arrows.meta,intersections,patterns} 	% Figure
 \usepackage{pgfplots}
+\pgfplotsset{width=7cm,compat=1.9}
 
 \input{../../../Packages_MyColors}
 
@@ -15,15 +16,15 @@
     axis lines = left,
     xlabel = {Voluntary vaccine coverage ($\hat{p}$)},
     ylabel = {Prevalence},
-    xtick={0,1},
-    xticklabels = {0,$p_c$},
+    xtick={0,1,2},
+    xticklabels = {0,$p_c$,1},
     ytick={0,1},
-    xmax=2,
+    xmax=2.2,
     ymin=-1.0,
     ymax=1.2,
     line width = {0.5pt},
-%    xmajorgrids=true,
-%    ymajorgrids=true,
+    xmajorgrids=true,
+    ymajorgrids=true,
 %    legend pos=outer north east
 ]
 %% Stable ES
@@ -33,11 +34,11 @@
     line width = 1.5pt,
     color = MyRed,
     ]
-    {- 0.85*x + 0.85};
+    {- 0.8*x + 0.8};
 \addlegendentry{\textcolor{MyRed}{$\hat{\Pi}_{\rm ES}$}}
 %% Unstable DFS
 \addplot [
-    domain=0:1.9, 
+    domain=0:2, 
     samples=2, 
     color = MyBlue,
     line width = 1.5pt,
@@ -47,22 +48,22 @@
 \addlegendentry{\textcolor{MyBlue}{$\hat{\Pi}_{\rm DFS}$}}
 %% Unstable ES
 \addplot [
-    domain=1:1.9, 
+    domain=1:2, 
     samples=2, 
     line width = 1.5pt,
     color = MyRed,
     style = dashed,
     ]
-    {-0.85*x + 0.85};
+    {-0.8*x + 0.8};
 %\addlegendentry{\textcolor{MyRed}{$\Pi_{\rm ES}$}}
 
 %
 \end{axis}
-	\draw (-1.2,6.5) node (B) {\bf B};
-	\draw (3.42,2.5) [dashed,line width=0.5pt] -- (3.42,0);
-        	\draw (5.5,2.6) node (UDFS)[above, color=MyBlue] {Unstable};
-	\draw (5.3,1.4) node (UES)[above, rotate=-33, color=MyRed] {Unstable};
-	\draw (1.5,3.8) node (SES)[above, rotate=-33, color=MyRed] {Stable};
+	\draw (-0.75,5) node (B) {\bf B};
+%	\draw (3.42,2.5) [dashed,line width=0.5pt] -- (3.42,0);
+%        	\draw (3.5,2.6) node (UDFS)[above, color=MyBlue] {Unstable};
+%	\draw (3.3,1.4) node (UES)[above, rotate=-33, color=MyRed] {Unstable};
+%	\draw (1.5,3.8) node (SES)[above, rotate=-33, color=MyRed] {Stable};
 \end{tikzpicture}
 
 \end{document}

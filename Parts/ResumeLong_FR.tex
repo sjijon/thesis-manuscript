@@ -23,7 +23,7 @@
 \end{center}
 
 
-\section*{B1.\; Introduction} 
+\section*{C.1.\; Introduction} 
 %\addcontentsline{toc}{section}{{\it 1.\; Introduction}}
 
 Malgré l'existence de méthodes efficaces, la prévention des maladies infectieuses continue de poser des défis aux autorités de santé publique. Face au risque d'infection, les individus décident d'utiliser une méthode de prévention ou bien d'être traités en cas d'acquisition de la maladie ; ceci est appelé {\it le dilemme de la prévention versus le traitement}. Alors que le traitement est généralement bien accepté par les individus infectés, l'acceptabilité de la prévention peut varier entre individus. La perception individuelle du risque d'infection et l'évaluation des avantages et les inconvénients de la prévention versus le traitement peuvent conduire les individus à adopter des comportements de prévention qui diffèrent des recommandations des autorités de santé publique. 
@@ -35,15 +35,15 @@ Ainsi, pour étudier l'impact de la prévention sur une épidémie, il est essentiel
 L'objectif principal de ma thèse a été de developper un modèle mathématique permettant de déterminer quel peut être l'impact de la prévention adoptée volontairement par les individus sur une épidémie, dans le contexte où il existe des traitements efficaces.
 
 %%_______________________________________________
-\section*{B2.\; Description générale des méthodes utilisées}
+\section*{C.2.\; Description générale des méthodes utilisées}
 %\addcontentsline{toc}{section}{{\it 2.\; Description générale des méthodes utilisées}}
 
 Dans cette thèse, nous avons proposé un modèle à deux composants, combinant un modèle pour la transmission d'une maladie infectieuse, avec un modèle pour la prise de décision individuelle d'adopter ou pas une méthode préventive afin de diminuer le risque d'infection. Ce modèle a pour but d'évaluer les conditions pour lesquelles la couverture volontaire de la prévention peut contrôler et, éventuellement, éliminer une épidémie.
 
-\subsection*{B2.1.\; La modélisation de la transmission d'une maladie infectieuse au niveau populationnel} 
+\subsection*{C.2.1.\; La modélisation de la transmission d'une maladie infectieuse au niveau populationnel} 
 %\addcontentsline{toc}{subsection}{{\it 2.1.\; La modélisation de la transmission d'une maladie infectieuse au niveau populationnel}}
 
-%\subsubsection*{BLe modèle compartimental}
+%\subsubsection*{C.Le modèle compartimental}
 
 Nous avons utilisé un modèle compartimental déterministe, décrivant la transition des individus d'un état à l'autre au cours du temps, défini par un système d'équations différentielles ordinaires (EDO). Un modèle classique de transmission de la maladie de ce genre a deux états d'équilibre possibles: un état où l'épidémie reste endémique et un autre où il n'y a plus d'épidémie (ici notés ES et DFS, respectivement, par ses acronymes en anglais)~\cite[]{Hethcote2000}. 
 
@@ -55,7 +55,7 @@ Nous étudions le taux de reproduction effectif en fonction des paramètres concer
 
 Nous couplons ce modèle de transmission à un modèle au niveau individuel qui permet de determiner si une couverture de la prévention permettant d'obtenir $R<1$ peut être atteints volontairement.
 
-\subsection*{B2.2.\; La modélisation de la prise de décision concernant l'adoption de la prévention au niveau individuel} 
+\subsection*{C.2.2.\; La modélisation de la prise de décision concernant l'adoption de la prévention au niveau individuel} 
 %\addcontentsline{toc}{subsection}{{\it 2.2.\; La modélisation de la prise de décision concernant l'adoption de la prévention au niveau individuel} }
 
 Afin de modéliser la  résolution du dilemme de la prévention versus le traitement au niveau individuel, nous avons utilisé un jeu individuel non-coopératif (modèle issu de la théorie des jeux). Nous avons supposé que les individus décident d'adopter ou pas une méthode de prévention en évaluant leur probabilité de devenir infectés, la couverture et efficacité de la méthode préventive et le {\it coût relatif} de la prévention versus le traitement. Ce coût représente les inconvénients associés et à la prévention et au traitement, et concerne des aspects monétaires et/ou non monétaires comme le prix, les effets indésirables, les difficultés d'accessibilité, la morbidité de la maladie, etc. 
@@ -65,7 +65,7 @@ Une {\it fonction d'utilité} a été définie en termes de ces éléments. La théorie
 Nous avons étudié la couverture volontaire en fonction notamment de l'efficacité de la prévention et du coût relatif de la prévention versus le traitement. En particulier, nous avons étudié les conditions nécessaires et suffisantes pour obtenir l'élimination de l'épidémie (c'est à dire, un taux de reproduction effectif issu de la couverture volontaire de la prevention inférieur à 1).
 
 %%_______________________________________________
-\section*{B3.\; Travaux de recherche}
+\section*{C.3.\; Travaux de recherche}
 %\addcontentsline{toc}{section}{{\it 3.\; Travaux de recherche}}
 
 Nous avons construit des modèles couplés afin d'explorer deux problèmes de santé publique. La première partie de ma thèse concerne un modèle pour la vaccination dans le contexte de maladies infectieuses infantiles évitables par vaccination, dans un contexte où les traitements permettent la guérison~\cite[]{Jijon2017}. La seconde partie de ma thèse concerne la modélisation de la prise volontaire de la prophylaxie pré-exposition (PrEP) comme méthode de prévention contre l'infection à VIH, au sein de la population des hommes qui ont des rapports sexuels avec les hommes (HSH) en Île-de-France (IdF), et son application numérique~\cite[]{Jijon2021}. 
@@ -74,7 +74,7 @@ Nous avons construit des modèles couplés afin d'explorer deux problèmes de santé
 %%
 %% I. Maladies infectieuses infantiles
 %%
-\subsection*{B3.1.\; La vaccination volontaire dans le cadre des maladies infectieuses infantiles}
+\subsection*{C.3.1.\; La vaccination volontaire dans le cadre des maladies infectieuses infantiles}
 %\addcontentsline{toc}{subsection}{{\it 3.1.\; La vaccination volontaire dans le cadre des maladies infectieuses infantiles}}
 
 L'état de confiance vis-à-vis les vaccins est globalement élevé~\cite[]{Larson2016}. Cependant, il existe des régions où l'hésitation face à la vaccination demeure un problème de santé publique. Sept des dix pays qui ont le moins confiance dans la vaccination ont été identifiés dans la région européenne en 2016~\cite[]{Larson2016}. En 2017, douze pays de l'Union Européenne avaient signalé une diminution de la couverture du vaccin infantile contre la rougeole, les oreillons et la rubéole (ROR)~\cite[]{Larson2018}. 
@@ -118,7 +118,7 @@ Afin d'atteindre l'élimination de l'épidémie par l'adoption volontaire de la vac
 %%
 %% II. PrEP & VIH
 %%
-\subsection*{B3.2.\; L'utilisation volontaire de la prophylaxie pré-exposition comme méthode de prévention contre l'infection par le VIH}
+\subsection*{C.3.2.\; L'utilisation volontaire de la prophylaxie pré-exposition comme méthode de prévention contre l'infection par le VIH}
 %\addcontentsline{toc}{subsection}{{\it 3.2.\; L'utilisation volontaire de la prophylaxie pré-exposition comme méthode de prévention contre l'infection par le VIH}}
 
 Malgré les efforts réalisés pour prévenir et traiter l'infection à VIH, l'épidémie continue de progresser~\cite[]{UNAIDS_Data2018}. Dans la plupart des pays à revenu élevé, c'est parmi la population des HSH que le taux d'incidence est le plus élevé~\cite[]{UNAIDS_Data2018,WHO_KeyPop2016,Beyrer2012}. La PrEP est une méthode de prévention hautement efficace qui a été récemment développée et qui est recommandée pour les populations à haut risque d'infection par le VIH~\cite[]{Siguier2018}.
@@ -167,7 +167,7 @@ En particulier, en supposant une efficacité de 86\% de la PrEP, comme on l'a obs
 Ainsi, nous avons trouvé que les conditions d'élimination ne sont pas encore réunies en région parisienne, où au plus 47\% des HSH à haut risque d'infection utilisaient la PrEP mi-2019. Il est nécessaire de réduire davantage le coût perçu de la PrEP et de promouvoir une perception juste du risque de VIH pour parvenir à l'élimination. Ces conditions doivent être maintenues à long terme pour maintenir le statut d'élimination.
 
 %%_______________________________________________
-\section*{B4.\; Conclusions} 
+\section*{C.4.\; Conclusions} 
 %\addcontentsline{toc}{section}{{\it 4. Conclusions}}
 
 Le résultat principal de notre modèle est la couverture de la prévention atteinte volontairement par les individus. En particulier, nous avons étudié la couverture de cette prévention volontaire en fonction de l'efficacité de la prévention et du coût relatif de la prévention par rapport au traitement perçu par les individus.

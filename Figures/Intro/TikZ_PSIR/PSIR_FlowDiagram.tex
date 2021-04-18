@@ -1,0 +1,44 @@
+\documentclass{standalone}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[usenames, dvipsnames, table] {xcolor}
+\usepackage{tikz} \usetikzlibrary{calc, arrows.meta, intersections, patterns, positioning, shapes.multipart} 	% Figure
+
+\input{../../../Packages_MyColors}
+
+	\tikzstyle{arrow} = [->, draw=black, minimum height=0cm, outer sep=5pt, font=\small, text=black]
+	\tikzstyle{enterexit} = [minimum height=0cm, text width=0.1cm, text=white, draw=none]
+		
+	\tikzstyle{H} = [text width=1.5cm, text=black, fill=MyGray]	
+
+\begin{document}
+\large
+\begin{tikzpicture}[rectangle, rounded corners=2pt, node distance=2.0cm, text centered, minimum height=0.8cm, outer sep=2pt, inner sep=0pt, line width=1.5pt, draw=black]
+	% HIGH
+	\node (S) [H] {$S$};
+	\node (P) [below = of S, H] {$P$};
+	\node (I) [right= of S, H] {$I$};
+	\node (R) [right = of I, H] {$R$};
+
+	\node (enterS) [left = of S, enterexit] {};
+	\node (enterP) [left = of P, enterexit] {};
+	
+	\node (exitS) [above = of S, enterexit] {};
+	\node (exitI) [above = of I, enterexit] {};
+	\node (exitR) [above = of R, enterexit] {};
+	\node (exitP) [below = of P, enterexit] {};
+
+	\draw [arrow] (enterS)  -- node[anchor=south] {\begin{tabular}{c} Not using \\ prevention \end{tabular} }  (S);
+	\draw [arrow] (enterP)  -- node[anchor=south] {\begin{tabular}{c} Using \\ prevention \end{tabular} }  (P);
+%
+	\draw [arrow,dashed] (P)  -- node[anchor=south, rotate=90] {\begin{tabular}{c} Waning \\ protection \end{tabular}}  (S);
+	\draw [arrow,dashed] (P)  -- node[anchor=north, pos=0.6, outer sep=18pt] {Infection}  (I);
+	\draw [arrow] 		(S)  -- node[anchor=south, pos=0.6, outer sep=10pt] {Infection}  (I);
+	\draw [arrow] (I)  --  node[anchor=south] {Recovery}  (R);
+
+	\draw[arrow] (S) -- node[anchor=south, rotate=90] {Deaths} (exitS);
+	\draw[arrow] (I)  -- node[anchor=south, rotate=90] {Deaths} (exitI);
+	\draw[arrow] (R) -- node[anchor=south, rotate=90] {Deaths} (exitR);	
+	\draw[arrow] (P) -- node[anchor=south, rotate=90] {Deaths} (exitP);				
+ \end{tikzpicture}
+\end{document}
+

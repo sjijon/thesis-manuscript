@@ -4,6 +4,7 @@
 %%\usepackage{graphicx} 										% Graphics
 \usepackage{tikz} \usetikzlibrary{calc,arrows.meta,intersections,patterns} 	% Figure
 \usepackage{pgfplots}
+\pgfplotsset{width=7cm,compat=1.9}
 
 \input{../../../Packages_MyColors}
 
@@ -15,15 +16,15 @@
     axis lines = left,
     xlabel = {Vaccine coverage ($p$)},
     ylabel = {Prevalence},
-    xtick={0,1},
-    xticklabels = {0,$p_c$},
+    xtick={0,1,2},
+    xticklabels = {0,$p_c$,1},
     ytick={0,1},
-    xmax=2,
+    xmax=2.2,
     ymin=-1.0,
     ymax=1.2,
     line width = {0.5pt},
-%    xmajorgrids=true,
-%    ymajorgrids=true,
+    xmajorgrids=true,
+    ymajorgrids=true,
 %    legend pos=outer north east
 ]
 %% Stable ES
@@ -37,7 +38,7 @@
 \addlegendentry{\textcolor{MyRed}{$\Pi_{\rm ES}$}}
 %% Stable DFS
 \addplot [
-    domain=1:1.9, 
+    domain=1:2, 
     samples=2, 
     color = MyBlue,
     line width = 1.5pt,
@@ -46,7 +47,7 @@
 \addlegendentry{\textcolor{MyBlue}{$\Pi_{\rm DFS}$}}
 %% Unstable ES
 \addplot [
-    domain=1:1.9, 
+    domain=1:2, 
     samples=2, 
     line width = 1.5pt,
     color = MyRed,
@@ -66,14 +67,14 @@
 %\addlegendentry{\textcolor{MyBlue}{Unstable DFS}}
 %
 \end{axis}
-	\draw (-1.2,6.5) node (A) {\bf A};
-	\draw (3.42,2.5) [dashed,line width=0.5pt] -- (3.42,0);
-%	\draw (0,5.2) [dashed,line width=0.5pt] -- (6.6,5.2);
-        	\draw (1.5,2.6) node (SDFS)[above, color=MyBlue] {Unstable};
-        	\draw (5.5,2.6) node (UDFS)[above, color=MyBlue] {Stable};
-	\draw (5.3,1.4) node (UES)[above, rotate=-33, color=MyRed] {Unstable};
-	\draw (1.5,3.8) node (SES)[above, rotate=-33, color=MyRed] {Stable};
-	
+	\draw (-0.75,5) node (A) {\bf A};
+%	\draw (3.42,2.5) [dashed,line width=0.5pt] -- (3.42,0);
+%%	\draw (0,5.2) [dashed,line width=0.5pt] -- (6.6,5.2);
+%        	\draw (1.5,2.6) node (SDFS)[above, color=MyBlue] {Unstable};
+%        	\draw (5.5,2.6) node (UDFS)[above, color=MyBlue] {Stable};
+%	\draw (5.3,1.4) node (UES)[above, rotate=-33, color=MyRed] {Unstable};
+%	\draw (1.5,3.8) node (SES)[above, rotate=-33, color=MyRed] {Stable};
+%	
 %	\path [pattern color=MyBlue!75,pattern=north west lines] (3.5,2.6) -- (6.5,2.6) -- (6.5,5.2) -- (3.5,5.2);
 
 \end{tikzpicture}

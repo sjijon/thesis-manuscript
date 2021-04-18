@@ -5,6 +5,9 @@
 \usepackage{tikz} \usetikzlibrary{calc,arrows.meta,intersections,patterns} 	% Figure
 \usepackage{pgfplots}
 
+%\pgfplotsset{major grid style={thick, color=black, dashed}}
+%\pgfplotsset{major grid style={dashed}}
+
 \input{../../../Packages_MyColors}
 
 \begin{document}
@@ -19,8 +22,8 @@
     ytick={0,1},
     ymax=1.2,
     line width = {1pt},
-%    xmajorgrids=true,
-%    ymajorgrids=true,
+    xmajorgrids=true,
+    ymajorgrids=true,
 ]
 % Stable DFS
 \addplot [
