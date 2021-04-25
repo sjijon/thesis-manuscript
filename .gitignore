@@ -17,3 +17,5 @@
 !spec/*.lot
 *.out
 !spec/*.out
+*.synctex.gz
+!spec/*.synctex.gz
