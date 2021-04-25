@@ -5,8 +5,8 @@
 %%
 %% Paris, 2020
 %%_______________________________________________
-\documentclass[12pt,twoside,openright]{report}			% Chapters start at right
-%%\documentclass[11pt,twoside,openright,draft]{book} 	% No figures%\documentclass[11pt]{report}
+\documentclass[12pt,twoside,openright]{report}
+%%\documentclass[11pt,twoside,openright,draft]{book}
 %%
 %%	PACKAGES
 %%
@@ -25,8 +25,8 @@
 %%
 %%	ABSTRACT & PREFACE
 %%
-\pagestyle{others}
-\include{Parts/Acknowledgments}
+\pagestyle{other}
+%\include{Parts/Acknowledgments}
 %%	EN
 \pagenumbering{roman}
 \linespread{1.5}
@@ -35,7 +35,7 @@
 %%	FR
 %\linespread{1.5}
 \include{Parts/Preface_FR}
-\include{Parts/Resume_FR}
+\include{Parts/Abstract_FR}
 %%
 %%	MY SCIENTIFIC PRODUCTION
 %%
@@ -68,11 +68,6 @@
 \include{Parts/PrEP_HIV}
 \include{Parts/Discussion}
 %%
-%%	BIBLIOGRAPHY
-%%
-\pagestyle{biblio}
-\include{References/Bibliography}
-%%
 %%	APPENDICES
 %%
 \pagestyle{appendices}
@@ -80,14 +75,18 @@
 \begin{subappendices}
 \counterwithin{figure}{chapter}
 \include{Parts/Appendix_COVID-19}
-\include{Parts/Appendix_NID} 
-\include{Parts/ResumeLong_FR}
-%\include{Parts/Appendix_ResumeFR}
+\include{Parts/Appendix_ResumeFR} 
 \end{subappendices}
 }
 %%
+%%	BIBLIOGRAPHY
+%%
+\pagestyle{biblio}
+\include{References/Bibliography}
+%%
 %%	LISTS
 %%
+\pagestyle{other}
 \input{Parts/Lists}
 %%
 \end{document}
