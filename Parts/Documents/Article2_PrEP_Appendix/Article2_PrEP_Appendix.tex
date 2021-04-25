@@ -1,12 +1,13 @@
 %% APPENDIX
-%% Can HIV epidemics among men who have sex with men in the Parisian region be eliminated through participation to PrEP rollouts?
+%% Can HIV epidemics among men who have sex with men be eliminated through participation to PrEP rollouts?
+%% (revised version)
 %%
 %% Jijon S., Molina J.-M., Costagliola D., Supervie V. and Breban R.
 %%
-%% Paris, October 2020
+%% Paris, April 2021
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[11pt]{article}
-\usepackage[a4paper,hmargin=2.5cm,vmargin=2.5cm]{geometry}
+\documentclass[12pt]{article}
+\usepackage[a4paper,hmargin=2cm,vmargin=2cm]{geometry}
 \usepackage[latin9]{inputenc}
 \usepackage[T1]{fontenc} 
 \usepackage[english]{babel}
@@ -40,7 +41,7 @@
 \title{\underline{Supplementary Material}\\ \bigskip
 %\title{\underline{Additional file}\\ \bigskip
 \LARGE
-Can HIV epidemics among men who have sex with men be eliminated through participation to PrEP rollouts? 
+Can HIV epidemics among men who have sex with men be eliminated through participation {in} PrEP rollouts? 
 }
 
 \author[1]{Sof\'ia Jij\'on}%\thanks{Corresponding author (sofia.jijon@iplesp.upmc.fr)}}
@@ -80,9 +81,9 @@ We propose a hybrid mathematical model describing the interplay between the HIV 
 \subsection{Modeling the population-level spread of an HIV epidemic}
 \subsubsection{Compartmental model without PrEP}
 
-We stratified the MSM population into two risk groups (low and high) to account for heterogeneity in sexual activity and risk of acquiring HIV \cite{Jacquez1989}; we used the subscript $i\in\{h,\ell\}$ ($h$ stands for high and $\ell$ stands for low) to denote these two populations. Furthermore, we assumed that individuals at high risk of infection drive the epidemic, and thus there would be no epidemic if all individuals would be at low risk of HIV infection. 
+We stratified the MSM population into two risk groups (low and high) to account for heterogeneity in {sexual behaviors} and risk of acquiring HIV \cite{Jacquez1989}; we used the subscript $i\in\{h,\ell\}$ ($h$ stands for high and $\ell$ stands for low) to denote these two populations. Furthermore, we assumed that individuals at high risk of infection drive the epidemic, and thus there would be no epidemic if all individuals would be at low risk of HIV infection. 
 		
-The flow diagram of the HIV epidemic model is shown in figure~\ref{fig:FlowDiag}. Uninfected MSM join the sexually-mixing population at a rate $\pi_i$. Susceptible individuals, $S_i$, get infected with HIV at a rate $\Lambda_i$, which represents the per-capita force of infection; see section \ref{sec:ForceInf} for the definition. Once infected, individuals enter the acute stage of infection and progress to the chronic stage of infection at a rate $\sigma$. We used the superscript $k\in \{a,c\}$ ($a$ stands for acute and $c$ stands for chronic) to distinguish between the stages of infection. Infected individuals, $I_i^k$, are diagnosed at a rate $\theta$, in any stage of infection, and immediately start ART, no longer transmitting HIV \cite{Rodger2016}. That is, only infected individuals unaware of their status transmit HIV. MSM on ART, $T_i$, remain stratified by risk group. Susceptible and undiagnosed MSM spend $1/\mu$ years selecting new sexual partners, while MSM on ART leave the sexually-mixing population at a higher rate, $\mu_T > \mu$. 
+The flow diagram of the HIV epidemic model is shown in figure~\ref{fig:FlowDiag}. Uninfected MSM join the sexually-mixing population at a rate $\pi_i$. Susceptible individuals, $S_i$, get infected with HIV at a rate $\Lambda_i$, which represents the per-capita force of infection; see section \ref{sec:ForceInf} for the definition. Once infected, individuals enter the acute stage of infection and progress to the chronic stage of infection at a rate $\sigma$. We used the superscript $k\in \{a,c\}$ ($a$ stands for acute and $c$ stands for chronic) to distinguish between the stages of infection. Infected individuals, $I_i^k$, are diagnosed at a rate $\theta$, in any stage of infection, and immediately start ART \cite{Dabis_IAS2019}, no longer transmitting HIV \cite{Rodger2016}. That is, {$1/\theta$ is the expected time interval between infection and ART initiation, following HIV diagnosis}, and only infected individuals unaware of their status transmit HIV. MSM on ART, $T_i$, remain stratified by risk group. Susceptible and undiagnosed MSM spend $1/\mu$ years selecting new sexual partners, while MSM on ART leave the sexually-mixing population at a higher rate, $\mu_T > \mu$. 
 
 The system of ordinary differential equations (ODE) for the HIV epidemic model is the following
 \begin{equation} \label{eq:ODEsys}
@@ -134,7 +135,7 @@ The rate at which $i$-risk susceptibles acquire HIV by forming sexual partnershi
 \subsection{Accounting for the uptake of PrEP}
 \subsubsection{Including PrEP epidemiology into the HIV epidemic model} \label{sec:CompartModelPrEP}
 
-We adapt the HIV epidemic model \eqref{eq:ODEsys} for the context where PrEP is available as an HIV prevention method. We suppose that only susceptible individuals having high risk of acquiring HIV are eligible to adopt PrEP. We do not consider that individuals go on and off PrEP, rather that they rigorously follow the PrEP regimen for the entire duration of their sexually mixing period. This modeling choice is further discussed in section~\ref{sec:DecisionMaking}, as it matches other modeling choices for the decision-making game model for the adoption of PrEP. We use $p$ and $\varepsilon$ to denote, respectively, the PrEP coverage and the PrEP effectiveness. Of note, the PrEP coverage parameter is not imposed, rather, it is obtained by solving the decision-making model; see section \ref{sec:DecisionModel}. We assume that individuals on PrEP ($P$) can get infected at a rate $(1-\varepsilon)\Lambda_P$, defined in section~\ref{sec:RiskCompensation}, and get tested for HIV at a rate $\theta_P$. The ODE system of the HIV epidemic model becomes
+We adapt the HIV epidemic model \eqref{eq:ODEsys} for the context where PrEP is available as an HIV prevention method. We suppose that only susceptible individuals having high risk of acquiring HIV are eligible to adopt PrEP. We do not consider that individuals go on and off PrEP, rather that they rigorously follow the PrEP regimen for the entire duration of their sexually mixing period. This modeling choice is further discussed in section~\ref{sec:DecisionMaking}, as it matches other modeling choices for the decision-making game model for the adoption of PrEP. We use $p$ and $\varepsilon$ to denote, respectively, the PrEP coverage and the PrEP effectiveness. Of note, the PrEP coverage parameter is not imposed, rather, it is obtained by solving the decision-making model; see section \ref{sec:DecisionModel}. We assume that individuals on PrEP ($P$) can get infected at a rate $(1-\varepsilon)\Lambda_P$, defined in section~\ref{sec:RiskCompensation}, and get tested {for HIV and start ART} at a rate $\theta_P$. The ODE system of the HIV epidemic model becomes
 \begin{equation} \label{eq:ODEsysP} 
 \begin{aligned}
         dP/dt 		& = p \pi_h - \Big( (1-\varepsilon) \Lambda_P + \mu \Big) P, \\
@@ -175,7 +176,7 @@ N_\ell = S_\ell + I_\ell^ a + I_\ell^c + T_\ell.
 
 \subsubsection{PrEP-induced risk compensation} \label{sec:RiskCompensation}
 
-The PREVENIR study reported that MSM using PrEP may use condoms less often \cite{Molina2018}; we call this the phenomenon of {\it risk compensation}. We model risk compensation among susceptibles on PrEP explicitly, showing how the force of infection for high-risk susceptibles on PrEP depends on condom effectiveness and condom use among high-risk susceptibles.
+The PREVENIR study reported that MSM using PrEP may use condoms less often \cite{Molina2018}; we call this the phenomenon {\it risk compensation}. We model risk compensation among susceptibles on PrEP explicitly, showing how the force of infection for high-risk susceptibles on PrEP depends on condom effectiveness and condom use among high-risk susceptibles.
 
 We denote by $\beta_{jh}^k$ the per-partnership probability of HIV transmission from a $j$-risk individual in $k$ stage of infection toward high-risk susceptibles. This can be written as
  \begin{equation}
@@ -191,7 +192,49 @@ We assumed that, once PrEP becomes available, high-risk susceptibles, who do not
 
 \subsubsection{The effective reproduction number}
 
-We computed the {\it effective reproduction number} for the ODE system~\eqref{eq:ODEsysP}, the expected number of secondary cases produced by a single infected individual, during his entire infectious period, in an uninfected population subject to control interventions \cite{Anderson1991,VanDenDriessche2008}, and we expressed it as a function of the PrEP coverage and effectiveness
+{The \textit{effective reproduction number} is defined as the expected number of secondary cases produced by a single infected individual, during his entire infectious period, in an uninfected population subject to control interventions} \cite{Anderson1991,VanDenDriessche2008}. {We computed the effective reproduction number for the ODE system}~\eqref{eq:ODEsysP}, {denoted $R$, as the largest eigenvalue of the next generation matrix}~\cite{VanDenDriessche2008}, {$G = FV^{-1}$, where}
+\begin{equation} \label{eq:matrixF}
+%\tiny
+{\scriptsize
+F \equiv \left(
+    { \arraycolsep=6pt\def\arraystretch{1.5}
+\begin{array}{cccccccc}
+(1-\varepsilon) p \phi  \lambda_{hh}^a &(1-\varepsilon) p \phi  \lambda_{hh}^a &(1-\varepsilon) p \phi  \lambda_{\ell h}^a \pi_h/\pi_l &(1-\varepsilon) p \phi \lambda_{h h}^c &(1-\varepsilon) p \phi  \lambda_{h h}^c &(1-\varepsilon) p \phi  \lambda_{\ell h}^c \pi_h/\pi_l & 0 & 0 \\
+ (1-p) \lambda_{hh}^a & (1-p) \lambda_{hh}^a & (1-p) \lambda_{\ell h}^a \pi_h/\pi_l & (1-p) \lambda_{h h}^c & (1-p) \lambda_{h h}^c & (1-p) \lambda_{\ell h}^c \pi_h/\pi_l & 0 & 0 \\
+ \lambda_{h \ell}^a \pi_l/\pi_h & \lambda_{h \ell}^a \pi_l/\pi_h & \lambda_{\ell \ell}^a & \lambda_{h \ell}^c\pi_l/\pi_h & \lambda_{h \ell}^c\pi_l/\pi_h & \lambda_{\ell \ell}^c  & 0 & 0 \\
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\end{array}
+}
+\right),}
+\end{equation}
+\begin{equation}
+\lambda_{ji}^k \equiv c_i \rho_{ij} \beta_j^k, \qquad \text{for } i,j \in \{h,\ell\}, k \in \{a,c\},
+\end{equation}
+\begin{equation}
+\phi \equiv \left( \frac{1-\xi \eta_P}{1-\xi \eta_h}\right),
+\end{equation}
+ and 
+\begin{equation} \label{eq:matrixV}
+V \equiv \left(
+\begin{array}{cccccccc}
+\sigma +\theta_P +  \mu  & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ 0 & \sigma + \theta +\mu  & 0 & 0 & 0 & 0 & 0 & 0 \\
+ 0 & 0 & \sigma + \theta +\mu  & 0 & 0 & 0 & 0 & 0 \\
+  -\sigma  & 0 & 0 & \theta_P + \mu & 0 & 0 & 0 & 0 \\
+ 0 & -\sigma  & 0 & 0 & \theta +\mu  & 0 & 0 & 0 \\
+ 0 & 0 & -\sigma  & 0 & 0 & \theta +\mu  & 0 & 0 \\
+ -\theta_P & -\theta  & 0 & -\theta_P &  -\theta  & 0 & \mu_T& 0 \\
+ 0 & 0 & -\theta  & 0 & 0 & -\theta  & 0& \mu_T \\
+\end{array}
+\right).
+\end{equation}
+
+
+{We expressed $R$ as a function of the PrEP coverage and effectiveness}
 
 \begin{equation}
 	R(p,\varepsilon) = A \left[ H(p,\varepsilon) + M + \sqrt{ \Big(H(p,\varepsilon) - M\Big)^2 + 4 B H(p,\varepsilon) M }\,\right],
@@ -203,7 +246,7 @@ where
 	& M \equiv \, (\theta_P+\mu) (\sigma+\theta_P+\mu) \Big[(\theta+\mu) c_\ell \rho_{\ell \ell}\beta_\ell^a+\sigma c_\ell \rho_{\ell \ell}\beta_\ell^c\Big], \end{align}
 are independent of the PrEP parameters. In contrast, $H(p,\varepsilon)$ is the following function of $p$ and $\varepsilon$
 \begin{equation}
-	H(p,\varepsilon) \equiv \, (1-p) H_h + p (1-\varepsilon) \left( \frac{1-\xi \eta_P}{1-\xi \eta_h}\right) H_P,
+	H(p,\varepsilon) \equiv \, (1-p) H_h +(1-\varepsilon) p \left( \frac{1-\xi \eta_P}{1-\xi \eta_h}\right) H_P,
 \end{equation}
 where
 \begin{equation}
@@ -232,7 +275,7 @@ For the epidemic to be controlled, certain conditions for PrEP uptake, HIV testi
 
 In our model, epidemic elimination (i.e., $R(p,\varepsilon) \leq 1$) is possible if and only if the {\it effective PrEP coverage}, $\varphi(\varepsilon) \, p$, is equal to or larger than $K$, where 
 \begin{equation}
-	\varphi(\varepsilon) \equiv H_h - (1-\varepsilon) \left( \frac{1-\xi \eta_P}{1-\xi \eta_h}\right) H_P.
+	\varphi(\varepsilon) \equiv H_h - (1-\varepsilon) \left( \frac{1-\xi \eta_P}{1-\xi \eta_h}\right) H_P,
 \end{equation} 
 and $K$ is a constant independent of the PrEP parameters defined by
 \begin{equation}
@@ -249,12 +292,12 @@ Hence, the epidemic elimination condition $R(p,\varepsilon) \leq 1$ is met when 
 \subsection{Modeling individual-level decision-making on PrEP adoption} \label{sec:DecisionMaking}
 \subsubsection{Decision model} \label{sec:DecisionModel}
 
-We propose a mathematical model for the individual-level decision-making on whether or not to adopt PrEP for HIV prevention. As mentioned in section~\ref{sec:CompartModelPrEP}, we assume that only uninfected individuals at high risk of infection are proposed to adopt PrEP. 
+We propose a mathematical model for the individual-level decision-making on whether or not to adopt PrEP for HIV prevention. As mentioned in section~\ref{sec:CompartModelPrEP}, we assume that only uninfected individuals at high risk of infection are eligible to adopt PrEP. 
 
 We use a game-theoretical approach, where individuals act alone and in their own interest. Individuals are considered to weigh their perceived pros and cons of using PrEP, versus getting infected and the consequent lifelong ART. These pros and cons consist of monetary and/or non-monetary aspects such as: undesired secondary effects, price, reimbursement policies, accessibility, social stigma, disease morbidity, etc.\cite{Arnold2016,Gilson2018,Thomann2017,Brooks2019}. Pros and cons are expressed as {\it costs} perceived by the individual and they are balanced in a {\it utility function}. Then, the individual-level decision-making on whether or not to adopt PrEP is modeled by the maximization of the utility, which is equivalent to the minimization of the total expected cost by the individual MSM.
 
-The solution of the game model is an equilibrium situation for the HIV epidemiology, where a fraction of the individuals adopt PrEP in stationary epidemic conditions; i.e.~there are no longer changes in prevention behavior. We therefore assumed that, in the long term, the individuals are pleased with their decision regarding PrEP adoption, which they maintain for the duration of their sexually mixing period. That is, we do not model changes of decision and recurrent decision-making. In addition, we consider no formal difference between PrEP regimens (daily or event-driven PrEP approach).  
-
+The solution of the game model is an equilibrium situation for the HIV epidemiology, where a fraction of the individuals adopt PrEP in stationary epidemic conditions; i.e.~there are no longer changes in prevention behavior. {In the very long run, MSM commit to follow one of two simple patterns of PrEP use: either on-PrEP or off-PrEP. No other PrEP use patterns are under discussion. Individual MSM evaluate whether they should adopt PrEP, take and respect their own decisions. We therefore assume that, in the long term, the individuals are pleased with their decision regarding PrEP adoption, which they maintain for the duration of their sexually mixing period. That is, we do not model changes of decision and recurrent decision-making.  As the utility of PrEP is maximized, PrEP use patterns would start to strongly resemble the on-PrEP and off-PrEP patterns. In addition, we consider no formal difference between on-PrEP regimens (daily or event-driven PrEP regimen).  
+}
 
 \subsubsection{Utility of PrEP for the individual-level decision-making} \label{sec:Utility}
 
@@ -267,7 +310,7 @@ where $C(p)$ stands for the total expected cost.
 
 \paragraph{The cost of adopting the strategy of not using PrEP.}
 
-In the case where an individual decides not to use PrEP, he may get infected, starts treatment upon positive HIV diagnosis, and eventually pays the cost of ART for the rest of his life. We thus assumed that an individual who decides not to use PrEP pays, once he becomes HIV infected during his sexually-mixing period, the cost of ART. After leaving the sexually-mixing population, if infected with HIV, the individual continues to pay the cost of ART for the rest of his life. An individual who decides not to use PrEP and does not get infected with HIV pays no cost. Mathematically, the cost of adopting the strategy of not using PrEP can be written as
+In the case where an individual decides not to use PrEP, he may get infected, start treatment upon positive HIV diagnosis, and eventually pay the {expected} cost of {being infected with HIV and use} ART for the rest of his life. {For the sake of simplicity, we say} that an individual who decides not to use PrEP pays, once he becomes HIV infected during his sexually-mixing period, the cost of ART. After leaving the sexually-mixing population, if infected with HIV, the individual continues to pay the cost of ART for the rest of his life. An individual who decides not to use PrEP and does not get infected with HIV pays no cost. Mathematically, the cost of adopting the strategy of not using PrEP can be written as
 
 \begin{equation} \label{eq:C_NoPrEP}
 	C_{\text{\tiny No-PrEP}}(p,\varepsilon) \equiv \int_ 0^{L} \left(1- e^{-\lambda(p,\varepsilon) t} \right) c_T \,dt + \int_L^{L+L_T} \left(1- e^{-\lambda(p,\varepsilon) L} \right) c_T \,dt,
@@ -276,7 +319,7 @@ where $c_T$ is the per-year perceived cost of ART, $L$ is the number of years th
 
 \paragraph{The cost of adopting the strategy of using PrEP to avoid HIV infection.}
 
-Similarly, in the case where an individual decides to adopt PrEP, he would take and pay the cost of PrEP and, in the case of acquiring HIV despite PrEP uptake, being diagnosed and starting ART, he would pay the cost of treatment for the rest of his life. This is summarized mathematically as follows
+Similarly, in the case where an individual decides to adopt PrEP, he would take and pay the cost of {the PrEP regimen (including frequent testing) or, in the case of acquiring HIV despite PrEP uptake, would stop using PrEP and start ART upon HIV diagnosis, paying} the cost of treatment for the rest of his life. {For the sake of simplicity, we refer to the cost perceived for PrEP interventions as the cost of PrEP}. This is summarized mathematically as follows
 \begin{equation} \label{eq:C_PrEP}
 	C_{\text{\tiny PrEP}}(p,\varepsilon) \equiv \int_ 0^{L} e^{-\lambda_P(p,\varepsilon) t} c_P \,dt + \int_ 0^{L} \left(1- e^{-\lambda_P(p,\varepsilon) t} \right) c_T \,dt + \int_L^{L+L_T} \left(1- e^{-\lambda_P(p,\varepsilon) L} \right) c_T \,dt,
 \end{equation}
@@ -335,7 +378,7 @@ The quantities $\lambda(p,\varepsilon)$ and $\lambda_P(p,\varepsilon)$ are used 
 
 The hybrid model combining the ODE system and the decision model was built in MATLAB (release 2018). We first calibrated the model~\eqref{eq:ODEsys} to reproduce the HIV epidemiology among MSM in the Paris region, \^Ile-de-France, assumed to be close to an endemic state in 2016~\cite{RapportSPF2019}. The initial values used for the HIV transmission parameters in the calibration process are listed in tables~\ref{tab:InitConds} and~\ref{tab:Params}, respectively. As calibration criteria, we used estimates for MSM in \^Ile-de-France, listed in table~\ref{tab:Calibration}, regarding the HIV incidence rate, prevalence of undiagnosed infections \cite{Marty2019}, prevalence of HIV \cite{Prevagay2017}, size of the MSM population \cite{Bajos2018,Insee2015}; we used the HIV incidence estimated by the ANRS IPERGAY study in Paris \cite{Molina2018} as an upper bound for the incidence among high-risk MSM. The epidemiological indicators were related to model simulations according to the formulae given in table~\ref{tab:EpiIndFormulas}. 
 
-Using the initial ranges (cf. tables~\ref{tab:InitConds} and~\ref{tab:Params}), we generated 500\,000 parameter sets through latin hypercube sampling, assuming that each parameter follows a uniform distribution. Out of these 500\,000 parameter sets, $111$ passed the calibration checks. Then, to refine the calibration, we generated additional $1\,400$ parameters sets, by sampling nearby the previously obtained parameter sets. In total, $505$ parameter sets passed the calibration checks. Summary statistics for each HIV parameter yields a mean and a 95\% confidence interval (CI); see table~\ref{tab:Params}.  Of note, that the calibration selects for $\beta^k_h>\beta^k_\ell$, which, indeed, suggests an intrinsic, riskier behavior for individuals with high sexual activity. 
+Using the initial ranges (cf. tables~\ref{tab:InitConds} and~\ref{tab:Params}), we generated 500\,000 parameter sets through latin hypercube sampling, assuming that each parameter follows a uniform distribution. Out of these 500\,000 parameter sets, $111$ passed the calibration checks. Then, to refine the calibration, we generated additional $1\,400$ parameters sets, by sampling nearby the previously obtained parameter sets. In total, $505$ parameter sets passed the calibration checks. Summary statistics for each HIV parameter yields a mean and a 95\% confidence interval (CI); see table~\ref{tab:Params}.  Of note, {the parameters sets yielding $R(0,0)>1$ were constrained so high-risk MSM to drive the epidemic. Note that the model calibration selects} $\beta^k_h>\beta^k_\ell$, which, indeed, suggests an {intrinsically higher risk of HIV-transmission for individuals with high number of sexual partners}. 
 
 Using our $\sim500$ calibrated parameter sets, we estimated epidemiological indicators for the HIV epidemic in the MSM community of \^Ile-de-France.  They provide our modeling perspective on the HIV epidemiology before the introduction of PrEP (cf. table~\ref{tab:Calibration}): overall yearly mean incidence was $1.3\%$, mean prevalence $17\%$, and $17\%$ of MSM living with HIV were unaware of their HIV status. The mean number of MSM was $\sim111\,000$, of which $\sim14\,200$ were at high risk of HIV infection and eligible for PrEP. Yearly mean HIV incidence for high-risk MSM was $7\%$. We note, however, that our estimates for the HIV epidemiological indicators, resulting from the model calibration, do not differ much from the estimates obtained through direct data analyses (cf. table~\ref{tab:Calibration}), indicative of successful calibration. The $\sim500$ calibrated parameter sets were further used for simulations regarding the introduction of PrEP and the decision model.
 
@@ -347,9 +390,9 @@ Using our $\sim500$ calibrated parameter sets, we estimated epidemiological indi
 
 \subsection{Impact of PrEP rollouts on HIV epidemics}
 
-In France, PrEP prescriptions need to be renewed every three months.\cite{CNSANRS2018} Meanwhile, the PrEP-eligible individual must provide proof that they tested negative for HIV infection. Consequently, on-PrEP MSM get tested for HIV every three months, which determines our parameter $1/\theta_P=3~{\rm months}$; see table~\ref{tab:Params}. It is very important to note that on-PrEP MSM get tested much more frequently than MSM before the PrEP rollout, when the median time from HIV infection to diagnosis for MSM was 3.1 years~\cite{Marty2019}. Due to the dramatic change in testing behavior, the PrEP rollout can act as a test-and-treat intervention, where individuals get tested very often for HIV infection, and start treatment upon positive diagnostic, no longer transmitting HIV. In principle, this can be sufficient to eliminate the HIV epidemic, even without PrEP. \cite{Kretzschmar2013,WHO2016} 
+In France, PrEP prescriptions need to be renewed every three months.\cite{CNSANRS2018} Meanwhile, the PrEP-eligible individual must provide proof that they tested negative for HIV infection. Consequently, on-PrEP MSM get tested for HIV every three months, which determines our parameter $1/\theta_P=3~{\rm months}$; see table~\ref{tab:Params}. It is very important to note that {testing frequency for on-PrEP MSM is thus much higher than that observed among off-PrEP MSM, as data shows $\sim3$ years for the mean time from HIV infection to diagnosis (personal communication with VS)}. Due to the dramatic change in testing behavior, the PrEP rollout can act as a test-and-treat intervention, where individuals get tested very often for HIV infection, and start treatment upon positive diagnostic, no longer transmitting HIV. In principle, this can be sufficient to eliminate the HIV epidemic, even without PrEP. \cite{Kretzschmar2013,WHO2016} 
 
-The deterministic component of our HIV model \eqref{eq:ODEsysP} can offer insight into the epidemic-level impact of a PrEP rollout, and the action of various parameters. Figure~\ref{fig:R}A depicts the effective reproduction number $R$ versus $\varepsilon$ and $p$, for one typical parameter set calibrating our model.  According to our baseline scenario, we assumed that high-risk MSM, not taking PrEP, use condom with probability $30\%$, and if they take PrEP, the probability drops at $20\%$; condom effectiveness was considered to be $70\%$. The fact that a $70\%$-$80\%$ PrEP coverage is sufficient to eliminate HIV, even when PrEP efficacy is zero, is entirely due to the test-and-treat effect of the PrEP rollout, as explained before. In particular, this implies that the thresholds in PrEP effectiveness, such that epidemic control and elimination are possible, are zero; i.e., $\varepsilon_{\rm E} = \varepsilon_{\rm C} = 0$. The test-and-treat action of the PrEP rollout is further evidenced in figure~\ref{fig:R}B, which represents $R$ as a function of the PrEP coverage $p$ and testing rate $\theta_P$, assuming that the effectiveness of PrEP is zero ($\varepsilon=0$); that is, there is no PrEP and $p$ is the coverage of frequent testing, with the rate $\theta_P$. Figure~\ref{fig:R}B reveals that, for HIV elimination in the absence of PrEP (i.e., or using a PrEP regimen with no efficacy), it would suffice that $\sim 80\%$ of the high-risk MSM in the Paris region got tested every three months; see figure~\ref{fig:R} for $p=80\%$ and $\theta_P=4~\rm{years^{-1}}$. Still, an intervention based just on the test-and-treat strategy may be difficult to implement. The individual at risk is not directly protected from acquiring HIV, by joining a test-and-treat program. Rather, the benefits are indirect, emerging from the success of the test-and-treat intervention at the population level. It is thus expected that test-and-treat interventions have low acceptability. The French guidelines recommend, since 2009, annual HIV testing for MSM at risk, and 3-month testing since 2017. Yet, testing rate estimates are significantly lower, since the median time from HIV infection to diagnosis for MSM was estimated at 3.1 years.~\cite{Marty2019}
+The deterministic component of our HIV model \eqref{eq:ODEsysP} can offer insight into the epidemic-level impact of a PrEP rollout, and the action of various parameters. Figure~\ref{fig:R}A depicts the effective reproduction number $R$ versus $\varepsilon$ and $p$, for one typical parameter set calibrating our model.  According to our baseline scenario, we assumed that high-risk MSM, not taking PrEP, use condom with probability $30\%$, and if they take PrEP, the probability drops at $20\%$; condom effectiveness was considered to be $70\%$. The fact that a $70\%$--$80\%$ PrEP coverage is sufficient to eliminate HIV, even when PrEP efficacy is zero, is entirely due to the test-and-treat effect of the PrEP rollout, as explained before. In particular, this implies that the thresholds in PrEP effectiveness, such that epidemic control and elimination are possible, are zero; i.e., $\varepsilon_{\rm E} = \varepsilon_{\rm C} = 0$. The test-and-treat action of the PrEP rollout is further evidenced in figure~\ref{fig:R}B, which represents $R$ as a function of the PrEP coverage $p$ and testing rate $\theta_P$, assuming that the effectiveness of PrEP is zero ($\varepsilon=0$); that is, there is no PrEP and $p$ is the coverage of frequent testing, with the rate $\theta_P$. Figure~\ref{fig:R}B reveals that, for HIV elimination in the absence of PrEP (i.e., or using a PrEP regimen with no efficacy), it would suffice that $\sim 80\%$ of the high-risk MSM in the Paris region got tested every three months; see figure~\ref{fig:R} for $p=80\%$ and $\theta_P=4~\rm{years^{-1}}$. Still, an intervention based just on the test-and-treat strategy may be difficult to implement. The individual at risk is not directly protected from acquiring HIV, by joining a test-and-treat program. Rather, the benefits are indirect, emerging from the success of the test-and-treat intervention at the population level. It is thus expected that test-and-treat interventions have low acceptability. The French guidelines recommend, since 2009, annual HIV testing for MSM at risk, and 3-month testing since 2017. {Yet, as mentioned above, testing rate estimates are estimated significantly lower ($\sim3$ years).}
 
 The distinct advantage of PrEP rollouts is that they offer direct protection to individuals at risk of acquiring HIV, through highly effective PrEP regimens. Hence, the individual recognizes his interest in adopting PrEP, and may join the PrEP rollout voluntarily, ensuring high acceptability for PrEP rollouts. Furthermore, as more and more individuals join the prevention effort, population-level benefits emerge, down to HIV elimination.
 
@@ -366,14 +409,14 @@ We computed the voluntary PrEP coverage among high-risk MSM, denoted $\hat{p}$, 
 
 Our previous work \cite{Jijon2017} helped identify the conditions for which our model algorithms could be reliably implemented. Indeed, if $R(\hat{p},\varepsilon) \leq 1$, then there is no stable~equilibrium for the individual strategies and numerical methods fail to compute an approximation for the voluntary PrEP coverage, $\hat{p}(\varepsilon, r)$; otherwise, numerical estimation of $\hat{p}(\varepsilon, r)$ is possible. We say that, for $R(\hat{p},\varepsilon) \leq 1$, the game regarding the adoption of PrEP has no solution.
 
-As a supplement to the colormaps in figure 1 of the main text, figure~\ref{fig:p_hat} depicts the PrEP coverage reached voluntarily among high-risk MSM, $\hat{p}(\varepsilon,r)$, and the corresponding endemic force of infection among high-risk MSM when the PrEP effectiveness is $\varepsilon=86\%$; n.b., $\hat{\Lambda}_h^{\rm ES}(\varepsilon,r) \equiv \Lambda_h^{\rm ES}\left(\hat{p}(\varepsilon,r),\varepsilon\right)$. For a given value of the PrEP effectiveness, $\varepsilon$, we used $r_{\rm E}(\varepsilon)$ and $r_{\rm C}(\varepsilon)$ to denote, respectively, the elimination and control threshold values for the relative cost; n.b.,~$ 0 < r_{\rm E}(\varepsilon) < r < r_{\rm C}(\varepsilon)$ implies $0\%<\hat{p}(\varepsilon,r)<100\%$. The three regions identified in figure 1 of the main text are also present in figure~\ref{fig:p_hat}, delimited by the thresholds in PrEP effectiveness and relative cost (n.b., $\varepsilon=86\%$ for figure~\ref{fig:p_hat}):
+As a supplement to the colormaps in figure 1 of the main text, figure~\ref{fig:p_hat_086} depicts the PrEP coverage reached voluntarily among high-risk MSM, $\hat{p}(\varepsilon,r)$, and the corresponding endemic force of infection among high-risk MSM when the PrEP effectiveness is $\varepsilon=86\%$; n.b., $\hat{\Lambda}_h^{\rm ES}(\varepsilon,r) \equiv \Lambda_h^{\rm ES}\left(\hat{p}(\varepsilon,r),\varepsilon\right)$. For a given value of the PrEP effectiveness, $\varepsilon$, we used $r_{\rm E}(\varepsilon)$ and $r_{\rm C}(\varepsilon)$ to denote, respectively, the elimination and control threshold values for the relative cost; n.b.,~$ 0 < r_{\rm E}(\varepsilon) < r < r_{\rm C}(\varepsilon)$ implies $0\%<\hat{p}(\varepsilon,r)<100\%$. The three regions identified in figure 1 of the main text are also present in figure~\ref{fig:p_hat_086}, delimited by the thresholds in PrEP effectiveness and relative cost (n.b., $\varepsilon=86\%$ for figure~\ref{fig:p_hat_086}):
 
 \begin{itemize}
 \item Region~III, where $r \geq r_{\rm C}(\varepsilon)$. The relative cost of prevention versus treatment is perceived as being too high. Therefore, no one adopts the strategy of using PrEP to prevent HIV infection (i.e., $\hat{p}(\varepsilon,r)=0\%$) and the endemic state of the epidemic stays unaffected (i.e., $\hat{\Lambda}_h^{\rm ES}(\varepsilon,r) = \Lambda_h^{\rm ES}(0,0)$). 
 
 \item Region~II, where $r_{\rm E}(\varepsilon) < r < r_{\rm C}(\varepsilon)$. The relative cost is low enough, so a proportion of high-risk MSM adopts the strategy of using PrEP (i.e., $0 \%< \hat{p}(\varepsilon,r) <100\%$). However, not enough MSM adopt PrEP and thus, the {\it effective, voluntary PrEP coverage}, $\varphi(\varepsilon) \, \hat{p}(\varepsilon,r)$, is below the threshold $K$. Hence, the HIV epidemic is controlled (i.e., $\hat{\Lambda}_h^{\rm ES}(\varepsilon,r) < \Lambda_h^{\rm ES}(0,0)$), but not eliminated. 
 
-\item Region~I, where $0 \leq r\leq r_{\rm E}(\varepsilon)$. The relative cost is low, and the PrEP effectiveness is above the elimination threshold, thus the effective, voluntary PrEP coverage, $\varphi(\varepsilon) \, \hat{p}(\varepsilon,r)$, may reach or exceed the threshold $K$, so the epidemic may be averted. Hence, in region~I, the reproduction number is below 1 (i.e., $R\left(\hat{p}(\varepsilon,r),\varepsilon\right) \leq 1$).
+\item Region~I, where $0 \leq r\leq r_{\rm E}(\varepsilon)$. The relative cost is low, and the PrEP effectiveness is above the elimination threshold, thus the effective, voluntary PrEP coverage, $\varphi(\varepsilon) \, \hat{p}(\varepsilon,r)$, may reach or exceed the threshold $K$, so the epidemic may be averted. Hence, in Region~I, the reproduction number is below 1 (i.e., $R\left(\hat{p}(\varepsilon,r),\varepsilon\right) \leq 1$).
  \end{itemize}
  
  
@@ -381,7 +424,7 @@ As a supplement to the colormaps in figure 1 of the main text, figure~\ref{fig:p
 
 The endemic HIV incidence rate reached after the introduction of PrEP (cf. model~\eqref{eq:ODEsysP}) is given by
 \begin{equation}
-	\mathcal{I}^{\rm ES}(p, \varepsilon) \equiv \frac{(1-\varepsilon) \Lambda_h^{\rm ES} P^{\rm ES} + \Lambda_h^{\rm ES} S_h^{\rm ES} + \Lambda_\ell^{\rm ES} S_\ell^{\rm ES}}{P^{\rm ES} + S_h^{\rm ES} + S_\ell^{\rm ES}}.
+	\mathcal{I}^{\rm ES}(p, \varepsilon) \equiv \frac{(1-\varepsilon) \left(\frac{1-\xi \eta_P}{1-\xi \eta_h}\right) \Lambda_h^{\rm ES} P^{\rm ES} + \Lambda_h^{\rm ES} S_h^{\rm ES} + \Lambda_\ell^{\rm ES} S_\ell^{\rm ES}}{P^{\rm ES} + S_h^{\rm ES} + S_\ell^{\rm ES}}.
 \end{equation}
 
 The endemic incidence rate in the absence of PrEP is $\mathcal{I}^{\rm ES}(0, 0) = 1.3\%$. Figure~1B of the main text depicts the relative reduction in the endemic HIV incidence rate due to voluntary PrEP coverage, $ \left[\mathcal{I}^{\rm ES}(0, 0) - \mathcal{I}^{\rm ES}(\hat{p}(\varepsilon,r),r) \right]/\mathcal{I}^{\rm ES}(0, 0)$. Note that increasing PrEP effectiveness and reducing PrEP cost results in greater reduction of the endemic incidence rate, provided that the condition for epidemic control regarding PrEP effectiveness is met; i.e., $\varepsilon > \varepsilon_{\rm C}$.
@@ -392,56 +435,16 @@ The endemic incidence rate in the absence of PrEP is $\mathcal{I}^{\rm ES}(0, 0)
 
 In the baseline scenario, we assumed that high-risk MSM have a fair sense of their risk of infection when deciding whether or not to adopt PrEP; this risk of infection was computed using the HIV transmission model, and corresponds to the force of HIV infection; see section~\ref{sec:PerceivedRisk}. However, individuals could misperceive their risk of acquiring infection \cite{Blumenthal2019}.  In a sensitivity scenario, we assumed that individuals underestimate their risk of infection when deciding whether or not to adopt PrEP. Specifically, we assumed that high-risk MSM get a sense of the risk of infection from, for instance, the rate of their high-risk MSM peers being diagnosed with HIV each year, given by
 \begin{equation}
-	\tilde{\Lambda} (p, \varepsilon) \equiv \frac{\theta_P \left(I_P^{a,\rm ES} + I_P^{c,\rm ES}\right) + \theta \left(I_h^{a,\rm ES} + I_h^{c,\rm ES}\right)}{P^{\rm ES} + S_h^{\rm ES} + I_P^{a,\rm ES} + I_P^{c,\rm ES} + I_h^{a,\rm ES} + I_h^{c,\rm ES}} .
+	\tilde{\Lambda} (p, \varepsilon) \equiv \frac{\theta_P \left(I_P^{a,\rm ES} + I_P^{c,\rm ES}\right) + \theta \left(I_h^{a,\rm ES} + I_h^{c,\rm ES}\right)}{P^{\rm ES} + S_h^{\rm ES} + I_P^{a,\rm ES} + I_P^{c,\rm ES} + I_h^{a,\rm ES} + I_h^{c,\rm ES}} ,
 \end{equation}
+{assuming that all HIV-infected MSM disclose their serostatus}.
 
 We repeated our analyses using $\tilde{\Lambda}$ in equations~\eqref{eq:Lambda_P_ES}--\eqref{eq:lambda_P} instead of $\Lambda_h^{\rm ES}$ and compared the results with those of the baseline scenario; see figure~3 of the main text. The HIV epidemiological picture regarding voluntary PrEP coverage is qualitatively similar. That is, we recover the 3-region structure and the voluntary PrEP coverage required for HIV elimination is the same. Still, the misperception of infection risk leaves less room for intervention aiming at epidemic elimination: Region~I gets significantly reduced along the relative cost axis ($r$), compared with the baseline scenario using the force of infection for the perceived risk; see figure~3 of the main text. In particular, for a PrEP effectiveness of 86\%, the cost of PrEP relative to that of ART should be lowered by a factor of $\sim 2$ relative to the baseline scenario, in order to reach Region~I. 
 
 \subsubsection{Condom use and risk compensation}
 
-In the baseline scenario, we assumed that there is a drop in condom use among PrEP users from $\eta_h=30\%$ to $\eta_P=20\%$. In a worse-case scenario for condom drop (i.e., a sensitivity scenario), we considered that individuals on PrEP stop using condoms completely (i.e., $\eta_P=0\%$) and, redoing the analyses, we compared the results with those of the baseline scenario; see figure~\ref{fig:p_hat_CondomDrop}. Risk compensation among PrEP users has low impact on our results: (1) the boundary between regions~II and~III shifts only slightly, and (2) only slightly higher levels of PrEP coverage are required for epidemic elimination when PrEP users completely drop condom use.
+In the baseline scenario, we assumed that there is a drop in condom use among PrEP users from $\eta_h=30\%$ to $\eta_P=20\%$. In a worse-case scenario for condom drop (i.e., a sensitivity scenario), we considered that individuals on PrEP stop using condoms completely (i.e., $\eta_P=0\%$) and, redoing the analyses, we compared the results with those of the baseline scenario; see figure~\ref{fig:p_hat_CondomDrop}. Risk compensation among PrEP users has low impact on our results: (1) the boundary between Regions~II and~III shifts only slightly, and (2) only slightly higher levels of PrEP coverage are required for epidemic elimination when PrEP users completely drop condom use.
 
-
-\subsubsection{Unchanged rates of HIV testing for individuals on PrEP}
-
-In the baseline scenario, we assumed that on-PrEP MSM test against HIV every 3 months. Here, we considered that on-PrEP MSM do not change their behavior regarding HIV testing; that is, the PrEP program does not require a change in testing behavior, thus $\theta_P=\theta$. Therefore, we have
-\begin{equation}
-	\varepsilon_{\rm C} \equiv 1- \left(\frac{ 1-\xi \eta_h}{1-\xi \eta_P} \right),
-\end{equation}
-and
-\begin{equation} \label{eq:epsilonE_NoChangeInHIVtest}
-	\varepsilon_{\rm E} \equiv 1-(1-\tilde K)(1-\varepsilon_{\rm C}),
-\end{equation}
-where
-\begin{equation}
-	\tilde K \equiv 1 - \frac{1}{\tilde{H}_h} \left(\tilde{M} - \frac{1}{2\tilde{A}}\right) \left(\frac{1}{2\tilde{A}\tilde{M} (1-B) -1}\right),
-\end{equation}
-with
-\begin{align}
-	& \tilde{A}^{-1} \equiv 2 (\theta+\mu) (\sigma+\theta+\mu),\\
-	& \tilde{M} \equiv (\theta+\mu) c_\ell \rho_{\ell \ell}\beta_\ell^a+\sigma c_\ell \rho_{\ell \ell}\beta_\ell^c,\\
-	& \tilde{H}_h\equiv (\theta+\mu) c_h \rho_{hh} \beta_h^a + \sigma c_h \rho_{hh} \beta_h^c.
-\end{align}
-Epidemic elimination is reached if and only if $\varphi(\varepsilon) p \geq \tilde K$, where $\varphi(\varepsilon)$ becomes
-\begin{equation}
-	\varphi(\varepsilon) \equiv 1 - (1-\varepsilon) \left( \frac{1-\xi \eta_h}{1-\xi \eta_P}\right).
-\end{equation}
-Equation~\eqref{eq:epsilonE_NoChangeInHIVtest} simplifies to $\tilde{H}(p,\varepsilon) \equiv \big(1-\varphi(\varepsilon) p\big) \tilde{H}_h$. Furthermore, in the case where on-PrEP MSM do not incur in risk compensation (i.e., there is no condom drop with PrEP adoption and $\eta_P=\eta_h$), the PrEP effectiveness threshold for epidemic control is zero (i.e., $\varepsilon_{\rm C}=0$) and the PrEP effectiveness threshold for epidemic elimination is $\tilde K$ (i.e., $\varepsilon_{\rm E}=\tilde K$).
-
-Assuming that adoption of PrEP does not require changes in HIV testing behavior, and keeping all the other assumptions of the baseline scenario (i.e., high-risk MSM not on PrEP use condoms with $30\%$ probability and MSM on PrEP use condoms with $20\%$ probability, condom effectiveness is $70\%$ and HIV-risk perception is fair), we found $\varepsilon_{\rm C}=8\%$ and $\varepsilon_{\rm E}=58\%$. As a consequence, an additional region emerges in the domain of the voluntary PrEP coverage when PrEP effectiveness is below 58\%. In total, we identified four regions, delimited not only by the relative cost thresholds, but also by the PrEP effectiveness thresholds (see figure~3B of the main text):
-
-\begin{itemize}
-\item Region~IV, where $0 \leq r\leq r_{\rm E}(\varepsilon)$ and $\varepsilon_{\rm C} \leq \varepsilon<\varepsilon_{\rm E}$. The low relative cost makes all MSM willing to adopt PrEP (i.e., $\hat{p}(\varepsilon,r)=100\%$), but its effectiveness is below the epidemic elimination threshold (i.e., we have $\varphi(\varepsilon) \, \hat{p}(\varepsilon,r) = \varphi(\varepsilon) < K$), so the epidemic is controlled but not eliminated.
-
-\item Region~III, where either $ 0 \leq r \leq 1$ and $\varepsilon < \varepsilon_{\rm C}$ or $r \geq r_{\rm C}(\varepsilon)$ and $\varepsilon \geq \varepsilon_{\rm C}$. If $r \geq 0$ and $\varepsilon < \varepsilon_{\rm C}$, PrEP does not control the epidemic because the drop in condom use among PrEP users is not compensated by the uptake of PrEP, which has low effectiveness. If $r \geq r_{\rm C}(\varepsilon)$ and $\varepsilon \geq \varepsilon_{\rm C}$, the relative cost of prevention versus treatment is perceived as being too high. Therefore, no one adopts the strategy of using PrEP to prevent HIV infection (i.e., $\hat{p}(\varepsilon,r)=0\%$) and the endemic state of the epidemic stays unaffected (i.e., $\hat{\Lambda}_h^{\rm ES}(\varepsilon,r) = \Lambda_h^{\rm ES}(0,0)$). 
-
-\item Region~II, where $r_{\rm E}(\varepsilon) < r < r_{\rm C}(\varepsilon)$ and $\varepsilon \geq \varepsilon_{\rm C}$. The relative cost is low enough, so a proportion of high-risk MSM adopts the strategy of using PrEP (i.e., $0 \%< \hat{p}(\varepsilon,r) <100\%$), and PrEP effectiveness is above the control threshold. However, not enough MSM adopt PrEP and thus, the effective, voluntary PrEP coverage, $\varphi(\varepsilon) \, \hat{p}(\varepsilon,r)$, is below the threshold $K$. Hence, the HIV epidemic is controlled (i.e., $\hat{\Lambda}_h^{\rm ES}(\varepsilon,r) < \Lambda_h^{\rm ES}(0,0)$), but not eliminated. 
-
-\item Region~I, where $0 \leq r\leq r_{\rm E}(\varepsilon)$ and $\varepsilon \geq \varepsilon_{\rm E}$. The relative cost is low, and the PrEP effectiveness is above the elimination threshold, thus the effective, voluntary PrEP coverage, $\varphi(\varepsilon) \, \hat{p}(\varepsilon,r)$, may reach or exceed the threshold $K$, so the epidemic may be averted. Hence, in region~I the reproduction number is below 1; i.e., ${R\left(\hat{p}(\varepsilon,r),\varepsilon\right) \leq 1}$.
- \end{itemize}
-
-It is interesting to note that, for high PrEP effectiveness (say $\varepsilon>85\%$), figure~3B of the main text, displaying four regions for PrEP outcomes, is in fact very similar to figure~\ref{fig:p_hat}, displaying three regions for PrEP outcomes. The reason why the HIV testing frequency is not determinant when PrEP regimes are highly effective rests with the fact that, in this case, very few individuals taking PrEP get infected with HIV and benefit from early diagnosis. Nevertheless, high frequency of HIV testing is needed to prevent the emergence of HIV strains resistant to the PrEP molecules, which is a phenomenon not included in our HIV model.
- 
 %%
 %% 	SECION 4. TABLES
 %%
@@ -461,10 +464,10 @@ It is interesting to note that, for high PrEP effectiveness (say $\varepsilon>85
 	\midrule
 	Total population										& 83\,000--167\,000 	& [\citenum{Bajos2018,Insee2015}]\\
 	HIV prevalence	 (\%)									& 10--30			& [\citenum{Prevagay2017}]\\
-	Fraction of susceptible individuals at high risk of infection	(\%) 	& 5--50			& \, --\\
-	Fraction of infected individuals with high risk behavior (\%)	& 70--90			& \, --\\
-	Fraction of infected individuals in chronic stage of infection (\%)	& 80 				& \, --\\
-	Fraction of infected individuals on treatment (\%)			& 80				& \, --\\
+	Fraction of susceptible individuals {among high-risk MSM}	(\%) 	& 5--50			& \, --\\
+	Fraction of {HIV-}infected individuals {among high-risk MSM} (\%)	& 70--90			& \, --\\
+	Fraction of {individuals in chronic stage among infected MSM} (\%)	& 80 				& \, --\\
+	Fraction of {individuals on treatment among infected MSM} (\%)			& 80				& \, --\\
 	\bottomrule
 	\end{tabular}
 	\label{tab:InitConds}
@@ -478,12 +481,13 @@ It is interesting to note that, for high PrEP effectiveness (say $\varepsilon>85
 \begin{table}[H]
 \begin{minipage}{\textwidth}
 	\rowcolors{2}{gray!8}{}
-	\small
+%	\small
+	\footnotesize
 	\centering
 	\caption[Definition, initial value and calibrated values for the model parameters]{%
 	      	{\bf Definition, initial value and calibrated values for the model parameters}\\
 	The fourth column presents initial ranges/values used for the parameters; these ranges/values were either based on published estimates or assumed. The third column presents the mean and 95\% confidence interval (CI) for the parameters values obtained through the model calibration.}
-    	\begin{tabular}{l>{\raggedright}p{0.45\textwidth}l>{\raggedright}p{0.15\textwidth}l}
+    	\begin{tabular}{l>{\raggedright}p{7.5cm}l>{\raggedright}p{2cm}l}
 	\toprule
 	\bf Param.		& \bf Description 	& \bf Calibrated value 	& \bf Initial				& \bf [Ref.]\\
 				& 				& \bf Mean (CI 95\%)		& \bf value/range 		& \\
@@ -499,11 +503,11 @@ It is interesting to note that, for high PrEP effectiveness (say $\varepsilon>85
 	$\beta_l^c$ 	& Per-partnership probability of HIV transmission from low-risk undiagnosed MSM, during the chronic stage of infection (\%) & 4 (2--7) & 0--100 & \,\, --\\
  	$w$ 			& Ratio between acute and chronic stage infectivity 	& 9.1 (8.4--9.6) & 8--12 & [\citenum{Patel2014}]\\ 
 	$1/\sigma$ 	& Time spent in acute stage of infection (weeks\footnote{We approximated 1 year by 52 weeks.}) & 8.2 (6.7--9.8) & 6--12 & [\citenum{Lodi2011}]\\ 
-	$1/\theta$		& Time between infection and diagnosis (baseline scenario; years)	& 3.1 (2.7--3.5) & 1--4 & [\citenum{Marty2019}]\\
-	$1/\theta_P$	& Time between infection and diagnosis for on-PrEP individuals (baseline scenario; months)	& 3 & -- & [\citenum{CNSANRS2015}]\\
-	$1/\mu$ 		& Time that individuals stay sexually mixing (years) & 30.6 (27.2--33.7) & 25--50 & [\citenum{Velter2015}]\\
-	$\alpha$ 		& Reduction of the sexually-mixing period of time, once diagnosed with HIV & 0.48 (0.41--0.54) & 0--1 & \,\, -- \\
-	$1/ \mu_T$ 	& Time that individuals diagnosed with HIV stay sexually mixing\footnote{Can be estimated as $\alpha/\mu$.} & 14.7 (11.2--18.2) & -- & \,\, -- \\ \midrule
+	$1/\theta$		& Time between infection and {ART initiation following diagnosis} (baseline scenario; years)	& 3.1 (2.7--3.5) & 1--4 & [\citenum{Marty2019, Dabis_IAS2019}]\\
+	$1/\theta_P$	& Time between infection {and ART initiation following diagnosis} for on-PrEP individuals (baseline scenario; months)	& 3 & -- & [\citenum{CNSANRS2015}]\\
+	$1/\mu$ 		& {Time that individuals look for new partners (years)} & 30.6 (27.2--33.7) & 25--50 & [\citenum{Velter2015}]\\
+	$\alpha$ 		& {Reduction in the time individuals look for new partners, once diagnosed with HIV} & 0.48 (0.41--0.54) & 0--1 & \,\, -- \\
+	$1/ \mu_T$ 	& {Time that individuals diagnosed with HIV look for new partners}\footnote{Can be estimated as $\alpha/\mu$.} & 14.7 (11.2--18.2) & -- & \,\, -- \\ \midrule
 	$\xi$			& Condom effectiveness (\%) & -- & 58--80 &[\citenum{Smith2015}]\\
 	$\eta_h$		& Probability of using condoms for high-risk MSM not on PrEP (baseline scenario; \%) & -- & 30 & [\citenum{Molina2015}]\\
 	$\eta_P$		& Probability of using condoms for high-risk MSM not on PrEP	(baseline scenario; \%) & -- & 20 & [\citenum{Molina2018}]\\ \midrule
@@ -559,11 +563,11 @@ It is interesting to note that, for high PrEP effectiveness (say $\varepsilon>85
 	\caption[ Epidemiological indicators for the HIV transmission model at the endemic state]{%
 	       	{\bf Epidemiological indicators for the HIV transmission model at the endemic state}\\
 	Subscript $i \in \{h,\ell\}$ stands for the risk group (high, low) and superscript $k \in \{a,c\}$ stands for the stage of infection (acute, chronic). Superscript ES stands for endemic state.}
-	\begin{tabular}{>{\raggedright}p{0.29\textwidth} >{\raggedright}p{0.29\textwidth}  p{0.34\textwidth}}
+	\begin{tabular}{p{0.29\textwidth} p{0.29\textwidth} p{0.34\textwidth}}
 	\toprule
 	\bf Epidemiological indicator & \bf Definition & \bf Formula\\
 	\midrule
-	Endemic HIV incidence rate & Number of new infections among individuals at risk of HIV infection & $ \sum_i \Lambda_i S_i^{\rm ES} \Big/ \sum_i S_i^{\rm ES}$\\
+	Endemic HIV incidence rate & {Per-year} number of new infections among individuals at risk of HIV infection & $ \sum_i \Lambda_i S_i^{\rm ES} \Big/ \sum_i S_i^{\rm ES}$\\
 	Endemic proportion of undiagnosed HIV infections & Fraction of infected individuals who are unaware of their infection & $\sum_{i,k}I_i^{k,\rm ES} \Big/ \left( \sum_{i,k}I_i^{k,\rm ES} + \sum_i T_i^{\rm ES}\right)$\\ 
 	Endemic prevalence of HIV & Fraction of the population who is infected with HIV & $\left(\sum_{i,k}I_i^{k,\rm ES} + \sum_i T_i^{\rm ES}\right) \Big/ N^{\rm ES}$\\
 	\bottomrule
@@ -607,21 +611,32 @@ It is interesting to note that, for high PrEP effectiveness (say $\varepsilon>85
 	\centering
 	\includegraphics{Figures/Fig_S3}
 	\caption[The effective reproduction number $R$ as a function of the PrEP parameters]{%
-		{\bf The effective reproduction number $R$ as a function of the PrEP parameters}\\
-	Color maps of the effective reproduction number, $R$, obtained for a typical parameter set calibrating our model, under the baseline scenario; i.e., high-risk MSM not on PrEP use condom with probability $30\%$, and if they get on PrEP, the probability drops at $20\%$; condom effectiveness is $70\%$. $R>1$ (i.e., epidemic persistence) is shown in red shades and $R<1$ (i.e., epidemic elimination) is shown in blue shades. The solid black line depicts $R=1$. {\bf A}  The effective reproduction number $R$ versus the PrEP coverage, $p$, and PrEP effectiveness, $\varepsilon$. {\bf B} The effective reproduction number $R$ versus the PrEP coverage, $p$, and the HIV testing rate while taking PrEP, $\theta_P$, assuming that the PrEP effectiveness is zero (i.e., $\varepsilon=0$). Note that HIV elimination is possible even when $\varepsilon=0$. This intervention is equivalent to assuming that there is no PrEP, but a fraction $p$ of the high-risk MSM get tested more frequently that the others, at a rate $\theta_P$.}
+		{\bf {} The effective reproduction number $R$ as a function of the PrEP parameters}\\
+	Color maps of the effective reproduction number, $R$, obtained for a typical parameter set calibrating our model, under the baseline scenario; i.e., high-risk MSM not on PrEP use condom with probability $30\%$, and if they get on PrEP, the probability drops at $20\%$; condom effectiveness is $70\%$. $R>1$ (i.e., epidemic persistence) is shown in red shades and $R<1$ (i.e., epidemic elimination) is shown in blue shades. The solid black line depicts $R=1$. {\bf A.}  The effective reproduction number $R$ versus the PrEP coverage, $p$, and PrEP effectiveness, $\varepsilon$. {\bf B.} The effective reproduction number $R$ versus the PrEP coverage, $p$, and the HIV testing rate while taking PrEP, $\theta_P$, assuming that the PrEP effectiveness is zero (i.e., $\varepsilon=0$). Note that HIV elimination is possible even when $\varepsilon=0$. This intervention is equivalent to assuming that there is no PrEP, but a fraction $p$ of the high-risk MSM get tested more frequently that the others, at a rate $\theta_P$.}
 	\label{fig:R}
 \end{figure}
 
-%% Figure S4 - Voluntary PrEP coverage
+%% Figure S4 - Voluntary PrEP coverage and Incidence reduction for p=0.86
 \newpage
 \begin{figure}[H]	
 \small	
 \centering		
 \includegraphics{Figures/Fig_S4}	
 \caption[Impact of rollout with voluntary PrEP uptake, function of the relative cost of PrEP versus ART, when the PrEP effectiveness is $86\%$]{%		
-	{\bf Impact of rollout with voluntary PrEP uptake, function of the relative cost of PrEP versus ART, when the PrEP effectiveness is $86\%$}\\
-We illustrate the PrEP coverage ($\%$) reached voluntarily by high-risk MSM (left axis) and the endemic force of infection on high-risk MSM reached through voluntary PrEP use (right axis), assuming the PrEP effectiveness is $\varepsilon=86\%$. We assumed that (i) high-risk MSM not on PrEP use condoms with $30\%$ probability, and when they get on PrEP, the probability drops at $20\%$; (ii) condom effectiveness is $70\%$; and (iii) MSM have a fair perception of the risk of HIV infection; i.e., assumptions of the baseline scenario. The three regions correspond to the three regions identified in figure 1 of the main text. In Region~III, no MSM adopts the strategy of using PrEP (i.e., $\hat{p}(\varepsilon,r)=0$) due to high perceived cost of PrEP (i.e., $r \geq r_{\rm C}(\varepsilon)$; $r_{\rm C}$ denotes the threshold cost for epidemic control). Hence, in Region~III, there is no impact on the course of the epidemic: the endemic force of infection among high-risk MSM remains unchanged after the introduction of PrEP; i.e., $\hat{\Lambda}_h^{\rm ES}(\varepsilon, r) = \Lambda_h^{\rm ES}(0,0) = 0.07$, where $\Lambda_h^{\rm ES}(0,0)$ is the endemic incidence rate for high-risk MSM in the absence of PrEP. In Region~II,  a proportion of the population decides to use PrEP (i.e., $0<\hat{p}(\varepsilon,r) <100\%$) at the given cost, but the PrEP coverage is not enough for epidemic elimination. Hence, the epidemic is controlled and there is a reduction in the endemic incidence. Region~I, the striped area, corresponds to the case where $R\left(\hat{p}(\varepsilon,r),\varepsilon\right) \leq 1$. In Region~I, the relative cost is low (i.e., $0 \leq r \leq r_{\rm E} (\varepsilon)$), so high levels of PrEP coverage --- and thus, high levels of effective PrEP coverage (i.e., $\hat{p}(\varepsilon,r) \,\varphi(\varepsilon) \geq K$) --- are reached, and the epidemic may be averted; i.e., the endemic force of infection can be 0. In particular, for a PrEP effectiveness of $\varepsilon=86\%$, the minimum PrEP coverage $\hat{p}(\varepsilon,r)$ to reach Region~I is $K/\varphi(\varepsilon) = 56\%$.}	\label{fig:p_hat}
+	{\bf {} Impact of rollout with voluntary PrEP uptake, function of the relative cost of PrEP versus ART, when the PrEP effectiveness is $86\%$}\\
+We illustrate the PrEP coverage ($\%$) reached voluntarily by high-risk MSM (left axis) and the endemic force of infection on high-risk MSM reached through voluntary PrEP use (right axis), assuming the PrEP effectiveness is $\varepsilon=86\%$. We assumed that (i) high-risk MSM not on PrEP use condoms with $30\%$ probability, and when they get on PrEP, the probability drops at $20\%$; (ii) condom effectiveness is $70\%$; and (iii) MSM have a fair perception of the risk of HIV infection; i.e., assumptions of the baseline scenario. The three regions correspond to the three regions identified in figure 1 of the main text. In Region~III, no MSM adopts the strategy of using PrEP (i.e., $\hat{p}(\varepsilon,r)=0$) due to high perceived cost of PrEP (i.e., $r \geq r_{\rm C}(\varepsilon)$; $r_{\rm C}$ denotes the threshold cost for epidemic control). Hence, in Region~III, there is no impact on the course of the epidemic: the endemic force of infection among high-risk MSM remains unchanged after the introduction of PrEP; i.e., $\hat{\Lambda}_h^{\rm ES}(\varepsilon, r) = \Lambda_h^{\rm ES}(0,0) = 0.07$, where $\Lambda_h^{\rm ES}(0,0)$ is the endemic incidence rate for high-risk MSM in the absence of PrEP. In Region~II,  a proportion of the population decides to use PrEP (i.e., $0<\hat{p}(\varepsilon,r) <100\%$) at the given cost, but the PrEP coverage is not enough for epidemic elimination. Hence, the epidemic is controlled and there is a reduction in the endemic incidence. Region~I, the striped area, corresponds to the case where $R\left(\hat{p}(\varepsilon,r),\varepsilon\right) \leq 1$. In Region~I, the relative cost is low (i.e., $0 \leq r \leq r_{\rm E} (\varepsilon)$), so high levels of PrEP coverage --- and thus, high levels of effective PrEP coverage (i.e., $\hat{p}(\varepsilon,r) \,\varphi(\varepsilon) \geq K$) --- are reached, and the epidemic may be averted; i.e., the endemic force of infection can be 0. In particular, for a PrEP effectiveness of $\varepsilon=86\%$, the minimum PrEP coverage $\hat{p}(\varepsilon,r)$ to reach Region~I is $K/\varphi(\varepsilon) = 56\%$.}	\label{fig:p_hat_086}
 \end{figure}
+
+%%% Figure S? - Incidence reduction
+%\newpage
+%\begin{figure}[H]
+%	\centering	
+%	\includegraphics{Figures/Fig_S6.pdf}
+%	\caption[Incidence reduction]{%
+%		{\bf Incidence reduction}\\
+%	}
+%	\label{fig:IncRed_NoChangesIntestingRates}
+%\end{figure}
 
 %% Figure S5 - Risk compensation
 \newpage
@@ -629,8 +644,8 @@ We illustrate the PrEP coverage ($\%$) reached voluntarily by high-risk MSM (lef
 	\centering	
 	\includegraphics{Figures/Fig_S5}
 	\caption[Impact of risk compensation on the voluntary PrEP coverage]{%
-		{\bf Impact of risk compensation on the voluntary PrEP coverage}\\
-	The voluntary PrEP coverage obtained for a typical parameter set calibrating our model, (A) assuming a complete drop in condom use among PrEP users and (B) under the baseline scenario, where condom use drops from $30\%$ to $20\%$ among PrEP users.}
+		{\bf {} Impact of risk compensation on the voluntary PrEP coverage}\\
+	The voluntary PrEP coverage obtained for a typical parameter set calibrating our model, \textbf{A.} assuming a complete drop in condom use among PrEP users and \textbf{B.} under the baseline scenario, where condom use drops from $30\%$ to $20\%$ among PrEP users.}
 	\label{fig:p_hat_CondomDrop}
 \end{figure}
 
