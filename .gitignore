@@ -19,3 +19,4 @@
 !spec/*.out
 *.synctex.gz
 !spec/*.synctex.gz
+*.synctex.gz(busy)
