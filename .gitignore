@@ -17,6 +17,8 @@
 !spec/*.lot
 *.out
 !spec/*.out
+*.fls
+!spec/*.fls
 *.synctex.gz
 !spec/*.synctex.gz
 *.synctex.gz(busy)
