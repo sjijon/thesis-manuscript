@@ -11,7 +11,7 @@
 
 %\begin{frontmatter}
 
-\title{Can HIV epidemics among men who have sex with men be eliminated through participation to PrEP rollouts?}
+\title{Can HIV epidemics among men who have sex with men be eliminated through participation in PrEP rollouts?}
  
 %\author[a]{Sof\'ia Jij\'on}
 %\address[a]{Sorbonne Universit\'e, INSERM, Institut Pierre Louis d'\'Epid\'emiologie et de Sant\'e Publique (IPLESP UMR-S 1136), 75012 Paris, France.}
@@ -39,7 +39,7 @@
 %\begin{abstract}
 
 \paragraph{Objectives}
-To study the conditions under which PrEP coverage can eliminate HIV among men who have sex with men (MSM) in the Paris region. 
+To study the conditions under which PrEP coverage can eliminate HIV among men who have sex with men (MSM) in the Paris region.  
 
 \paragraph{Design} 
 Mathematical modeling.
@@ -48,7 +48,7 @@ Mathematical modeling.
 We propose an innovative approach, combining a transmission model with a game-theoretic model, for decision-making about PrEP use. Individuals at high risk of HIV infection decide to use PrEP, depending on their perceived risk of infection and the relative cost of using PrEP versus antiretroviral treatment (ART), which includes monetary and/or non-monetary aspects, such as price and access model of PrEP, consequences of being infected and lifelong ART. 
 
 \paragraph{Results}
-If individuals perceive fairly their infection risk, and the cost of using PrEP is sufficiently low, the PrEP coverage can lead to elimination. Specifically, assuming 86\% PrEP effectiveness, as observed in two clinical trials, a minimum PrEP coverage of 55\% (95\% CI:43\%--64\%) among high-risk MSM would achieve elimination in the Paris region. A complete condom drop by PrEP users slightly increases the minimum PrEP coverage by $\sim$1\%, while underestimation of their own HIV infection risk would demand PrEP programs to reduce the cost of using PrEP by a factor $\sim$2 to achieve elimination. 
+If individuals assessed correctly their infection risk, and the cost of using PrEP were sufficiently low, then the PrEP rollout could lead to elimination. Specifically, assuming 86\% PrEP effectiveness, as observed in two clinical trials, a minimum PrEP coverage of 55\% (95\% CI:43\%--64\%) among high-risk MSM would achieve elimination in the Paris region. A complete condom drop by MSM using PrEP slightly increases the minimum PrEP coverage required for elimination, by $\sim$1\%, while underestimation of their own HIV infection risk could demand PrEP programs reduce the cost of using PrEP by a factor $\sim$2 to achieve elimination.  
  
 \paragraph{Conclusions}
 Elimination conditions are not yet met in the Paris region, where at most 47\% of high-risk MSM were using PrEP as of mid-2019. Further lowering the cost of PrEP and promoting a fair perception of HIV risk are required and should be maintained in the long run, to maintain elimination status.
@@ -57,11 +57,11 @@ Elimination conditions are not yet met in the Paris region, where at most 47\% o
 %
 %\begin{keyword}
 %Pre-exposure prophylaxis; HIV; men who have sex with men; behavioral epidemiology; game theory.\end{keyword}
-
-Word count:
-Abstract: 247/250
-Main text: 3498/3500
- 
+%
+%Word count:
+%Abstract: 247/250
+%Main text: 3498/3500
+% 
 
 %\end{frontmatter}
 
@@ -72,20 +72,25 @@ Main text: 3498/3500
 
 \section{Introduction} \label{sec:Intro}
 
-In many settings, men who have sex with men (MSM) are the most affected by HIV.\cite{Beyrer2016} Pre-exposure prophylaxis (PrEP) is a highly effective prevention method recommended by the WHO for individuals at high risk of infection with HIV [2]. Both IPERGAY and PROUD clinical trials showed that PrEP can reduce HIV incidence among MSM by $86\%$.\cite{Molina2015,McCormack2016} Modeling studies elaborating on these results suggested that PrEP has the potential to curtail, and even eliminate, HIV epidemics, notably among MSM.\cite{Jenness2016,Rozhnova2018,Hansson2020,Scott2018} For instance, it was found that, in the United States (US), a $40\%$ PrEP coverage, among high-risk MSM, would lead to a $33\%$ decrease in the number of new HIV infections, ten years after PrEP initiation.\cite{Jenness2016} In the Netherlands, HIV elimination would require $82\%$ PrEP coverage in the highest-risk group.\cite{Rozhnova2018} Furthermore, in Sweden, a PrEP coverage of at least $10\%$ for the sexually high active MSM could reduce HIV prevalence to nearly $0\%$ in the long term.\cite{Hansson2020}
+In many settings, men who have sex with men (MSM) are the most affected by HIV.\cite{Beyrer2016} Pre-exposure prophylaxis (PrEP) is a highly effective prevention method recommended by the WHO for individuals at high risk of infection with HIV [2]. Both IPERGAY and PROUD clinical trials showed that PrEP can reduce HIV incidence among MSM by $86\%$.\cite{Molina2015,McCormack2016} Modeling studies elaborating on these results suggested that PrEP has the potential to curtail, and even eliminate, HIV epidemics, notably among MSM.\cite{Jenness2016,Rozhnova2018,Hansson2020,Scott2018} For instance, in the Netherlands, elimination would require $82\%$ PrEP coverage in the highest-risk group. %\cite{Rozhnova2018} Furthermore, in Sweden, a PrEP coverage of at least $10\%$ for the sexually high active MSM could reduce HIV prevalence to nearly $0\%$ in the long term.\cite{Hansson2020}
 
-PrEP represents a promising prevention option, bringing new hope to end HIV epidemics. Yet, the question of how to achieve a certain PrEP coverage in a population has never been addressed; the coverage is only assumed to reach certain values, which may not be granted in practice. It is therefore unclear whether and how target PrEP coverage levels, required to substantially impact or eliminate HIV epidemics, can be reached and maintained in the long term. As of October 2019, PrEP was approved by regulatory agencies in more than 40 countries,\cite{PrEPwatch_2019} but only a few settings strongly promoted it.\cite{Cohen2018} In the US, $130\,000$--$135\,000$ individuals were on PrEP as of October 2019.\cite{PrEPwatch_2019} This represents $\sim34\%$ of the worldwide PrEP users,\cite{PrEPwatch_2019} still falling short of the CDC estimate that $1.2$ million persons in the US have indications to consider PrEP use.\cite{Laufer2015} Furthermore, a recent US study shows that only two in five individuals keep using PrEP for more than two years.\cite{Coy2019} Hence, PrEP remains underutilized in many settings.
+The question of whether it is possible to achieve a certain PrEP coverage in a population has not been addressed; modeling studies only assume that the coverage reaches certain values, which may not be granted in public health practice. It is therefore unclear whether, and under what conditions, target PrEP coverage levels, required to eliminate HIV epidemics, can be reached voluntarily and maintained in the long run. Currently, PrEP remains underutilized in many settings.\cite{Cohen2018} For instance, in the United States, 220,000?225,000 individuals were on PrEP as of April 2020,\cite{PrEPwatch_2019}  still short of the CDC estimate that 1.2 million persons have indications for considering PrEP use\cite{Smith2015}. Furthermore, a recent study shows that only two in five individuals keep using PrEP for >2 years.\cite{Coy2019} 
 
-Mathematical tools for qualitative and quantitative analyses of individual-level decision-making are offered by game theory.\cite{Verelst2016,Manfredi2017} We propose an innovative approach, combining a compartmental model of HIV transmission at the population level, and a game-theoretic model for decision-making about PrEP at the individual level. We model PrEP adoption in a population at high risk of HIV infection to determine whether and how certain PrEP coverage levels can be reached. Particularly, we study the potential impact of PrEP among MSM in the Paris region of France, where universal antiretroviral treatment (ART) is in place, and PrEP is available for individuals meeting eligibility criteria. The HIV epidemiology among MSM in the Paris region is similar to those of other urban settings in high-income countries.\cite{Marty2019}
+Mathematical tools for modeling individual-level decision-making are offered by game theory.\cite{Verelst2016,Manfredi2017,Chang2020} We propose an innovative approach, combining an epidemic model at the population level, and a game-theoretic model for decision-making about PrEP at the individual level. We model PrEP adoption in a population at high risk of HIV infection, to determine whether and under what conditions certain PrEP coverage levels can be reached voluntarily. Particularly, we study the potential impact of PrEP among MSM in the Paris region of France, where universal antiretroviral treatment (ART) is in place, and PrEP is available for eligible individuals. 
 
 
 \section{Methods} \label{sec:Methods}
 
-\subsection{The mathematical model} \label{subsec:MathModel}
+We built an HIV epidemic model (Figures S1 and S2) to describe the epidemiological context of an MSM community where eligible individuals make informed decisions about adopting PrEP. The decision making is modeled as a non-cooperative game, where individuals act to maximize the utility of adopting PrEP, or, in other words, minimize the cost of using PrEP to avoid acquiring HIV and taking lifelong ART. Individual's decision is, however, indirectly influenced by that of others. The sum of all individuals' decisions determines the PrEP coverage, which, consequently, affects epidemic progression and the risk of acquiring HIV. The decision-making game model is thus intertwined with the epidemic model. Below, we describe the main features of our two-component model; see the Supplementary Material (SM) for further details. 
 
-We built an HIV transmission model to describe the epidemiological context where individuals meeting eligibility criteria make their decision on PrEP adoption. We assumed that individuals have a certain perception of the risk of infection and make their decisions by judging pros and cons of PrEP and ART. According to game theory, such a process can be modeled as a non-cooperative game, where individuals act in their own interest to maximize the utility of adopting PrEP, or, in other words, minimize the cost of using PrEP to later avoid using ART. However, an individual's decision is indirectly influenced by those of others. The sum of all individuals' decisions determines the proportion of the population that uses PrEP, which, in turn, affects the epidemic progression and the probability of acquiring infection. The game model is thus intertwined with the epidemic model. Below, we describe the main features and assumptions of our two-component model; see appendix section~1 for details. 
 
-\subsubsection{Modeling HIV transmission in an MSM population} \label{subsec:TransmissionModel}
+
+
+
+
+
+
+\subsection{The epidemic model} \label{subsec:MathModel}
 
 The transmission model is compartmental, using ordinary differential equations. The MSM population is stratified into two risk groups (low and high) to account for heterogeneity in risk of HIV infection;\cite{Jacquez1989} high-risk individuals have a higher number of sexual partners and a higher risk of acquiring HIV than low-risk individuals. The majority of partnerships occur within the same risk group (i.e., non-random mixing)\cite{Jacquez1988} and individuals at high risk of infection drive the epidemic.\cite{Lions2019} The model compartments represent susceptible individuals who are on or off PrEP, HIV-infected individuals who are unaware of their HIV status, and those diagnosed and undergoing ART. Once diagnosed, individuals immediately begin ART, no longer transmitting HIV; that is, only infected individuals unaware of their status transmit HIV. Only susceptible individuals at high risk of infection are eligible for PrEP and, once on PrEP, they use condoms less frequently.\cite{Molina2018} We varied the PrEP effectiveness, denoted $\varepsilon$, from $0$ to $100\%$ to account for sub-optimal PrEP adherence. The PrEP coverage, denoted $p$, was not fixed; rather, it was obtained by solving the decision-making model; see next section.
 
