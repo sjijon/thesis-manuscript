@@ -1,6 +1,6 @@
 %% !TEX TS-program = pdflatexmk
 %%
-%% This document was written by Sofi­a JIJON 
+%% This document was written by Sofí­a JIJON
 %% iPLESP (Sorbonne Université-INSERM)
 %%
 %% Paris, 2020
@@ -11,8 +11,7 @@
 %%	PACKAGES
 %%
 \usepackage[a4paper, vmargin=3cm, hmargin=2.5cm]{geometry}
-\input{PackagesAndCommands}
-\input{Packages_MyColors}
+\input{MySetup}
 %%_______________________________________________
 %%
 %%	MANUSCRIPT
@@ -21,26 +20,30 @@
 %%
 %%	COVER
 %%
-\include{Cover/Cover}
+\pagestyle{empty}
+%\include{Cover/Cover_SU}
+\include{Cover/Cover_ED393}
 %%
 %%	ABSTRACT & PREFACE
 %%
-\pagestyle{other}
-%\include{Parts/Acknowledgments}
+\include{Parts/Acknowledgments}
 %%	EN
+\pagestyle{other}
 \pagenumbering{roman}
 \linespread{1.5}
 \include{Parts/Preface_EN}
+% \linespread{1.2}
 \include{Parts/Abstract_EN}
 %%	FR
 %\linespread{1.5}
 \include{Parts/Preface_FR}
+% \linespread{1.2}
 \include{Parts/Abstract_FR}
 %%
 %%	MY SCIENTIFIC PRODUCTION
 %%
 %\linespread{1.5}
-\include{References/MyPublications} 
+\include{References/MyPublications}
 %%
 %%	TABLE OF CONTENTS
 %%
@@ -58,12 +61,12 @@
 \setlength{\parskip}{1em}
 \setlength{\parindent}{2em}
 %\linenumbers 	\modulolinenumbers[5] 		% Line numbers
-\pagenumbering{arabic} 
+\pagenumbering{arabic}
 %%
 %%	MANUSCRIPT
-%% 
+%%
 \pagestyle{chapters}
-\include{Parts/Introduction}	
+\include{Parts/Introduction}
 \include{Parts/Vaccination_InfectiousDiseases}
 \include{Parts/PrEP_HIV}
 \include{Parts/Discussion}
@@ -71,11 +74,11 @@
 %%	APPENDICES
 %%
 \pagestyle{appendices}
-{\appendix 	
+{\appendix
 \begin{subappendices}
 \counterwithin{figure}{chapter}
 \include{Parts/Appendix_COVID-19}
-\include{Parts/Appendix_ResumeFR} 
+\include{Parts/Appendix_ResumeFR}
 \end{subappendices}
 }
 %%
