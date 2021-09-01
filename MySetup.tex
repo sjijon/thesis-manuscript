@@ -30,7 +30,6 @@
 %%
 %% Biblio layout
 %%
-%\usepackage[sort&compress,numbers,square]{natbib}		% 
 \usepackage{natbib}
 \setcitestyle{authoryear,open={(},close={)}}
 %%
@@ -48,14 +47,6 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{longtable}
-%%
-%%
-%%
-%\usepackage{glossaries}
-%%\usepackage[nonumberlist]{glossaries}
-%\setacronymstyle{long-short}
-%\loadglsentries{Abbreviations2}
-%\makenoidxglossaries
 %%
 %% Pages layout
 %%
@@ -129,6 +120,7 @@
 \newcommand{\eqsref}[2]{\hyperref[#1]{eqs.~(\ref{#1})--(\ref{#2})}}
 \newcommand{\subfigref}[2]{\hyperref[#1]{fig.~\ref*{#1}#2}}
 \newcommand{\artref}[2]{#1 of~\secref{#2}}
+\newcommand{\tableref}[1]{\hyperref[#1]{table~\ref{#1}}}
 
 \def\sectionautorefname{Section}
 \def\subsectionautorefname{Section}
@@ -140,15 +132,7 @@
 %%
 \setcounter{secnumdepth}{2} 	% 3 To number subsubsections
 \setcounter{tocdepth}{2} 		% 3 To show the subsubsections in the ToC
-%\renewcommand\thesubsubsection{\alph{subsubsection}.} 
-%\renewcommand{\thechapter}{\Roman{chapter}} 
 %%
-%%_______________________________________________
+%% Load color definitions
 %%
-%% !!!! DELETE WHEN FINISHED
-%%_______________________________________________
-% 	Colored text
-\newcommand{\rev}[1]{\textcolor{MyRed}{#1}}
-\newcommand{\note}[1]{\textcolor{MyGray}{#1}}
-% 	Labels
-%\usepackage[right]{showlabels}	
+\input{MyColors}
