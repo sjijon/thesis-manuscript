@@ -24,9 +24,9 @@ Second, we study the voluntary adoption of pre-exposure prophylaxis to avoid HIV
 
 
 #### Publications
-[Jijon et al., *Vaccine*, 2017](https://www.sciencedirect.com/science/article/pii/S0264410X17311283?via%3Dihub)
+[Jijon et al., *Vaccine*, 2017](https://www.sciencedirect.com/science/article/pii/S0264410X17311283?via%3Dihub) (Application to vaccination)
 
-[Jijon et al., *AIDS*, 2021](https://doi.org/10.1097/qad.0000000000003012)
+[Jijon et al., *AIDS*, 2021](https://doi.org/10.1097/qad.0000000000003012) (Application to PrEP)
 
 #### Defense
 July 5, 2021, Paris, France
