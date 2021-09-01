@@ -1,12 +1,10 @@
 \documentclass{standalone}
 \usepackage{amsmath,amssymb,amsthm}
-%%\usepackage[usenames,dvipsnames,table]{xcolor}
-%%\usepackage{graphicx} 										% Graphics
 \usepackage{tikz} \usetikzlibrary{calc,arrows.meta,intersections,patterns} 	% Figure
 \usepackage{pgfplots}
 \pgfplotsset{width=7cm,compat=1.9}
 
-\input{../../../Packages_MyColors}
+\input{../../../MyColors}
 
 \begin{document}
 \centering
@@ -14,8 +12,8 @@
 \begin{tikzpicture}
 \begin{axis}[
     axis lines = left,
-    xlabel = {Vaccine coverage ($p$)},
-    ylabel = {Prevalence},
+    xlabel = {Vaccine coverage, $p$},
+    ylabel = {Endemic prevalence, $\Pi$},
     xtick={0,1,2},
     xticklabels = {0,$p_c$,1},
     ytick={0,1},
@@ -70,10 +68,10 @@
 	\draw (-0.75,5) node (A) {\bf A};
 %	\draw (3.42,2.5) [dashed,line width=0.5pt] -- (3.42,0);
 %%	\draw (0,5.2) [dashed,line width=0.5pt] -- (6.6,5.2);
-%        	\draw (1.5,2.6) node (SDFS)[above, color=MyBlue] {Unstable};
-%        	\draw (5.5,2.6) node (UDFS)[above, color=MyBlue] {Stable};
-%	\draw (5.3,1.4) node (UES)[above, rotate=-33, color=MyRed] {Unstable};
-%	\draw (1.5,3.8) node (SES)[above, rotate=-33, color=MyRed] {Stable};
+%        	\draw (1,2) node (SDFS)[above, color=MyBlue] {Unstable};
+%        	\draw (3.7,2) node (UDFS)[above, color=MyBlue] {Stable};
+%	\draw (3.9,1) node (UES)[above, rotate=-34, color=MyRed] {Unstable};
+%	\draw (1.3,2.8) node (SES)[above, rotate=-34, color=MyRed] {Stable};
 %	
 %	\path [pattern color=MyBlue!75,pattern=north west lines] (3.5,2.6) -- (6.5,2.6) -- (6.5,5.2) -- (3.5,5.2);
 
