@@ -1,6 +1,7 @@
-# PhD thesis
-This repository concerns the version control of my PhD thesis manuscript.
+# Version control of my PhD thesis manuscript
+This repository contains the files to reproduce my PhD thesis manuscript.
 
+# PhD thesis
 #### Subject
 Prevention of infectious diseases in the context of effective treatment: a game-theoretic approach
 
